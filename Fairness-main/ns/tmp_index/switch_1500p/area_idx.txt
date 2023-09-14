@@ -1,0 +1,8 @@
+The area index for Application 1 is 0.4338274557627433.
+Application 1 has sent 12500640 bytes.
+Normalised throughput of Application 1 in the sending period is 0.11680681949084207.
+The area index for Application 0 is -0.4194778407156947.
+Application 0 has sent 12500640 bytes.
+Normalised throughput of Application 0 in the sending period is 0.8461006796452022.
+WAI is 0.426652648239219.
+JFI is 0.6354711981531405.

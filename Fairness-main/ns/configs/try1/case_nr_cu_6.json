@@ -1,0 +1,62 @@
+{
+    "instance_type": "dumbbell_long",
+    "batch_params": [
+        "queuedisc_type",
+        "result_dir"
+    ],
+    "result_dir": [
+        "tmp_index/case_nr_cu_6/fifo/",
+        "tmp_index/case_nr_cu_6/fq/",
+        "tmp_index/case_nr_cu_6/tbf/",
+        "tmp_index/case_nr_cu_6/red/",
+        "tmp_index/case_nr_cu_6/pie/"
+    ],
+    "batch_size": 5,
+    "enable_debug": 1,
+    "logtcp": 0,
+    "enable_stdout": 0,
+    "printprogress": 1,    
+    "seed": 2022,
+    "run": 1205,
+    "sim_seconds": 166,
+    "app_seconds_start": 0,
+    "app_seconds_end": 165,
+    "tracing_period_us": 10000000,
+    "progress_interval_ms": 10000,
+    "delackcount": 1,
+    "app_packet_size": 1440,
+    "bottleneck_bw": "10Mbps",
+    "bottleneck_delay": "0ms",
+    "switch_netdev_size": "1p",
+    "switch_total_bufsize": "850p",
+    "pool": 1,
+    "vdt": "1ns",
+    "dt": "134.217728ms",
+    "l": "100000ns",
+    "p": 1,
+    "tau": 0.01,
+    "delta_port": 0.01,
+    "delta_flow": 0.01,
+    "queuedisc_type": [
+        "FifoQueueDisc",
+        "FqCodelQueueDisc",
+        "TbfQueueDisc",
+        "RedQueueDisc",
+        "PieQueueDisc"      
+    ],
+    "transport_prot0": "TcpNewReno",
+    "transport_prot1": "TcpCubic",   
+    "leaf_bw0": "10000Mbps",
+    "leaf_bw1": "10000Mbps",
+    "leaf_delay0": "0ms",
+    "leaf_delay1": "0ms",
+    "num_cca": 2,
+    "num_cca0": 1,
+    "num_cca1": 1,
+
+    "app_seconds_change0": "10",
+    "app_seconds_change1": "10",
+    "app_bw0": "100Mbps",
+    "app_bw1": "10Mbps"
+}
+

@@ -1,0 +1,154 @@
+=== CMD varas ===
+enable_debug: true
+config_path: /home/leoyu/Cebinae/ns/configs/fig1.json
+result_dir: tmp_index/fig1/cebinae/
+sack: true
+recovery: ns3::TcpClassicRecovery
+app_packet_size: 1440
+delackcount: 2
+seed: 2022
+run: 1205
+tracing_period_us: 1000000
+progress_interval_ms: 1000
+sim_seconds: 100
+app_seconds_start: 1
+app_seconds_end: 100
+transport_prot0: ns3::TcpNewReno
+transport_prot1: ns3::TcpNewReno
+transport_prot2: ns3::TcpCubic
+transport_prot3: ns3::TcpCubic
+transport_prot4: ns3::TcpCubic
+transport_prot5: ns3::TcpCubic
+transport_prot6: ns3::TcpCubic
+transport_prot7: ns3::TcpCubic
+transport_prot8: ns3::TcpCubic
+bottleneck_bw: 100Mbps
+bottleneck_delay: 10ms
+leaf_bw0: 100Mbps
+leaf_bw1: 100Mbps
+leaf_bw2: 0Mbps
+leaf_bw3: 0Mbps
+leaf_bw4: 0Mbps
+leaf_bw5: 0Mbps
+leaf_bw6: 0Mbps
+leaf_bw7: 0Mbps
+leaf_bw8: 0Mbps
+leaf_delay0: 0.1ms
+leaf_delay1: 5ms
+leaf_delay2: 1ms
+leaf_delay3: 1ms
+leaf_delay4: 1ms
+leaf_delay5: 1ms
+leaf_delay6: 1ms
+leaf_delay7: 1ms
+leaf_delay8: 1ms
+app_bw0: 100Mbps
+app_bw1: 100Mbps
+app_bw2: 0Mbps
+app_bw3: 0Mbps
+app_bw4: 0Mbps
+app_bw5: 0Mbps
+app_bw6: 0Mbps
+app_bw7: 0Mbps
+app_bw8: 0Mbps
+switch_total_bufsize: 200p
+queuedisc_type: CebinaeQueueDisc
+num_cca0: 1
+num_cca1: 1
+num_cca2: 0
+num_cca3: 0
+num_cca4: 0
+num_cca5: 0
+num_cca6: 0
+num_cca7: 0
+num_cca8: 0
+num_leaf: 2
+======
+--- Configured CebinaeQueueDisc ---
+dt: +1.2e+07ns
+vdt: +1ns
+l: +10000ns
+p: 4
+tau: 0.01
+delta_port: 0.01
+delta_flow: 0.01
+------
+num_tracing_periods: 100
+=== Ipv4 addresses ===
+--- leftleaf_ifc ---
+0 1.1.1.1
+1 1.1.2.1
+--- leftrouter_ifc ---
+0 1.1.1.2
+1 1.1.2.2
+--- rightleaf_ifc ---
+0 100.1.1.1
+1 100.1.2.1
+--- rightrouter_ifc ---
+0 100.1.1.2
+1 100.1.2.2
+--- router_ifc ---
+0 200.1.1.1
+1 200.1.1.2
+=== avg_tpt_bottleneck[*] ===
+0 45571044.364
+1 36775821.091
+Avg. Throughput [bps]: 82346865.455
+avg_jfi_bottleneck [computed]: 0.989
+=== avg_tpt_app[*] ===
+0 43910516.364
+1 35439825.455
+Avg. Goodput [bps]: 79350341.818
+avg_jfi_app [computed]: 0.989
+# of RTT samples for source 0: 186750
+Avg. RTT for source 0: 21293276.190ns
+# of RTT samples for source 1: 152930
+Avg. RTT for source 1: 40905423.271ns
+====== Number of packets sent ======
+MySource 0:859375
+MySource 1:859375
+====== Number of packets at bottleneck link ======
+Source 1: 308559
+Source 0: 380340
+====== CebinaeQueueDisc digest ======
+--- Validate the effective CebinaeQueueDisc params ---
+m_debug: true
+m_maxSize: 200p
+GetInternalQueue(0)->GetMaxSize(): 100p
+GetInternalQueue(1)->GetMaxSize(): 100p
+dT: +1.2e+07ns
+vdT: +1ns
+L: +10000ns
+P: 4
+tau: 0.01
+delta_port: 0.01
+delta_top: 0.01
+m_bps: 100000000bps
+--- Validate CebinaeQueueDisc initial states ---
+m_headq: 0
+m_neg_headq: 1
+m_vb: 12000000
+------
+m_arrived_pkts: 689815
+m_lbf_past_head_pkts: 666147
+m_lbf_past_tail_pkts: 22759
+m_lbf_drop_pkts: 909
+m_enqueue_drop_pkts[0]: 0
+m_enqueue_drop_pkts[1]: 0
+m_cebinae_dequeued_succeeded: 688906
+m_num_p: 2083
+m_num_bottleneck_p: 55
+m_num_non_bottleneck_p: 2028
+m_num_rotated: 8333
+--- FlowBottleneckDetector ---
+m_num_gettopflows: 55
+m_num_slot_pow2: 11
+m_num_slot: 2048
+m_hash2mysourceid.size(): 2048
+m_hash2bytecount.size(): 2048
+m_sourceidtag2toptimes:
+1: 15
+0: 40
+------
+
+=== Completion time [s]: 58.897===
