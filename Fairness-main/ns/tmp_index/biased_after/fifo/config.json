@@ -65,6 +65,7 @@
     "app_bw2": "10Mbps",
     "app_bw3": "10Mbps",
 
-    "termination_time_ms": 50000
+    "termination_time_ms": 50000,
+    "sampling_num": 12
 }
 
