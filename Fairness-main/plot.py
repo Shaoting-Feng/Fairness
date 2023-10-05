@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import argparse
 
-bottleneck_bw = "10Mbps" # requires changes
 result = ""
 termination_time = 0
 total_bytes_sent = {} # the bytes sent by each flow
@@ -140,7 +139,7 @@ def sample(tag_to_size_sum_fq, sampling_num):
     for i, (tag, bytes) in enumerate(total_bytes_sent.items()):
         point_num = int(round((sampling_num*bytes)/total, 0)) # sum of point_num may not equal sampling_num
         threshold = []
-        for j in range(1, point_num + 1):
+        for j in range(point_num, 0, -1):
             threshold.append(total_bytes_fq[tag]/j)
         th_count = 0
         point_position[tag] = np.array([0] * point_num)
@@ -149,14 +148,9 @@ def sample(tag_to_size_sum_fq, sampling_num):
                 point_position[tag][th_count] = j
                 th_count = th_count + 1
                 if th_count >= point_num:
-                    break    
-        '''test'''
-        print(tag)
-        print(threshold)
-        '''end test''' 
-    '''test'''
-    print(point_position)
-    '''end test''' 
+                    break  
+    with open("ns/" + result + "/sample_point.pkl", 'wb') as file:
+        pickle.dump(point_position, file) 
     return point_position 
 
 def main():
