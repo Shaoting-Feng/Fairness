@@ -1,0 +1,15 @@
+The area index for Application 0 is 0.853817412805611.
+Application 0 has sent 12500640 bytes.
+The deviation for Application 0 is 27719117280.
+The lower headroom for Application 0 is 30048475680.
+The upper headroom for Application 0 is 32464923840.
+Normalised throughput of Application 0 in the sending period is 0.9383711553968437.
+The area index for Application 1 is 0.9214243080275673.
+Application 1 has sent 6251040 bytes.
+The deviation for Application 1 is 27694036800.
+The lower headroom for Application 1 is 30055682880.
+The upper headroom for Application 1 is 1204617600.
+Normalised throughput of Application 1 in the sending period is 0.04906703524533518.
+WAI is 0.8763547751277206.
+NAI is 0.8863182394913266.
+JFI is 0.5521470014035825.
