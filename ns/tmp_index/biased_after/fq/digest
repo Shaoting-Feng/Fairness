@@ -3,7 +3,7 @@ enable_debug: true
 enable_stdout: false
 printprogress: true
 skip_run: false
-config_path: /users/leoyu/Fairness/Fairness-main/ns/configs/1003_organised/biased_after.json
+config_path: /users/leoyu/Fairness/ns/configs/1003_organised/biased_after.json
 result_dir: tmp_index/biased_after/fq/
 sack: true
 recovery: ns3::TcpClassicRecovery
@@ -122,4 +122,4 @@ Source 2: 8681
 Source 1: 8681
 Source 0: 8681
 
-=== Completion time [s]: 4.507===
+=== Completion time [s]: 6.881===
