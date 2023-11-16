@@ -28,6 +28,25 @@ NS_LOG_COMPONENT_DEFINE ("DumbbellLong");
 
 #define MAX_CCA 9
 
+// int num_tracing_periods = 0;
+double sim_seconds = 1;
+double app_seconds_start = 0.1;
+double app_seconds_end = 10;
+// "sim_seconds" is the total simulation time; "app_seconds_end" is the time when app ends. 
+// added on 09.01 to specify different start time
+double app_seconds_start0 = 0.1;
+double app_seconds_start1 = 0.1;
+double app_seconds_start2 = 0.1;
+double app_seconds_start3 = 0.1;
+double app_seconds_start4 = 0.1;
+double app_seconds_start5 = 0.1;
+double app_seconds_start6 = 0.1;
+double app_seconds_start7 = 0.1;
+double app_seconds_start8 = 0.1;
+std::string result_dir;
+bool printprogress = true;
+
+/*
 std::vector<std::deque<std::string>> sourceidtag2cwndlog {};
 // MakeBoundCallBack arg should come first
 
@@ -82,22 +101,6 @@ std::vector<double> avg_tpt_app;  // This is actually goodput
 // double avg_jfi_bottleneck = 0.0;
 // double avg_jfi_app = 0.0;
 
-int num_tracing_periods = 0;
-double sim_seconds = 1;
-double app_seconds_start = 0.1;
-double app_seconds_end = 10;
-
-// added on 09.01 to specify different start time
-double app_seconds_start0 = 0.1;
-double app_seconds_start1 = 0.1;
-double app_seconds_start2 = 0.1;
-double app_seconds_start3 = 0.1;
-double app_seconds_start4 = 0.1;
-double app_seconds_start5 = 0.1;
-double app_seconds_start6 = 0.1;
-double app_seconds_start7 = 0.1;
-double app_seconds_start8 = 0.1;
-
 // Triggered when a packet has been completely transmitted over the channel
 std::unordered_map<std::uint32_t, std::uint64_t> mysourceidtag2pktcount;
 std::unordered_map<std::uint32_t, std::uint64_t> mysourceidtag2cummbytecount;
@@ -126,10 +129,9 @@ PhyTxEndCb (Ptr<const Packet> p)
     // NS_LOG_DEBUG ("[" << Simulator::Now ().GetNanoSeconds() << "] Bottleneck link: " << tag.Get() << ", size: " << p->GetSize());
   }
 }
+*/
 
-std::string result_dir;
-
-std::vector<std::uint64_t> packetsink_mysourceidtag2bytecount;
+// std::vector<std::uint64_t> packetsink_mysourceidtag2bytecount;
 static void
 RxWithAddressesPacketSink (Ptr<const Packet> p, const Address& from, const Address& local) {
   MySourceIDTag tag;
@@ -138,7 +140,7 @@ RxWithAddressesPacketSink (Ptr<const Packet> p, const Address& from, const Addre
     //              << ", from: " << InetSocketAddress::ConvertFrom(from).GetIpv4()
     //              << ", local: " << InetSocketAddress::ConvertFrom(local).GetIpv4());
   }
-  packetsink_mysourceidtag2bytecount[tag.Get()] += p->GetSize();
+  // packetsink_mysourceidtag2bytecount[tag.Get()] += p->GetSize();
 
   // added on 07.27
   std::ofstream throput_ofs2 (result_dir + "received_ms.dat", std::ios::out | std::ios::app);
@@ -146,6 +148,7 @@ RxWithAddressesPacketSink (Ptr<const Packet> p, const Address& from, const Addre
               << std::endl;
 }
 
+/*
 Time prevTime = Seconds (0);
 uint32_t tracing_period_us = 0;
 static void
@@ -209,8 +212,8 @@ TraceThroughputJFI(std::string bottleneck_fn, std::string app_fn, std::string jf
   prevTime = curTime;
   Simulator::Schedule(MicroSeconds(tracing_period_us), &TraceThroughputJFI, bottleneck_fn, app_fn, jfi_fn);
 }
+*/
 
-bool printprogress = true;
 void
 PrintProgress (Time interval)
 {
@@ -303,11 +306,15 @@ ParseAppBw (std::string input, std::vector<std::string>* values)
 int 
 main (int argc, char *argv[])
 {
-  CommandLine cmd (__FILE__);
+  // 'cmd' object used for adding, parsing, and retrieving command-line parameters
+  CommandLine cmd (__FILE__); 
 
   // Non-configurable or derived params
   uint32_t num_leaf = 2;
-  bool sack = true;  
+  /* Selective Acknowledgment: Enabling SACK allows the receiving party to explicitly 
+  notify the sender about which data packets have been successfully received, thereby 
+  enhancing the recovery efficiency in the case of lost packets. */ 
+  bool sack = true; 
   std::string recovery = "ns3::TcpClassicRecovery";
   // Naming the output directory using local system time
   time_t rawtime;
@@ -318,28 +325,39 @@ main (int argc, char *argv[])
   // https://zetcode.com/articles/cdatetime/
   strftime (buffer, sizeof (buffer), "%Y-%m-%d-%H-%M-%S-%Z", timeinfo);
   std::string current_time (buffer);
-  result_dir = "tmp_index/" + current_time + "/";
+  result_dir = "tmp_index/" + current_time + "/"; // we actually specify this in the config
+  std::string max_switch_total_bufsize = "2000p"; // for "FqCoDelQueueDisc"
 
   // CMD configurable params
   std::string config_path = "";  
-  tracing_period_us = 1000000;
+  // tracing_period_us = 1000000;
   uint32_t progress_interval_ms = 1000;
   bool enable_debug = 0;  
-  bool skip_run = 0;    
-  bool logtcp = 0;
+  // bool skip_run = 0;    
+  // bool logtcp = 0;
   bool enable_stdout = 1; 
   uint32_t seed = 1;  // Fixed
-  uint32_t run = 1;  // Varry across replications
+  uint32_t run = 1;  // Vary across replications
   sim_seconds = 10;
+  /* In TCP, delayed acknowledgment is a mechanism where the receiver intentionally delays
+  sending acknowledgments for received data packets. This delay is done to wait and see if
+  additional packets will arrive soon, so that the acknowledgment can cover multiple 
+  packets with a single acknowledgment frame, reducing overhead. */
   uint32_t delackcount = 1;
+  /* In the context of NS-3's PointToPointHelper, the MaxSize attribute for the queue 
+  represents the maximum size of the buffer or queue that holds packets before they are 
+  transmitted over the point-to-point link. */
   std::string switch_netdev_size = "100p";
   std::string server_netdev_size = "100p";  
   uint32_t app_packet_size = 1440; // in bytes 
   // Configure 0 will give 1000
   std::string switch_total_bufsize = "100p";
-
-  std::string max_switch_total_bufsize = "2000p";
-
+  /* What is the difference between "switch_netdev_size" and "switch_total_bufsize"?
+  "NetDeviceContainer" = "PointToPointHelper (limited by "switch_netdev_size")" installed 
+  in "NodeContainer". "TrafficControlHelper (limited by "switch_total_bufsize")" is 
+  installed on "NetDeviceContainer", which stores the mapping between a device and the 
+  associated queue disc into the traffic control layer of the corresponding node. They 
+  control different layers. */
   std::string queuedisc_type = "FifoQueueDisc";
   std::string bottleneck_bw = "5Mbps";
   std::string bottleneck_delay = "2ms";
@@ -352,7 +370,6 @@ main (int argc, char *argv[])
   std::string leaf_bw6 = "0Mbps";
   std::string leaf_bw7 = "0Mbps";
   std::string leaf_bw8 = "0Mbps";
-
   // edited on 08.07 for data rate change
   std::vector<std::string> app_bw0{};
   std::vector<std::string> app_bw1{};
@@ -363,7 +380,6 @@ main (int argc, char *argv[])
   std::vector<std::string> app_bw6{};
   std::vector<std::string> app_bw7{};
   std::vector<std::string> app_bw8{};
-
   // added on 08.07 for data rate change
   std::vector<double> app_seconds_change0{};
   std::vector<double> app_seconds_change1{};
@@ -374,7 +390,6 @@ main (int argc, char *argv[])
   std::vector<double> app_seconds_change6{};
   std::vector<double> app_seconds_change7{};
   std::vector<double> app_seconds_change8{};
-
   uint32_t num_cca = 0;
   std::string transport_prot0 = "TcpCubic";
   std::string transport_prot1 = "TcpCubic";
@@ -403,6 +418,8 @@ main (int argc, char *argv[])
   uint32_t num_cca6 = 0;
   uint32_t num_cca7 = 0;
   uint32_t num_cca8 = 0;
+
+  /*
   Time dt {NanoSeconds (1048576)};
   Time vdt {NanoSeconds (1024)};
   Time l {NanoSeconds (65536)};
@@ -411,25 +428,26 @@ main (int argc, char *argv[])
   double delta_port {0.05};
   double delta_flow {0.05};
   bool pool = 0;
+  */
 
   cmd.AddValue("config_path", "Path to the json configuration file", config_path);
   cmd.AddValue("result_dir", "Optional path to the output dir", result_dir);  
   cmd.AddValue("seed", "Seed", seed);
   cmd.AddValue("run", "Run", run);
   cmd.AddValue ("enable_debug", "Enable logging", enable_debug);
-  cmd.AddValue ("pool", "Enable pool", pool);  
-  cmd.AddValue ("logtcp", "Enable logging of TCP traces, such as RTT, RTO, cwnd (large file size)", logtcp);  
+  // cmd.AddValue ("pool", "Enable pool", pool);  
+  // cmd.AddValue ("logtcp", "Enable logging of TCP traces, such as RTT, RTO, cwnd (large file size)", logtcp);  
   cmd.AddValue ("enable_stdout", "Enable verbose rmterminal print", enable_stdout);  
   cmd.AddValue ("printprogress", "Enable verbose rmterminal print", printprogress);
-  cmd.AddValue ("skip_run", "Skip running if result_dir/digest exists", skip_run);      
+  // cmd.AddValue ("skip_run", "Skip running if result_dir/digest exists", skip_run);      
   cmd.AddValue ("sim_seconds", "Simulation time [s]", sim_seconds);
   cmd.AddValue ("app_seconds_start", "Application start time [s]", app_seconds_start);  
   cmd.AddValue ("app_seconds_end", "Application stop time [s]", app_seconds_end);
-  cmd.AddValue ("tracing_period_us", "Tracing period [us]", tracing_period_us);
+  // cmd.AddValue ("tracing_period_us", "Tracing period [us]", tracing_period_us);
   cmd.AddValue ("progress_interval_ms", "Prograss interval [ms]", progress_interval_ms);    
   cmd.AddValue ("delackcount", "TcpSocket::DelAckCount", delackcount);  
   cmd.AddValue ("app_packet_size", "App payload size", app_packet_size);    
-  cmd.AddValue("num_cca", "Number of CCA groups", num_cca);
+  cmd.AddValue ("num_cca", "Number of CCA groups", num_cca);
   cmd.AddValue ("transport_prot0", "Transport protocol to use: TcpNewReno, TcpLinuxReno, "
                 "TcpHybla, TcpHighSpeed, TcpHtcp, TcpVegas, TcpScalable, TcpVeno, "
                 "TcpBic, TcpYeah, TcpIllinois, TcpWestwood, TcpWestwoodPlus, TcpLedbat, "
@@ -462,7 +480,6 @@ main (int argc, char *argv[])
   cmd.AddValue ("leaf_delay6", "", leaf_delay6);  
   cmd.AddValue ("leaf_delay7", "", leaf_delay7);              
   cmd.AddValue ("leaf_delay8", "", leaf_delay8);   
-
   // added on 08.11 for data rate change
   std::string app_bw0_str, app_bw1_str, app_bw2_str, app_bw3_str, app_bw4_str, app_bw5_str, app_bw6_str, app_bw7_str, app_bw8_str;
   // added on 08.08 for data rate change
@@ -475,7 +492,6 @@ main (int argc, char *argv[])
   cmd.AddValue ("app_bw6", "", app_bw6_str);  
   cmd.AddValue ("app_bw7", "", app_bw7_str);  
   cmd.AddValue ("app_bw8", "", app_bw8_str);
-
   // added on 08.11 for data rate change
   std::string app_sc0_str, app_sc1_str, app_sc2_str, app_sc3_str, app_sc4_str, app_sc5_str, app_sc6_str, app_sc7_str, app_sc8_str;
   cmd.AddValue ("app_seconds_change0", "Timestamp of changes of each application", app_sc0_str);
@@ -487,7 +503,6 @@ main (int argc, char *argv[])
   cmd.AddValue ("app_seconds_change6", "", app_sc6_str);  
   cmd.AddValue ("app_seconds_change7", "", app_sc7_str);  
   cmd.AddValue ("app_seconds_change8", "", app_sc8_str);
-
   cmd.AddValue ("switch_netdev_size", "Netdevice queue size (switch)", switch_netdev_size);  
   cmd.AddValue ("server_netdev_size", "Netdevice queue size (server)", server_netdev_size);    
   cmd.AddValue ("switch_total_bufsize", "Switch buffer size", switch_total_bufsize);
@@ -501,6 +516,7 @@ main (int argc, char *argv[])
   cmd.AddValue ("num_cca6", "Number of flows/mysource for cca6", num_cca6);
   cmd.AddValue ("num_cca7", "Number of flows/mysource for cca7", num_cca7);
   cmd.AddValue ("num_cca8", "Number of flows/mysource for cca8", num_cca8);
+  /*
   cmd.AddValue ("dt", "CebinaeQueueDisc", dt);
   cmd.AddValue ("vdt", "CebinaeQueueDisc", vdt);
   cmd.AddValue ("l", "CebinaeQueueDisc", l);
@@ -508,7 +524,7 @@ main (int argc, char *argv[])
   cmd.AddValue ("tau", "CebinaeQueueDisc", tau);
   cmd.AddValue ("delta_port", "CebinaeQueueDisc", delta_port);
   cmd.AddValue ("delta_flow", "CebinaeQueueDisc", delta_flow);
-
+  */
   cmd.Parse (argc, argv);
 
   // added on 08.11 for data rate change
@@ -548,6 +564,7 @@ main (int argc, char *argv[])
     LogComponentEnable ("DumbbellLong", LOG_LEVEL_DEBUG);
   }
 
+  /*
   if (skip_run) {
     std::ifstream digest_file;
     digest_file.open(result_dir+"/digest");
@@ -561,7 +578,11 @@ main (int argc, char *argv[])
       // return 0;
     // }
   }
+  */
 
+  /* This code prepares the working environment by removing the existing result directory,
+  creating a new one, and mirroring the content of the configuration file into a new file 
+  within the result directory. */
   std::string rm_dir_cmd = "rm -rf " + result_dir;
   if (system (rm_dir_cmd.c_str ()) == -1) {
     std::cout << "ERR: " << rm_dir_cmd << " failed, proceed anyway." << std::endl;
@@ -633,7 +654,7 @@ main (int argc, char *argv[])
             << "enable_debug: " << std::boolalpha << enable_debug << "\n" 
             << "enable_stdout: " << std::boolalpha << enable_stdout << "\n"      
             << "printprogress: " << std::boolalpha << printprogress << "\n"
-            << "skip_run: " << std::boolalpha << skip_run << "\n"            
+            //<< "skip_run: " << std::boolalpha << skip_run << "\n"            
             << "config_path: " << config_path << "\n"
             << "result_dir: " << result_dir << "\n"
             << "sack: " << sack << "\n"
@@ -642,7 +663,7 @@ main (int argc, char *argv[])
             << "delackcount: " << delackcount << "\n"
             << "seed: " << seed << "\n"
             << "run: " << run << "\n"
-            << "tracing_period_us: " << tracing_period_us << "\n"   
+            //<< "tracing_period_us: " << tracing_period_us << "\n"   
             << "progress_interval_ms: " << progress_interval_ms << "\n"         
             << "sim_seconds: " << sim_seconds << "\n"
             << "app_seconds_start: " << app_seconds_start << "\n"
@@ -676,7 +697,6 @@ main (int argc, char *argv[])
             << "leaf_delay6: " << leaf_delay6 << "\n"
             << "leaf_delay7: " << leaf_delay7 << "\n"
             << "leaf_delay8: " << leaf_delay8 << "\n"
-
             << "switch_total_bufsize: " << switch_total_bufsize << "\n"
             << "switch_netdev_size: " << switch_netdev_size << "\n"
             << "server_netdev_size: " << server_netdev_size << "\n"            
@@ -691,7 +711,6 @@ main (int argc, char *argv[])
             << "num_cca7: " << num_cca7 << "\n"
             << "num_cca8: " << num_cca8 << "\n"
             << "num_leaf: " << num_leaf << "\n";
-
   // added on 08.07 for data rate change
   for (uint32_t i = 0; i < app_bw0.size(); ++i) {
     oss << "app_bw0[" << i << "] = " << app_bw0[i] << "\n";
@@ -720,7 +739,6 @@ main (int argc, char *argv[])
   for (uint32_t i = 0; i < app_bw8.size(); ++i) {
     oss << "app_bw8[" << i << "] = " << app_bw8[i] << "\n";
   }
-
   for (uint32_t i = 0; i < app_seconds_change0.size(); ++i) {
     oss << "app_seconds_change0[" << i << "] = " << app_seconds_change0[i] << "\n";
   }
@@ -748,7 +766,6 @@ main (int argc, char *argv[])
   for (uint32_t i = 0; i < app_seconds_change8.size(); ++i) {
     oss << "app_seconds_change8[" << i << "] = " << app_seconds_change8[i] << "\n";
   }
-  
   oss << "======\n";
 
   RngSeedManager::SetSeed (seed);
@@ -833,7 +850,7 @@ main (int argc, char *argv[])
       cr = p2p_leaf0.Install(router.Get (1),
                             rightleaf.Get (i));                            
     } else if (i < (num_cca0+num_cca1)) {
-      cl= p2p_leaf1.Install(router.Get (0),
+      cl = p2p_leaf1.Install(router.Get (0),
                       leftleaf.Get (i));
       cr = p2p_leaf1.Install(router.Get (1),
                             rightleaf.Get (i));                        
@@ -996,9 +1013,10 @@ main (int argc, char *argv[])
   //   }
   // Config::SetDefault ("ns3::TcpL4Protocol::SocketType", TypeIdValue (TypeId::LookupByName (transport_prot)));    
 
-  // Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
-  // em->SetAttribute ("ErrorRate", DoubleValue (0.00001));
-  // devices.Get (1)->SetAttribute ("ReceiveErrorModel", PointerValue (em));
+  // added on 11.14 to change loss rate
+  Ptr<RateErrorModel> em = CreateObject<RateErrorModel> ();
+  em->SetAttribute ("ErrorRate", DoubleValue (0)); // 0.00001
+  router_devices.Get (1)->SetAttribute ("ReceiveErrorModel", PointerValue (em));
 
   NS_LOG_DEBUG("================== Configure TrafficControlLayer ==================");
   // Manual: To install a queue disc other than the default one, it is necessary to install such queue disc before an IP address is
@@ -1017,7 +1035,9 @@ main (int argc, char *argv[])
     tch_switch.SetRootQueueDisc ("ns3::FifoQueueDisc", "MaxSize", StringValue (switch_total_bufsize));
     qdiscs = tch_switch.Install(router_devices.Get(0));
     oss << "Configured FifoQueueDisc\n";
-  } else if (queuedisc_type.compare("CebinaeQueueDisc") == 0) {
+  } 
+  /*
+  else if (queuedisc_type.compare("CebinaeQueueDisc") == 0) {
     Config::SetDefault ("ns3::CebinaeQueueDisc::debug", BooleanValue (enable_debug));
     Config::SetDefault ("ns3::CebinaeQueueDisc::dT", TimeValue (dt));
     Config::SetDefault ("ns3::CebinaeQueueDisc::vdT", TimeValue (vdt));
@@ -1042,13 +1062,14 @@ main (int argc, char *argv[])
         << "delta_flow: " << delta_flow << "\n"
         << "------\n";
     // DynamicCast<Ptr<CebinaeQueueDisc>>(q)->Configure(Time dt, Time vdt, uint32_t p, double tau, double delta);
-  } else if (queuedisc_type.compare("FqCoDelQueueDisc") == 0) {
+  } 
+  */
+  else if (queuedisc_type.compare("FqCoDelQueueDisc") == 0) {
     tch_switch.SetRootQueueDisc ("ns3::FqCoDelQueueDisc", "MaxSize", StringValue (max_switch_total_bufsize),
                                                           "Flows", UintegerValue (4294967295)); // 2^32 - 1
     qdiscs = tch_switch.Install(router_devices.Get(0));    
     oss << "Configured FqCoDelQueueDisc\n";
   } 
-  
   // added on 08.22 to add more queue disciplines
   else if (queuedisc_type.compare("TbfQueueDisc") == 0) {
     tch_switch.SetRootQueueDisc ("ns3::TbfQueueDisc", "MaxSize", StringValue (switch_total_bufsize));
@@ -1067,7 +1088,6 @@ main (int argc, char *argv[])
     qdiscs = tch_switch.Install(router_devices.Get(0));    
     oss << "Configured PieQueueDisc\n";
   }
-  
   else {
     oss << "Configured NULL QueueDisc (which is the default FqCoDelQueueDisc and buffer size)\n";
   }
@@ -1078,8 +1098,10 @@ main (int argc, char *argv[])
   // Ptr<Queue<Packet>> queue = ptpnd -> GetQueue ();
   // qdiscs -> TraceConnectWithoutContext("PacketsInQueue", MakeBoundCallback (&QueueLengthChange, result_dir));
 
+  /*
   Ptr<QueueDisc> q = qdiscs.Get (0); 
   q -> TraceConnectWithoutContext ("PacketsInQueue", MakeBoundCallback (&QueueLengthChange, result_dir));
+  */
 
   // q-> TraceConnectWithoutContext ("PacketsInQueue", MakeCallback (&TcPacketsInQueueTrace));  
   // SojournTime
@@ -1176,11 +1198,13 @@ main (int argc, char *argv[])
 
     /////////////////////////////////////////////////////////////////////////////   This is the send application (leftleaf part)   /////////////////////////////////////////////////////////////////////////////////////////////////
     Ptr<Socket> ns3TcpSocket = Socket::CreateSocket (leftleaf.Get (i), TcpSocketFactory::GetTypeId ());
+    /*
     if (logtcp) {
       ns3TcpSocket->TraceConnectWithoutContext ("CongestionWindow", MakeBoundCallback (&CwndChange, i));
     }
     // Always log RTT though (not necessarily write to file)
     Config::ConnectWithoutContext ("/NodeList/"+std::to_string(2+i)+"/$ns3::TcpL4Protocol/SocketList/0/RTT", MakeBoundCallback (&TraceRtt, i));
+    */
 
     Ptr<MySource> app = CreateObject<MySource> ();
     if (i < num_cca0) {
@@ -1222,6 +1246,7 @@ main (int argc, char *argv[])
   }
 
   NS_LOG_DEBUG("================== Tracing ==================");
+  /*
   // Tracing PointToPointNetDevice
   router_devices.Get(0)->TraceConnectWithoutContext("PhyTxEnd", MakeCallback (&PhyTxEndCb));
   // The other NetDevice only transmits ACK packets
@@ -1242,6 +1267,7 @@ main (int argc, char *argv[])
                       "bottleneck_tpt_"+std::to_string(tracing_period_us)+".dat",
                       "app_tpt_"+std::to_string(tracing_period_us)+".dat",
                       "jfi_"+std::to_string(tracing_period_us)+".dat");
+  */
 
   Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
 
@@ -1283,6 +1309,7 @@ main (int argc, char *argv[])
     oss << i << " " << router_ifc.GetAddress(i) << "\n";
   }  
 
+  /*
   // Calculate overall JFI
   long double sum = 0.0;
   long double sum_squares = 0.0;  
@@ -1332,12 +1359,10 @@ main (int argc, char *argv[])
     }
   }
 
-  /*
   oss << "====== Number of packets sent ======\n";
   for (uint32_t sourceid = 0; sourceid < num_leaf; sourceid++) {
     oss << "MySource " << sourceid << ":" << sources[sourceid]->GetPacketsSent() << "\n";
   }
-  */
 
   oss << "====== Number of packets at bottleneck link ======\n";
   for (auto iter=mysourceidtag2pktcount.begin(); iter!=mysourceidtag2pktcount.end(); iter++) {
@@ -1355,6 +1380,7 @@ main (int argc, char *argv[])
     Ptr<QueueDisc> q = qdiscs.Get(0);
     cebinae_ofs << DynamicCast<CebinaeQueueDisc>(q)->DumpDebugEvents();    
   }
+  */
 
   oss << "\n=== Completion time [s]: " << elapsed_seconds.count() << "===\n";
   std::ofstream summary_ofs (result_dir + "/digest", std::ios::out | std::ios::app);  
@@ -1369,4 +1395,3 @@ main (int argc, char *argv[])
 
   return 0;
 }
-
