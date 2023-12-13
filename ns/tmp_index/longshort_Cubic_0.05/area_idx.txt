@@ -1,0 +1,1401 @@
+The area index for Application 0 is 0.30253661832301554.
+Application 0 has sent 2501280 bytes.
+The deviation for Application 0 is 573887520.
+The max headroom for Application 0 is 1896919200.
+The area index for Application 1 is 0.2789923366266734.
+Application 1 has sent 2501280 bytes.
+The deviation for Application 1 is 529225920.
+The max headroom for Application 1 is 1896919200.
+The area index for Application 2 is 0.2789640372092741.
+Application 2 has sent 2501280 bytes.
+The deviation for Application 2 is 529172640.
+The max headroom for Application 2 is 1896920640.
+The area index for Application 3 is 0.13437459671603494.
+Application 3 has sent 2501280 bytes.
+The deviation for Application 3 is 254898720.
+The max headroom for Application 3 is 1896926400.
+The area index for Application 4 is 0.1315793069523393.
+Application 4 has sent 2501280 bytes.
+The deviation for Application 4 is 249596640.
+The max headroom for Application 4 is 1896929280.
+The area index for Application 5 is 0.13254157130223218.
+Application 5 has sent 2501280 bytes.
+The deviation for Application 5 is 251422560.
+The max headroom for Application 5 is 1896933600.
+The area index for Application 6 is 0.13244278517834748.
+Application 6 has sent 2501280 bytes.
+The deviation for Application 6 is 251235360.
+The max headroom for Application 6 is 1896935040.
+The area index for Application 7 is 0.209652050077582.
+Application 7 has sent 2501280 bytes.
+The deviation for Application 7 is 397696320.
+The max headroom for Application 7 is 1896935040.
+The area index for Application 8 is 0.2164572259697355.
+Application 8 has sent 2501280 bytes.
+The deviation for Application 8 is 410605920.
+The max headroom for Application 8 is 1896937920.
+The area index for Application 9 is 0.15619339842498645.
+Application 9 has sent 2501280 bytes.
+The deviation for Application 9 is 296290080.
+The max headroom for Application 9 is 1896943680.
+The area index for Application 10 is 0.15614837352086502.
+Application 10 has sent 2501280 bytes.
+The deviation for Application 10 is 296205120.
+The max headroom for Application 10 is 1896946560.
+The area index for Application 11 is 0.09028758300919136.
+Application 11 has sent 2501280 bytes.
+The deviation for Application 11 is 171270720.
+The max headroom for Application 11 is 1896946560.
+The area index for Application 12 is 0.08815302188628844.
+Application 12 has sent 2501280 bytes.
+The deviation for Application 12 is 167271840.
+The max headroom for Application 12 is 1897516800.
+The area index for Application 13 is 0.178256111683648.
+Application 13 has sent 2501280 bytes.
+The deviation for Application 13 is 338244480.
+The max headroom for Application 13 is 1897519680.
+The area index for Application 14 is 0.17823418659555432.
+Application 14 has sent 2501280 bytes.
+The deviation for Application 14 is 338204160.
+The max headroom for Application 14 is 1897526880.
+The area index for Application 15 is 0.1782062431795381.
+Application 15 has sent 2501280 bytes.
+The deviation for Application 15 is 338150880.
+The max headroom for Application 15 is 1897525440.
+The area index for Application 16 is 0.18176333543290354.
+Application 16 has sent 2501280 bytes.
+The deviation for Application 16 is 344901600.
+The max headroom for Application 16 is 1897531200.
+The area index for Application 17 is 0.18172221796406096.
+Application 17 has sent 2501280 bytes.
+The deviation for Application 17 is 344823840.
+The max headroom for Application 17 is 1897532640.
+The area index for Application 18 is 0.17881668165450565.
+Application 18 has sent 2501280 bytes.
+The deviation for Application 18 is 339311520.
+The max headroom for Application 18 is 1897538400.
+The area index for Application 19 is 0.17837246734363535.
+Application 19 has sent 2501280 bytes.
+The deviation for Application 19 is 338469120.
+The max headroom for Application 19 is 1897541280.
+The area index for Application 20 is 0.17836108419206564.
+Application 20 has sent 2501280 bytes.
+The deviation for Application 20 is 338447520.
+The max headroom for Application 20 is 1897541280.
+The area index for Application 21 is 0.15068549286732263.
+Application 21 has sent 2501280 bytes.
+The deviation for Application 21 is 285932160.
+The max headroom for Application 21 is 1897542720.
+The area index for Application 22 is 0.10812468032340268.
+Application 22 has sent 2501280 bytes.
+The deviation for Application 22 is 205171200.
+The max headroom for Application 22 is 1897542720.
+The area index for Application 23 is 0.08165786625910079.
+Application 23 has sent 2501280 bytes.
+The deviation for Application 23 is 154949760.
+The max headroom for Application 23 is 1897548480.
+The area index for Application 24 is 0.10814231888567212.
+Application 24 has sent 2501280 bytes.
+The deviation for Application 24 is 205205760.
+The max headroom for Application 24 is 1897552800.
+The area index for Application 25 is 0.10816668487961242.
+Application 25 has sent 2501280 bytes.
+The deviation for Application 25 is 205251840.
+The max headroom for Application 25 is 1897551360.
+The area index for Application 26 is 0.08164990574829178.
+Application 26 has sent 2501280 bytes.
+The deviation for Application 26 is 154935360.
+The max headroom for Application 26 is 1897557120.
+The area index for Application 27 is 0.08541535603517818.
+Application 27 has sent 2501280 bytes.
+The deviation for Application 27 is 162080640.
+The max headroom for Application 27 is 1897558560.
+The area index for Application 28 is 0.07899443825123259.
+Application 28 has sent 2501280 bytes.
+The deviation for Application 28 is 149896800.
+The max headroom for Application 28 is 1897561440.
+The area index for Application 29 is 0.1042297001031301.
+Application 29 has sent 2501280 bytes.
+The deviation for Application 29 is 197782560.
+The max headroom for Application 29 is 1897564320.
+The area index for Application 30 is 0.10419379612007079.
+Application 30 has sent 2501280 bytes.
+The deviation for Application 30 is 197714880.
+The max headroom for Application 30 is 1897568640.
+The area index for Application 31 is 0.10420740558624965.
+Application 31 has sent 2501280 bytes.
+The deviation for Application 31 is 197753760.
+The max headroom for Application 31 is 1897693920.
+The area index for Application 32 is 0.10417014456946345.
+Application 32 has sent 2501280 bytes.
+The deviation for Application 32 is 197683200.
+The max headroom for Application 32 is 1897695360.
+The area index for Application 33 is 0.10415588515163426.
+Application 33 has sent 2501280 bytes.
+The deviation for Application 33 is 197655840.
+The max headroom for Application 33 is 1897692480.
+The area index for Application 34 is 0.13147125576793056.
+Application 34 has sent 2501280 bytes.
+The deviation for Application 34 is 249492960.
+The max headroom for Application 34 is 1897699680.
+The area index for Application 35 is 0.06526767082748416.
+Application 35 has sent 2501280 bytes.
+The deviation for Application 35 is 123858720.
+The max headroom for Application 35 is 1897704000.
+The area index for Application 36 is 0.06524187122965436.
+Application 36 has sent 2501280 bytes.
+The deviation for Application 36 is 123809760.
+The max headroom for Application 36 is 1897704000.
+The area index for Application 37 is 0.06523129736411379.
+Application 37 has sent 2501280 bytes.
+The deviation for Application 37 is 123789600.
+The max headroom for Application 37 is 1897702560.
+The area index for Application 38 is 0.0652273548167776.
+Application 38 has sent 2501280 bytes.
+The deviation for Application 38 is 123782400.
+The max headroom for Application 38 is 1897706880.
+The area index for Application 39 is 0.06593169613035908.
+Application 39 has sent 2501280 bytes.
+The deviation for Application 39 is 126352800.
+The max headroom for Application 39 is 1916419680.
+The area index for Application 40 is 0.06590835317030945.
+Application 40 has sent 2501280 bytes.
+The deviation for Application 40 is 126308160.
+The max headroom for Application 40 is 1916421120.
+The area index for Application 41 is 0.06590760176969872.
+Application 41 has sent 2501280 bytes.
+The deviation for Application 41 is 126306720.
+The max headroom for Application 41 is 1916421120.
+The area index for Application 42 is 0.06592333164769257.
+Application 42 has sent 2501280 bytes.
+The deviation for Application 42 is 126336960.
+The max headroom for Application 42 is 1916422560.
+The area index for Application 43 is 0.06591797278583403.
+Application 43 has sent 2501280 bytes.
+The deviation for Application 43 is 126326880.
+The max headroom for Application 43 is 1916425440.
+The area index for Application 44 is 0.06589979066073363.
+Application 44 has sent 2501280 bytes.
+The deviation for Application 44 is 126292320.
+The max headroom for Application 44 is 1916429760.
+The area index for Application 45 is 0.06589894023094911.
+Application 45 has sent 2501280 bytes.
+The deviation for Application 45 is 126290880.
+The max headroom for Application 45 is 1916432640.
+The area index for Application 46 is 0.06588842068563391.
+Application 46 has sent 2501280 bytes.
+The deviation for Application 46 is 126270720.
+The max headroom for Application 46 is 1916432640.
+The area index for Application 47 is 0.06586953679506002.
+Application 47 has sent 2501280 bytes.
+The deviation for Application 47 is 126234720.
+The max headroom for Application 47 is 1916435520.
+The area index for Application 48 is 0.06587399566745988.
+Application 48 has sent 2501280 bytes.
+The deviation for Application 48 is 126243360.
+The max headroom for Application 48 is 1916436960.
+The area index for Application 49 is 0.06588516757197033.
+Application 49 has sent 2501280 bytes.
+The deviation for Application 49 is 126264960.
+The max headroom for Application 49 is 1916439840.
+The area index for Application 50 is 0.06587680324721629.
+Application 50 has sent 2501280 bytes.
+The deviation for Application 50 is 126249120.
+The max headroom for Application 50 is 1916442720.
+The area index for Application 51 is 0.06586923983216918.
+Application 51 has sent 2501280 bytes.
+The deviation for Application 51 is 126234720.
+The max headroom for Application 51 is 1916444160.
+The area index for Application 52 is 0.207527435164348.
+Application 52 has sent 2501280 bytes.
+The deviation for Application 52 is 397715040.
+The max headroom for Application 52 is 1916445600.
+The area index for Application 53 is 0.2081409577008629.
+Application 53 has sent 2501280 bytes.
+The deviation for Application 53 is 395344800.
+The max headroom for Application 53 is 1899408960.
+The area index for Application 54 is 0.2009168838080624.
+Application 54 has sent 2501280 bytes.
+The deviation for Application 54 is 381623040.
+The max headroom for Application 54 is 1899407520.
+The area index for Application 55 is 0.19875954864006745.
+Application 55 has sent 2501280 bytes.
+The deviation for Application 55 is 377526240.
+The max headroom for Application 55 is 1899411840.
+The area index for Application 56 is 0.19874423537777938.
+Application 56 has sent 2501280 bytes.
+The deviation for Application 56 is 377497440.
+The max headroom for Application 56 is 1899413280.
+The area index for Application 57 is 0.1987227064552299.
+Application 57 has sent 2501280 bytes.
+The deviation for Application 57 is 377457120.
+The max headroom for Application 57 is 1899416160.
+The area index for Application 58 is 0.198692230713246.
+Application 58 has sent 2501280 bytes.
+The deviation for Application 58 is 377399520.
+The max headroom for Application 58 is 1899417600.
+The area index for Application 59 is 0.20615779773669243.
+Application 59 has sent 2501280 bytes.
+The deviation for Application 59 is 391580640.
+The max headroom for Application 59 is 1899421920.
+The area index for Application 60 is 0.19455317226201116.
+Application 60 has sent 2501280 bytes.
+The deviation for Application 60 is 369538560.
+The max headroom for Application 60 is 1899421920.
+The area index for Application 61 is 0.15648757736663826.
+Application 61 has sent 2501280 bytes.
+The deviation for Application 61 is 297236160.
+The max headroom for Application 61 is 1899423360.
+The area index for Application 62 is 0.2307176783202999.
+Application 62 has sent 2501280 bytes.
+The deviation for Application 62 is 438230880.
+The max headroom for Application 62 is 1899424800.
+The area index for Application 63 is 0.19056727362048026.
+Application 63 has sent 2501280 bytes.
+The deviation for Application 63 is 361968480.
+The max headroom for Application 63 is 1899426240.
+The area index for Application 64 is 0.23057765903894323.
+Application 64 has sent 2501280 bytes.
+The deviation for Application 64 is 437965920.
+The max headroom for Application 64 is 1899429120.
+The area index for Application 65 is 0.20556855734699772.
+Application 65 has sent 2501280 bytes.
+The deviation for Application 65 is 390463200.
+The max headroom for Application 65 is 1899430560.
+The area index for Application 66 is 0.2055116982007492.
+Application 66 has sent 2501280 bytes.
+The deviation for Application 66 is 390355200.
+The max headroom for Application 66 is 1899430560.
+The area index for Application 67 is 0.2054272351865091.
+Application 67 has sent 2501280 bytes.
+The deviation for Application 67 is 390195360.
+The max headroom for Application 67 is 1899433440.
+The area index for Application 68 is 0.2053806784109509.
+Application 68 has sent 2501280 bytes.
+The deviation for Application 68 is 390107520.
+The max headroom for Application 68 is 1899436320.
+The area index for Application 69 is 0.16215169193096574.
+Application 69 has sent 2501280 bytes.
+The deviation for Application 69 is 307997280.
+The max headroom for Application 69 is 1899439200.
+The area index for Application 70 is 0.23538330792376674.
+Application 70 has sent 2501280 bytes.
+The deviation for Application 70 is 447096960.
+The max headroom for Application 70 is 1899442080.
+The area index for Application 71 is 0.2353111083818907.
+Application 71 has sent 2501280 bytes.
+The deviation for Application 71 is 446960160.
+The max headroom for Application 71 is 1899443520.
+The area index for Application 72 is 0.23529063922890425.
+Application 72 has sent 2501280 bytes.
+The deviation for Application 72 is 446921280.
+The max headroom for Application 72 is 1899443520.
+The area index for Application 73 is 0.2352184398120175.
+Application 73 has sent 2501280 bytes.
+The deviation for Application 73 is 446784480.
+The max headroom for Application 73 is 1899444960.
+The area index for Application 74 is 0.28643958576562095.
+Application 74 has sent 2501280 bytes.
+The deviation for Application 74 is 544076640.
+The max headroom for Application 74 is 1899446400.
+The area index for Application 75 is 0.2865472252458211.
+Application 75 has sent 2501280 bytes.
+The deviation for Application 75 is 544360320.
+The max headroom for Application 75 is 1899722880.
+The area index for Application 76 is 0.2775458288611157.
+Application 76 has sent 2501280 bytes.
+The deviation for Application 76 is 527261760.
+The max headroom for Application 76 is 1899728640.
+The area index for Application 77 is 0.27745368987718855.
+Application 77 has sent 2501280 bytes.
+The deviation for Application 77 is 527087520.
+The max headroom for Application 77 is 1899731520.
+The area index for Application 78 is 0.2773365371496142.
+Application 78 has sent 2501280 bytes.
+The deviation for Application 78 is 526865760.
+The max headroom for Application 78 is 1899734400.
+The area index for Application 79 is 0.277279266741557.
+Application 79 has sent 2501280 bytes.
+The deviation for Application 79 is 526757760.
+The max headroom for Application 79 is 1899737280.
+The area index for Application 80 is 0.27724191461444764.
+Application 80 has sent 2501280 bytes.
+The deviation for Application 80 is 526687200.
+The max headroom for Application 80 is 1899738720.
+The area index for Application 81 is 0.28095319670180235.
+Application 81 has sent 2501280 bytes.
+The deviation for Application 81 is 533738880.
+The max headroom for Application 81 is 1899743040.
+The area index for Application 82 is 0.40360927970553323.
+Application 82 has sent 2501280 bytes.
+The deviation for Application 82 is 766753920.
+The max headroom for Application 82 is 1899743040.
+The area index for Application 83 is 0.2082660928135202.
+Application 83 has sent 2501280 bytes.
+The deviation for Application 83 is 395652960.
+The max headroom for Application 83 is 1899747360.
+The area index for Application 84 is 0.2082257612164303.
+Application 84 has sent 2501280 bytes.
+The deviation for Application 84 is 395576640.
+The max headroom for Application 84 is 1899748800.
+The area index for Application 85 is 0.2081300960909472.
+Application 85 has sent 2501280 bytes.
+The deviation for Application 85 is 395395200.
+The max headroom for Application 85 is 1899750240.
+The area index for Application 86 is 0.2080031956994496.
+Application 86 has sent 2501280 bytes.
+The deviation for Application 86 is 395154720.
+The max headroom for Application 86 is 1899753120.
+The area index for Application 87 is 0.2059837456055376.
+Application 87 has sent 2501280 bytes.
+The deviation for Application 87 is 391318560.
+The max headroom for Application 87 is 1899754560.
+The area index for Application 88 is 0.20590021034280193.
+Application 88 has sent 2501280 bytes.
+The deviation for Application 88 is 391160160.
+The max headroom for Application 88 is 1899756000.
+The area index for Application 89 is 0.18696879128675586.
+Application 89 has sent 2501280 bytes.
+The deviation for Application 89 is 355196160.
+The max headroom for Application 89 is 1899761760.
+The area index for Application 90 is 0.18686859499120734.
+Application 90 has sent 2501280 bytes.
+The deviation for Application 90 is 355006080.
+The max headroom for Application 90 is 1899763200.
+The area index for Application 91 is 0.18685101960840791.
+Application 91 has sent 2501280 bytes.
+The deviation for Application 91 is 354972960.
+The max headroom for Application 91 is 1899764640.
+The area index for Application 92 is 0.06396888610623051.
+Application 92 has sent 2501280 bytes.
+The deviation for Application 92 is 121525920.
+The max headroom for Application 92 is 1899766080.
+The area index for Application 93 is 0.06400602752103038.
+Application 93 has sent 2501280 bytes.
+The deviation for Application 93 is 121596480.
+The max headroom for Application 93 is 1899766080.
+The area index for Application 94 is 0.06362310623861166.
+Application 94 has sent 2501280 bytes.
+The deviation for Application 94 is 120873600.
+The max headroom for Application 94 is 1899838080.
+The area index for Application 95 is 0.13285329351529368.
+Application 95 has sent 2501280 bytes.
+The deviation for Application 95 is 252400320.
+The max headroom for Application 95 is 1899842400.
+The area index for Application 96 is 0.079193046789552.
+Application 96 has sent 2501280 bytes.
+The deviation for Application 96 is 150454080.
+The max headroom for Application 96 is 1899839520.
+The area index for Application 97 is 0.07907235154653552.
+Application 97 has sent 2501280 bytes.
+The deviation for Application 97 is 150225120.
+The max headroom for Application 97 is 1899843840.
+The area index for Application 98 is 0.06742841117528461.
+Application 98 has sent 2501280 bytes.
+The deviation for Application 98 is 128103840.
+The max headroom for Application 98 is 1899849600.
+The area index for Application 99 is 0.05798884290630164.
+Application 99 has sent 2501280 bytes.
+The deviation for Application 99 is 110170080.
+The max headroom for Application 99 is 1899849600.
+The area index for Application 100 is 0.40912585108719524.
+Application 100 has sent 626400 bytes.
+The deviation for Application 100 is 10729440.
+The max headroom for Application 100 is 26225280.
+The area index for Application 101 is 0.4028393966282165.
+Application 101 has sent 626400 bytes.
+The deviation for Application 101 is 11113920.
+The max headroom for Application 101 is 27588960.
+The area index for Application 102 is 0.32157210710371104.
+Application 102 has sent 626400 bytes.
+The deviation for Application 102 is 8871840.
+The max headroom for Application 102 is 27588960.
+The area index for Application 103 is 0.28331332533013204.
+Application 103 has sent 626400 bytes.
+The deviation for Application 103 is 7816320.
+The max headroom for Application 103 is 27588960.
+The area index for Application 104 is 0.28331332533013204.
+Application 104 has sent 626400 bytes.
+The deviation for Application 104 is 7816320.
+The max headroom for Application 104 is 27588960.
+The area index for Application 105 is 0.2826869878386137.
+Application 105 has sent 626400 bytes.
+The deviation for Application 105 is 7799040.
+The max headroom for Application 105 is 27588960.
+The area index for Application 106 is 0.2812255336917376.
+Application 106 has sent 626400 bytes.
+The deviation for Application 106 is 7758720.
+The max headroom for Application 106 is 27588960.
+The area index for Application 107 is 0.28707135027924213.
+Application 107 has sent 626400 bytes.
+The deviation for Application 107 is 7920000.
+The max headroom for Application 107 is 27588960.
+The area index for Application 108 is 0.27551226609546137.
+Application 108 has sent 626400 bytes.
+The deviation for Application 108 is 9816480.
+The max headroom for Application 108 is 35629920.
+The area index for Application 109 is 0.2106858505435881.
+Application 109 has sent 626400 bytes.
+The deviation for Application 109 is 7506720.
+The max headroom for Application 109 is 35629920.
+The area index for Application 110 is 0.19372171945701358.
+Application 110 has sent 626400 bytes.
+The deviation for Application 110 is 6904800.
+The max headroom for Application 110 is 35642880.
+The area index for Application 111 is 0.19365912762520193.
+Application 111 has sent 626400 bytes.
+The deviation for Application 111 is 6904800.
+The max headroom for Application 111 is 35654400.
+The area index for Application 112 is 0.18166774297707458.
+Application 112 has sent 626400 bytes.
+The deviation for Application 112 is 6481440.
+The max headroom for Application 112 is 35677440.
+The area index for Application 113 is 0.18166774297707458.
+Application 113 has sent 626400 bytes.
+The deviation for Application 113 is 6481440.
+The max headroom for Application 113 is 35677440.
+The area index for Application 114 is 0.18166774297707458.
+Application 114 has sent 626400 bytes.
+The deviation for Application 114 is 6481440.
+The max headroom for Application 114 is 35677440.
+The area index for Application 115 is 0.18147341241023157.
+Application 115 has sent 626400 bytes.
+The deviation for Application 115 is 6477120.
+The max headroom for Application 115 is 35691840.
+The area index for Application 116 is 0.18127899939479525.
+Application 116 has sent 626400 bytes.
+The deviation for Application 116 is 6469920.
+The max headroom for Application 116 is 35690400.
+The area index for Application 117 is 0.14835586039943513.
+Application 117 has sent 626400 bytes.
+The deviation for Application 117 is 5294880.
+The max headroom for Application 117 is 35690400.
+The area index for Application 118 is 0.182126286060117.
+Application 118 has sent 626400 bytes.
+The deviation for Application 118 is 6500160.
+The max headroom for Application 118 is 35690400.
+The area index for Application 119 is 0.2661690538632237.
+Application 119 has sent 626400 bytes.
+The deviation for Application 119 is 9499680.
+The max headroom for Application 119 is 35690400.
+The area index for Application 120 is 0.20181561428283235.
+Application 120 has sent 626400 bytes.
+The deviation for Application 120 is 7202880.
+The max headroom for Application 120 is 35690400.
+The area index for Application 121 is 0.1883800685898729.
+Application 121 has sent 626400 bytes.
+The deviation for Application 121 is 6723360.
+The max headroom for Application 121 is 35690400.
+The area index for Application 122 is 0.17732499495662699.
+Application 122 has sent 626400 bytes.
+The deviation for Application 122 is 6328800.
+The max headroom for Application 122 is 35690400.
+The area index for Application 123 is 0.17732499495662699.
+Application 123 has sent 626400 bytes.
+The deviation for Application 123 is 6328800.
+The max headroom for Application 123 is 35690400.
+The area index for Application 124 is 0.17732499495662699.
+Application 124 has sent 626400 bytes.
+The deviation for Application 124 is 6328800.
+The max headroom for Application 124 is 35690400.
+The area index for Application 125 is 0.17732499495662699.
+Application 125 has sent 626400 bytes.
+The deviation for Application 125 is 6328800.
+The max headroom for Application 125 is 35690400.
+The area index for Application 126 is 0.17470244099253582.
+Application 126 has sent 626400 bytes.
+The deviation for Application 126 is 6235200.
+The max headroom for Application 126 is 35690400.
+The area index for Application 127 is 0.17576833104783415.
+Application 127 has sent 626400 bytes.
+The deviation for Application 127 is 6275520.
+The max headroom for Application 127 is 35703360.
+The area index for Application 128 is 0.261889408350798.
+Application 128 has sent 626400 bytes.
+The deviation for Application 128 is 9357120.
+The max headroom for Application 128 is 35729280.
+The area index for Application 129 is 0.2611498328028685.
+Application 129 has sent 626400 bytes.
+The deviation for Application 129 is 9334080.
+The max headroom for Application 129 is 35742240.
+The area index for Application 130 is 0.2605052173562709.
+Application 130 has sent 626400 bytes.
+The deviation for Application 130 is 9311040.
+The max headroom for Application 130 is 35742240.
+The area index for Application 131 is 0.17317760773258156.
+Application 131 has sent 626400 bytes.
+The deviation for Application 131 is 6192000.
+The max headroom for Application 131 is 35755200.
+The area index for Application 132 is 0.17256654987716966.
+Application 132 has sent 626400 bytes.
+The deviation for Application 132 is 6170400.
+The max headroom for Application 132 is 35756640.
+The area index for Application 133 is 0.1725332259363673.
+Application 133 has sent 626400 bytes.
+The deviation for Application 133 is 6168960.
+The max headroom for Application 133 is 35755200.
+The area index for Application 134 is 0.1725332259363673.
+Application 134 has sent 626400 bytes.
+The deviation for Application 134 is 6168960.
+The max headroom for Application 134 is 35755200.
+The area index for Application 135 is 0.16451872734595246.
+Application 135 has sent 626400 bytes.
+The deviation for Application 135 is 5882400.
+The max headroom for Application 135 is 35755200.
+The area index for Application 136 is 0.17192911800241642.
+Application 136 has sent 626400 bytes.
+The deviation for Application 136 is 6147360.
+The max headroom for Application 136 is 35755200.
+The area index for Application 137 is 0.0950463149416029.
+Application 137 has sent 626400 bytes.
+The deviation for Application 137 is 3398400.
+The max headroom for Application 137 is 35755200.
+The area index for Application 138 is 0.06302859444220701.
+Application 138 has sent 626400 bytes.
+The deviation for Application 138 is 2253600.
+The max headroom for Application 138 is 35755200.
+The area index for Application 139 is 0.06302859444220701.
+Application 139 has sent 626400 bytes.
+The deviation for Application 139 is 2253600.
+The max headroom for Application 139 is 35755200.
+The area index for Application 140 is 0.06306632837984777.
+Application 140 has sent 626400 bytes.
+The deviation for Application 140 is 2255040.
+The max headroom for Application 140 is 35756640.
+The area index for Application 141 is 0.06302859444220701.
+Application 141 has sent 626400 bytes.
+The deviation for Application 141 is 2253600.
+The max headroom for Application 141 is 35755200.
+The area index for Application 142 is 0.06222311719693919.
+Application 142 has sent 626400 bytes.
+The deviation for Application 142 is 2224800.
+The max headroom for Application 142 is 35755200.
+The area index for Application 143 is 0.061659283125251714.
+Application 143 has sent 626400 bytes.
+The deviation for Application 143 is 2204640.
+The max headroom for Application 143 is 35755200.
+The area index for Application 144 is 0.06161709663138407.
+Application 144 has sent 626400 bytes.
+The deviation for Application 144 is 2204640.
+The max headroom for Application 144 is 35779680.
+The area index for Application 145 is 0.061594785967170905.
+Application 145 has sent 626400 bytes.
+The deviation for Application 145 is 2204640.
+The max headroom for Application 145 is 35792640.
+The area index for Application 146 is 0.0615724914538508.
+Application 146 has sent 626400 bytes.
+The deviation for Application 146 is 2204640.
+The max headroom for Application 146 is 35805600.
+The area index for Application 147 is 0.061552687653278655.
+Application 147 has sent 626400 bytes.
+The deviation for Application 147 is 2204640.
+The max headroom for Application 147 is 35817120.
+The area index for Application 148 is 0.061552687653278655.
+Application 148 has sent 626400 bytes.
+The deviation for Application 148 is 2204640.
+The max headroom for Application 148 is 35817120.
+The area index for Application 149 is 0.061231053753065576.
+Application 149 has sent 626400 bytes.
+The deviation for Application 149 is 2193120.
+The max headroom for Application 149 is 35817120.
+The area index for Application 150 is 0.28734868992287654.
+Application 150 has sent 626400 bytes.
+The deviation for Application 150 is 24304320.
+The max headroom for Application 150 is 84581280.
+The area index for Application 151 is 0.28734868992287654.
+Application 151 has sent 626400 bytes.
+The deviation for Application 151 is 24304320.
+The max headroom for Application 151 is 84581280.
+The area index for Application 152 is 0.28734868992287654.
+Application 152 has sent 626400 bytes.
+The deviation for Application 152 is 24304320.
+The max headroom for Application 152 is 84581280.
+The area index for Application 153 is 0.28734868992287654.
+Application 153 has sent 626400 bytes.
+The deviation for Application 153 is 24304320.
+The max headroom for Application 153 is 84581280.
+The area index for Application 154 is 0.27422238112263136.
+Application 154 has sent 626400 bytes.
+The deviation for Application 154 is 23194080.
+The max headroom for Application 154 is 84581280.
+The area index for Application 155 is 0.18884178626759965.
+Application 155 has sent 626400 bytes.
+The deviation for Application 155 is 15972480.
+The max headroom for Application 155 is 84581280.
+The area index for Application 156 is 0.07962748569871969.
+Application 156 has sent 626400 bytes.
+The deviation for Application 156 is 6734880.
+The max headroom for Application 156 is 84579840.
+The area index for Application 157 is 0.07972828030032178.
+Application 157 has sent 626400 bytes.
+The deviation for Application 157 is 6743520.
+The max headroom for Application 157 is 84581280.
+The area index for Application 158 is 0.08030713179086436.
+Application 158 has sent 626400 bytes.
+The deviation for Application 158 is 6792480.
+The max headroom for Application 158 is 84581280.
+The area index for Application 159 is 0.08044333214158027.
+Application 159 has sent 626400 bytes.
+The deviation for Application 159 is 6804000.
+The max headroom for Application 159 is 84581280.
+The area index for Application 160 is 0.0806646577114936.
+Application 160 has sent 626400 bytes.
+The deviation for Application 160 is 6822720.
+The max headroom for Application 160 is 84581280.
+The area index for Application 161 is 0.08086895823756746.
+Application 161 has sent 626400 bytes.
+The deviation for Application 161 is 6840000.
+The max headroom for Application 161 is 84581280.
+The area index for Application 162 is 0.1668454296269813.
+Application 162 has sent 626400 bytes.
+The deviation for Application 162 is 14112000.
+The max headroom for Application 162 is 84581280.
+The area index for Application 163 is 0.3602859817856839.
+Application 163 has sent 626400 bytes.
+The deviation for Application 163 is 30477600.
+The max headroom for Application 163 is 84592800.
+The area index for Application 164 is 0.3602219158965981.
+Application 164 has sent 626400 bytes.
+The deviation for Application 164 is 30480480.
+The max headroom for Application 164 is 84615840.
+The area index for Application 165 is 0.36017763863129776.
+Application 165 has sent 626400 bytes.
+The deviation for Application 165 is 30481920.
+The max headroom for Application 165 is 84630240.
+The area index for Application 166 is 0.3610113831651665.
+Application 166 has sent 626400 bytes.
+The deviation for Application 166 is 30552480.
+The max headroom for Application 166 is 84630240.
+The area index for Application 167 is 0.36201527964472274.
+Application 167 has sent 626400 bytes.
+The deviation for Application 167 is 30637440.
+The max headroom for Application 167 is 84630240.
+The area index for Application 168 is 0.3621003556175665.
+Application 168 has sent 626400 bytes.
+The deviation for Application 168 is 30644640.
+The max headroom for Application 168 is 84630240.
+The area index for Application 169 is 0.36232155314696024.
+Application 169 has sent 626400 bytes.
+The deviation for Application 169 is 30663360.
+The max headroom for Application 169 is 84630240.
+The area index for Application 170 is 0.36232155314696024.
+Application 170 has sent 626400 bytes.
+The deviation for Application 170 is 30663360.
+The max headroom for Application 170 is 84630240.
+The area index for Application 171 is 0.36232155314696024.
+Application 171 has sent 626400 bytes.
+The deviation for Application 171 is 30663360.
+The max headroom for Application 171 is 84630240.
+The area index for Application 172 is 0.36245767470351026.
+Application 172 has sent 626400 bytes.
+The deviation for Application 172 is 30674880.
+The max headroom for Application 172 is 84630240.
+The area index for Application 173 is 0.3626448418437665.
+Application 173 has sent 626400 bytes.
+The deviation for Application 173 is 30690720.
+The max headroom for Application 173 is 84630240.
+The area index for Application 174 is 0.36278096340031646.
+Application 174 has sent 626400 bytes.
+The deviation for Application 174 is 30702240.
+The max headroom for Application 174 is 84630240.
+The area index for Application 175 is 0.3627979785948852.
+Application 175 has sent 626400 bytes.
+The deviation for Application 175 is 30703680.
+The max headroom for Application 175 is 84630240.
+The area index for Application 176 is 0.36065406407922274.
+Application 176 has sent 626400 bytes.
+The deviation for Application 176 is 30522240.
+The max headroom for Application 176 is 84630240.
+The area index for Application 177 is 0.3606200336900853.
+Application 177 has sent 626400 bytes.
+The deviation for Application 177 is 30519360.
+The max headroom for Application 177 is 84630240.
+The area index for Application 178 is 0.360977352776029.
+Application 178 has sent 626400 bytes.
+The deviation for Application 178 is 30549600.
+The max headroom for Application 178 is 84630240.
+The area index for Application 179 is 0.3610113831651665.
+Application 179 has sent 626400 bytes.
+The deviation for Application 179 is 30552480.
+The max headroom for Application 179 is 84630240.
+The area index for Application 180 is 0.3609008487982446.
+Application 180 has sent 626400 bytes.
+The deviation for Application 180 is 30552480.
+The max headroom for Application 180 is 84656160.
+The area index for Application 181 is 0.3608517441366056.
+Application 181 has sent 626400 bytes.
+The deviation for Application 181 is 30552480.
+The max headroom for Application 181 is 84667680.
+The area index for Application 182 is 0.3609986734242661.
+Application 182 has sent 626400 bytes.
+The deviation for Application 182 is 30565440.
+The max headroom for Application 182 is 84669120.
+The area index for Application 183 is 0.3610156808054696.
+Application 183 has sent 626400 bytes.
+The deviation for Application 183 is 30566880.
+The max headroom for Application 183 is 84669120.
+The area index for Application 184 is 0.3817170734540386.
+Application 184 has sent 626400 bytes.
+The deviation for Application 184 is 37857600.
+The max headroom for Application 184 is 99177120.
+The area index for Application 185 is 0.3818332292770752.
+Application 185 has sent 626400 bytes.
+The deviation for Application 185 is 37869120.
+The max headroom for Application 185 is 99177120.
+The area index for Application 186 is 0.3818332292770752.
+Application 186 has sent 626400 bytes.
+The deviation for Application 186 is 37869120.
+The max headroom for Application 186 is 99177120.
+The area index for Application 187 is 0.38623263107458655.
+Application 187 has sent 626400 bytes.
+The deviation for Application 187 is 38305440.
+The max headroom for Application 187 is 99177120.
+The area index for Application 188 is 0.39423286338623265.
+Application 188 has sent 626400 bytes.
+The deviation for Application 188 is 39098880.
+The max headroom for Application 188 is 99177120.
+The area index for Application 189 is 0.38221073570194414.
+Application 189 has sent 626400 bytes.
+The deviation for Application 189 is 37906560.
+The max headroom for Application 189 is 99177120.
+The area index for Application 190 is 0.38231237204710117.
+Application 190 has sent 626400 bytes.
+The deviation for Application 190 is 37916640.
+The max headroom for Application 190 is 99177120.
+The area index for Application 191 is 0.3824285278701378.
+Application 191 has sent 626400 bytes.
+The deviation for Application 191 is 37928160.
+The max headroom for Application 191 is 99177120.
+The area index for Application 192 is 0.3824866057816561.
+Application 192 has sent 626400 bytes.
+The deviation for Application 192 is 37933920.
+The max headroom for Application 192 is 99177120.
+The area index for Application 193 is 0.3824866057816561.
+Application 193 has sent 626400 bytes.
+The deviation for Application 193 is 37933920.
+The max headroom for Application 193 is 99177120.
+The area index for Application 194 is 0.3824866057816561.
+Application 194 has sent 626400 bytes.
+The deviation for Application 194 is 37933920.
+The max headroom for Application 194 is 99177120.
+The area index for Application 195 is 0.3824866057816561.
+Application 195 has sent 626400 bytes.
+The deviation for Application 195 is 37933920.
+The max headroom for Application 195 is 99177120.
+The area index for Application 196 is 0.382442182895138.
+Application 196 has sent 626400 bytes.
+The deviation for Application 196 is 37933920.
+The max headroom for Application 196 is 99188640.
+The area index for Application 197 is 0.38234226911856484.
+Application 197 has sent 626400 bytes.
+The deviation for Application 197 is 37933920.
+The max headroom for Application 197 is 99214560.
+The area index for Application 198 is 0.3826615770911044.
+Application 198 has sent 626400 bytes.
+The deviation for Application 198 is 37965600.
+The max headroom for Application 198 is 99214560.
+The area index for Application 199 is 0.38273414708486336.
+Application 199 has sent 626400 bytes.
+The deviation for Application 199 is 37972800.
+The max headroom for Application 199 is 99214560.
+The area index for Application 200 is 0.32276404151404153.
+Application 200 has sent 626400 bytes.
+The deviation for Application 200 is 36542880.
+The max headroom for Application 200 is 113218560.
+The area index for Application 201 is 0.20584045584045585.
+Application 201 has sent 626400 bytes.
+The deviation for Application 201 is 23304960.
+The max headroom for Application 201 is 113218560.
+The area index for Application 202 is 0.20566239316239315.
+Application 202 has sent 626400 bytes.
+The deviation for Application 202 is 23284800.
+The max headroom for Application 202 is 113218560.
+The area index for Application 203 is 0.20566239316239315.
+Application 203 has sent 626400 bytes.
+The deviation for Application 203 is 23284800.
+The max headroom for Application 203 is 113218560.
+The area index for Application 204 is 0.13927045177045178.
+Application 204 has sent 626400 bytes.
+The deviation for Application 204 is 15768000.
+The max headroom for Application 204 is 113218560.
+The area index for Application 205 is 0.6339794464794465.
+Application 205 has sent 626400 bytes.
+The deviation for Application 205 is 71778240.
+The max headroom for Application 205 is 113218560.
+The area index for Application 206 is 0.6339968203497616.
+Application 206 has sent 626400 bytes.
+The deviation for Application 206 is 71781120.
+The max headroom for Application 206 is 113220000.
+The area index for Application 207 is 0.6340176027676028.
+Application 207 has sent 626400 bytes.
+The deviation for Application 207 is 71782560.
+The max headroom for Application 207 is 113218560.
+The area index for Application 208 is 0.6340176027676028.
+Application 208 has sent 626400 bytes.
+The deviation for Application 208 is 71782560.
+The max headroom for Application 208 is 113218560.
+The area index for Application 209 is 0.6340176027676028.
+Application 209 has sent 626400 bytes.
+The deviation for Application 209 is 71782560.
+The max headroom for Application 209 is 113218560.
+The area index for Application 210 is 0.6979166666666666.
+Application 210 has sent 626400 bytes.
+The deviation for Application 210 is 79017120.
+The max headroom for Application 210 is 113218560.
+The area index for Application 211 is 0.5211894586894587.
+Application 211 has sent 626400 bytes.
+The deviation for Application 211 is 59008320.
+The max headroom for Application 211 is 113218560.
+The area index for Application 212 is 0.6960088522588522.
+Application 212 has sent 626400 bytes.
+The deviation for Application 212 is 78801120.
+The max headroom for Application 212 is 113218560.
+The area index for Application 213 is 0.6960088522588522.
+Application 213 has sent 626400 bytes.
+The deviation for Application 213 is 78801120.
+The max headroom for Application 213 is 113218560.
+The area index for Application 214 is 0.695960122582368.
+Application 214 has sent 626400 bytes.
+The deviation for Application 214 is 78812640.
+The max headroom for Application 214 is 113243040.
+The area index for Application 215 is 0.7166143244033618.
+Application 215 has sent 626400 bytes.
+The deviation for Application 215 is 81159840.
+The max headroom for Application 215 is 113254560.
+The area index for Application 216 is 0.7166143244033618.
+Application 216 has sent 626400 bytes.
+The deviation for Application 216 is 81159840.
+The max headroom for Application 216 is 113254560.
+The area index for Application 217 is 0.7166524685628552.
+Application 217 has sent 626400 bytes.
+The deviation for Application 217 is 81164160.
+The max headroom for Application 217 is 113254560.
+The area index for Application 218 is 0.7166524685628552.
+Application 218 has sent 626400 bytes.
+The deviation for Application 218 is 81164160.
+The max headroom for Application 218 is 113254560.
+The area index for Application 219 is 0.7166906127223487.
+Application 219 has sent 626400 bytes.
+The deviation for Application 219 is 81168480.
+The max headroom for Application 219 is 113254560.
+The area index for Application 220 is 0.7175552136708667.
+Application 220 has sent 626400 bytes.
+The deviation for Application 220 is 81266400.
+The max headroom for Application 220 is 113254560.
+The area index for Application 221 is 0.7175679283906979.
+Application 221 has sent 626400 bytes.
+The deviation for Application 221 is 81267840.
+The max headroom for Application 221 is 113254560.
+The area index for Application 222 is 0.7175679283906979.
+Application 222 has sent 626400 bytes.
+The deviation for Application 222 is 81267840.
+The max headroom for Application 222 is 113254560.
+The area index for Application 223 is 0.7825047679593135.
+Application 223 has sent 626400 bytes.
+The deviation for Application 223 is 88623360.
+The max headroom for Application 223 is 113256000.
+The area index for Application 224 is 0.782552861447698.
+Application 224 has sent 626400 bytes.
+The deviation for Application 224 is 88627680.
+The max headroom for Application 224 is 113254560.
+The area index for Application 225 is 0.782552861447698.
+Application 225 has sent 626400 bytes.
+The deviation for Application 225 is 88627680.
+The max headroom for Application 225 is 113254560.
+The area index for Application 226 is 0.782552861447698.
+Application 226 has sent 626400 bytes.
+The deviation for Application 226 is 88627680.
+The max headroom for Application 226 is 113254560.
+The area index for Application 227 is 0.7826164350468537.
+Application 227 has sent 626400 bytes.
+The deviation for Application 227 is 88634880.
+The max headroom for Application 227 is 113254560.
+The area index for Application 228 is 0.7826164350468537.
+Application 228 has sent 626400 bytes.
+The deviation for Application 228 is 88634880.
+The max headroom for Application 228 is 113254560.
+The area index for Application 229 is 0.7826164350468537.
+Application 229 has sent 626400 bytes.
+The deviation for Application 229 is 88634880.
+The max headroom for Application 229 is 113254560.
+The area index for Application 230 is 0.7825268885555188.
+Application 230 has sent 626400 bytes.
+The deviation for Application 230 is 88634880.
+The max headroom for Application 230 is 113267520.
+The area index for Application 231 is 0.7824373625535485.
+Application 231 has sent 626400 bytes.
+The deviation for Application 231 is 88634880.
+The max headroom for Application 231 is 113280480.
+The area index for Application 232 is 0.782309725964716.
+Application 232 has sent 626400 bytes.
+The deviation for Application 232 is 88630560.
+The max headroom for Application 232 is 113293440.
+The area index for Application 233 is 0.7823478570339112.
+Application 233 has sent 626400 bytes.
+The deviation for Application 233 is 88634880.
+The max headroom for Application 233 is 113293440.
+The area index for Application 234 is 0.7823478570339112.
+Application 234 has sent 626400 bytes.
+The deviation for Application 234 is 88634880.
+The max headroom for Application 234 is 113293440.
+The area index for Application 235 is 0.7823732777467081.
+Application 235 has sent 626400 bytes.
+The deviation for Application 235 is 88637760.
+The max headroom for Application 235 is 113293440.
+The area index for Application 236 is 0.7823732777467081.
+Application 236 has sent 626400 bytes.
+The deviation for Application 236 is 88637760.
+The max headroom for Application 236 is 113293440.
+The area index for Application 237 is 0.543583812090091.
+Application 237 has sent 626400 bytes.
+The deviation for Application 237 is 61584480.
+The max headroom for Application 237 is 113293440.
+The area index for Application 238 is 0.7823732777467081.
+Application 238 has sent 626400 bytes.
+The deviation for Application 238 is 88637760.
+The max headroom for Application 238 is 113293440.
+The area index for Application 239 is 0.7823732777467081.
+Application 239 has sent 626400 bytes.
+The deviation for Application 239 is 88637760.
+The max headroom for Application 239 is 113293440.
+The area index for Application 240 is 0.7823732777467081.
+Application 240 has sent 626400 bytes.
+The deviation for Application 240 is 88637760.
+The max headroom for Application 240 is 113293440.
+The area index for Application 241 is 0.7823732777467081.
+Application 241 has sent 626400 bytes.
+The deviation for Application 241 is 88637760.
+The max headroom for Application 241 is 113293440.
+The area index for Application 242 is 0.7823732777467081.
+Application 242 has sent 626400 bytes.
+The deviation for Application 242 is 88637760.
+The max headroom for Application 242 is 113293440.
+The area index for Application 243 is 0.7823732777467081.
+Application 243 has sent 626400 bytes.
+The deviation for Application 243 is 88637760.
+The max headroom for Application 243 is 113293440.
+The area index for Application 244 is 0.7823732777467081.
+Application 244 has sent 626400 bytes.
+The deviation for Application 244 is 88637760.
+The max headroom for Application 244 is 113293440.
+The area index for Application 245 is 0.7823732777467081.
+Application 245 has sent 626400 bytes.
+The deviation for Application 245 is 88637760.
+The max headroom for Application 245 is 113293440.
+The area index for Application 246 is 0.7823732777467081.
+Application 246 has sent 626400 bytes.
+The deviation for Application 246 is 88637760.
+The max headroom for Application 246 is 113293440.
+The area index for Application 247 is 0.7822937318895836.
+Application 247 has sent 626400 bytes.
+The deviation for Application 247 is 88637760.
+The max headroom for Application 247 is 113304960.
+The area index for Application 248 is 0.8215238772968714.
+Application 248 has sent 626400 bytes.
+The deviation for Application 248 is 93094560.
+The max headroom for Application 248 is 113319360.
+The area index for Application 249 is 0.7821529313105131.
+Application 249 has sent 626400 bytes.
+The deviation for Application 249 is 88642080.
+The max headroom for Application 249 is 113330880.
+The area index for Application 250 is 0.47482996455599197.
+Application 250 has sent 626400 bytes.
+The deviation for Application 250 is 57101760.
+The max headroom for Application 250 is 120257280.
+The area index for Application 251 is 0.25122138135836763.
+Application 251 has sent 626400 bytes.
+The deviation for Application 251 is 30211200.
+The max headroom for Application 251 is 120257280.
+The area index for Application 252 is 0.25105374077976816.
+Application 252 has sent 626400 bytes.
+The deviation for Application 252 is 30191040.
+The max headroom for Application 252 is 120257280.
+The area index for Application 253 is 0.25098189481751126.
+Application 253 has sent 626400 bytes.
+The deviation for Application 253 is 30182400.
+The max headroom for Application 253 is 120257280.
+The area index for Application 254 is 0.25098189481751126.
+Application 254 has sent 626400 bytes.
+The deviation for Application 254 is 30182400.
+The max headroom for Application 254 is 120257280.
+The area index for Application 255 is 0.2508861002011687.
+Application 255 has sent 626400 bytes.
+The deviation for Application 255 is 30170880.
+The max headroom for Application 255 is 120257280.
+The area index for Application 256 is 0.2508142542389118.
+Application 256 has sent 626400 bytes.
+The deviation for Application 256 is 30162240.
+The max headroom for Application 256 is 120257280.
+The area index for Application 257 is 0.25067056231439794.
+Application 257 has sent 626400 bytes.
+The deviation for Application 257 is 30144960.
+The max headroom for Application 257 is 120257280.
+The area index for Application 258 is 0.250598716352141.
+Application 258 has sent 626400 bytes.
+The deviation for Application 258 is 30136320.
+The max headroom for Application 258 is 120257280.
+The area index for Application 259 is 0.2503472554842418.
+Application 259 has sent 626400 bytes.
+The deviation for Application 259 is 30106080.
+The max headroom for Application 259 is 120257280.
+The area index for Application 260 is 0.25010477410702525.
+Application 260 has sent 626400 bytes.
+The deviation for Application 260 is 30077280.
+The max headroom for Application 260 is 120258720.
+The area index for Application 261 is 0.23367899224063607.
+Application 261 has sent 626400 bytes.
+The deviation for Application 261 is 28101600.
+The max headroom for Application 261 is 120257280.
+The area index for Application 262 is 0.23336765973752274.
+Application 262 has sent 626400 bytes.
+The deviation for Application 262 is 28064160.
+The max headroom for Application 262 is 120257280.
+The area index for Application 263 is 0.23296216475095785.
+Application 263 has sent 626400 bytes.
+The deviation for Application 263 is 28018080.
+The max headroom for Application 263 is 120268800.
+The area index for Application 264 is 0.2328173448742353.
+Application 264 has sent 626400 bytes.
+The deviation for Application 264 is 28003680.
+The max headroom for Application 264 is 120281760.
+The area index for Application 265 is 0.23279504890048722.
+Application 265 has sent 626400 bytes.
+The deviation for Application 265 is 28003680.
+The max headroom for Application 265 is 120293280.
+The area index for Application 266 is 0.23265139997845266.
+Application 266 has sent 626400 bytes.
+The deviation for Application 266 is 27986400.
+The max headroom for Application 266 is 120293280.
+The area index for Application 267 is 0.23249578031291523.
+Application 267 has sent 626400 bytes.
+The deviation for Application 267 is 27967680.
+The max headroom for Application 267 is 120293280.
+The area index for Application 268 is 0.23248380956941236.
+Application 268 has sent 626400 bytes.
+The deviation for Application 268 is 27966240.
+The max headroom for Application 268 is 120293280.
+The area index for Application 269 is 0.23240001436489222.
+Application 269 has sent 626400 bytes.
+The deviation for Application 269 is 27956160.
+The max headroom for Application 269 is 120293280.
+The area index for Application 270 is 0.05166572895842561.
+Application 270 has sent 626400 bytes.
+The deviation for Application 270 is 6215040.
+The max headroom for Application 270 is 120293280.
+The area index for Application 271 is 0.5853095035732669.
+Application 271 has sent 626400 bytes.
+The deviation for Application 271 is 70408800.
+The max headroom for Application 271 is 120293280.
+The area index for Application 272 is 0.5476375737697068.
+Application 272 has sent 626400 bytes.
+The deviation for Application 272 is 65877120.
+The max headroom for Application 272 is 120293280.
+The area index for Application 273 is 0.5108035960113483.
+Application 273 has sent 626400 bytes.
+The deviation for Application 273 is 61446240.
+The max headroom for Application 273 is 120293280.
+The area index for Application 274 is 0.5050217268994577.
+Application 274 has sent 626400 bytes.
+The deviation for Application 274 is 60750720.
+The max headroom for Application 274 is 120293280.
+The area index for Application 275 is 0.34272238648742476.
+Application 275 has sent 626400 bytes.
+The deviation for Application 275 is 41227200.
+The max headroom for Application 275 is 120293280.
+The area index for Application 276 is 0.34277026946143624.
+Application 276 has sent 626400 bytes.
+The deviation for Application 276 is 41232960.
+The max headroom for Application 276 is 120293280.
+The area index for Application 277 is 0.34286603540945926.
+Application 277 has sent 626400 bytes.
+The deviation for Application 277 is 41244480.
+The max headroom for Application 277 is 120293280.
+The area index for Application 278 is 0.34286603540945926.
+Application 278 has sent 626400 bytes.
+The deviation for Application 278 is 41244480.
+The max headroom for Application 278 is 120293280.
+The area index for Application 279 is 0.34286603540945926.
+Application 279 has sent 626400 bytes.
+The deviation for Application 279 is 41244480.
+The max headroom for Application 279 is 120293280.
+The area index for Application 280 is 0.48411226138471664.
+Application 280 has sent 626400 bytes.
+The deviation for Application 280 is 58248000.
+The max headroom for Application 280 is 120319200.
+The area index for Application 281 is 0.48411995596189744.
+Application 281 has sent 626400 bytes.
+The deviation for Application 281 is 58255200.
+The max headroom for Application 281 is 120332160.
+The area index for Application 282 is 0.48419175721602603.
+Application 282 has sent 626400 bytes.
+The deviation for Application 282 is 58263840.
+The max headroom for Application 282 is 120332160.
+The area index for Application 283 is 0.4842515915944665.
+Application 283 has sent 626400 bytes.
+The deviation for Application 283 is 58271040.
+The max headroom for Application 283 is 120332160.
+The area index for Application 284 is 0.5207505624431573.
+Application 284 has sent 626400 bytes.
+The deviation for Application 284 is 62663040.
+The max headroom for Application 284 is 120332160.
+The area index for Application 285 is 0.6639262849279004.
+Application 285 has sent 626400 bytes.
+The deviation for Application 285 is 79892640.
+The max headroom for Application 285 is 120333600.
+The area index for Application 286 is 0.2839500263271265.
+Application 286 has sent 626400 bytes.
+The deviation for Application 286 is 34168320.
+The max headroom for Application 286 is 120332160.
+The area index for Application 287 is 0.3978268153750419.
+Application 287 has sent 626400 bytes.
+The deviation for Application 287 is 47871360.
+The max headroom for Application 287 is 120332160.
+The area index for Application 288 is 0.3984610597865109.
+Application 288 has sent 626400 bytes.
+The deviation for Application 288 is 47947680.
+The max headroom for Application 288 is 120332160.
+The area index for Application 289 is 0.39867646354889663.
+Application 289 has sent 626400 bytes.
+The deviation for Application 289 is 47973600.
+The max headroom for Application 289 is 120332160.
+The area index for Application 290 is 0.48718347613804985.
+Application 290 has sent 626400 bytes.
+The deviation for Application 290 is 58623840.
+The max headroom for Application 290 is 120332160.
+The area index for Application 291 is 0.6757335694796802.
+Application 291 has sent 626400 bytes.
+The deviation for Application 291 is 81312480.
+The max headroom for Application 291 is 120332160.
+The area index for Application 292 is 0.7732755732133455.
+Application 292 has sent 626400 bytes.
+The deviation for Application 292 is 93049920.
+The max headroom for Application 292 is 120332160.
+The area index for Application 293 is 0.7732995069647216.
+Application 293 has sent 626400 bytes.
+The deviation for Application 293 is 93052800.
+The max headroom for Application 293 is 120332160.
+The area index for Application 294 is 0.7732995069647216.
+Application 294 has sent 626400 bytes.
+The deviation for Application 294 is 93052800.
+The max headroom for Application 294 is 120332160.
+The area index for Application 295 is 0.7732995069647216.
+Application 295 has sent 626400 bytes.
+The deviation for Application 295 is 93052800.
+The max headroom for Application 295 is 120332160.
+The area index for Application 296 is 0.773225482218925.
+Application 296 has sent 626400 bytes.
+The deviation for Application 296 is 93052800.
+The max headroom for Application 296 is 120343680.
+The area index for Application 297 is 0.7731422213182422.
+Application 297 has sent 626400 bytes.
+The deviation for Application 297 is 93052800.
+The max headroom for Application 297 is 120356640.
+The area index for Application 298 is 0.7730589783466922.
+Application 298 has sent 626400 bytes.
+The deviation for Application 298 is 93052800.
+The max headroom for Application 298 is 120369600.
+The area index for Application 299 is 0.7730589783466922.
+Application 299 has sent 626400 bytes.
+The deviation for Application 299 is 93052800.
+The max headroom for Application 299 is 120369600.
+The area index for Application 300 is 0.5332433842037234.
+Application 300 has sent 626400 bytes.
+The deviation for Application 300 is 67724640.
+The max headroom for Application 300 is 127005120.
+The area index for Application 301 is 0.3688674217943921.
+Application 301 has sent 626400 bytes.
+The deviation for Application 301 is 46847520.
+The max headroom for Application 301 is 127003680.
+The area index for Application 302 is 0.09135231357075638.
+Application 302 has sent 626400 bytes.
+The deviation for Application 302 is 11602080.
+The max headroom for Application 302 is 127003680.
+The area index for Application 303 is 0.0918852115151309.
+Application 303 has sent 626400 bytes.
+The deviation for Application 303 is 11669760.
+The max headroom for Application 303 is 127003680.
+The area index for Application 304 is 0.040398199485243265.
+Application 304 has sent 626400 bytes.
+The deviation for Application 304 is 5130720.
+The max headroom for Application 304 is 127003680.
+The area index for Application 305 is 0.3735161059899997.
+Application 305 has sent 626400 bytes.
+The deviation for Application 305 is 47437920.
+The max headroom for Application 305 is 127003680.
+The area index for Application 306 is 0.49455196888783065.
+Application 306 has sent 626400 bytes.
+The deviation for Application 306 is 62809920.
+The max headroom for Application 306 is 127003680.
+The area index for Application 307 is 0.6734015896232298.
+Application 307 has sent 626400 bytes.
+The deviation for Application 307 is 85524480.
+The max headroom for Application 307 is 127003680.
+The area index for Application 308 is 0.6734015896232298.
+Application 308 has sent 626400 bytes.
+The deviation for Application 308 is 85524480.
+The max headroom for Application 308 is 127003680.
+The area index for Application 309 is 0.6734356043856367.
+Application 309 has sent 626400 bytes.
+The deviation for Application 309 is 85528800.
+The max headroom for Application 309 is 127003680.
+The area index for Application 310 is 0.6734469426397723.
+Application 310 has sent 626400 bytes.
+The deviation for Application 310 is 85530240.
+The max headroom for Application 310 is 127003680.
+The area index for Application 311 is 0.5908817760241278.
+Application 311 has sent 626400 bytes.
+The deviation for Application 311 is 75044160.
+The max headroom for Application 311 is 127003680.
+The area index for Application 312 is 0.6734469426397723.
+Application 312 has sent 626400 bytes.
+The deviation for Application 312 is 85530240.
+The max headroom for Application 312 is 127003680.
+The area index for Application 313 is 0.6734469426397723.
+Application 313 has sent 626400 bytes.
+The deviation for Application 313 is 85530240.
+The max headroom for Application 313 is 127003680.
+The area index for Application 314 is 0.67333983267962.
+Application 314 has sent 626400 bytes.
+The deviation for Application 314 is 85533120.
+The max headroom for Application 314 is 127028160.
+The area index for Application 315 is 0.6732787740019496.
+Application 315 has sent 626400 bytes.
+The deviation for Application 315 is 85533120.
+The max headroom for Application 315 is 127039680.
+The area index for Application 316 is 0.6732787740019496.
+Application 316 has sent 626400 bytes.
+The deviation for Application 316 is 85533120.
+The max headroom for Application 316 is 127039680.
+The area index for Application 317 is 0.67332781700917.
+Application 317 has sent 626400 bytes.
+The deviation for Application 317 is 85540320.
+The max headroom for Application 317 is 127041120.
+The area index for Application 318 is 0.6733921244134117.
+Application 318 has sent 626400 bytes.
+The deviation for Application 318 is 85547520.
+The max headroom for Application 318 is 127039680.
+The area index for Application 319 is 0.6733921244134117.
+Application 319 has sent 626400 bytes.
+The deviation for Application 319 is 85547520.
+The max headroom for Application 319 is 127039680.
+The area index for Application 320 is 0.6734374645779965.
+Application 320 has sent 626400 bytes.
+The deviation for Application 320 is 85553280.
+The max headroom for Application 320 is 127039680.
+The area index for Application 321 is 0.6734374645779965.
+Application 321 has sent 626400 bytes.
+The deviation for Application 321 is 85553280.
+The max headroom for Application 321 is 127039680.
+The area index for Application 322 is 0.6734487996191426.
+Application 322 has sent 626400 bytes.
+The deviation for Application 322 is 85554720.
+The max headroom for Application 322 is 127039680.
+The area index for Application 323 is 0.6739135363061368.
+Application 323 has sent 626400 bytes.
+The deviation for Application 323 is 85613760.
+The max headroom for Application 323 is 127039680.
+The area index for Application 324 is 0.6739588764707216.
+Application 324 has sent 626400 bytes.
+The deviation for Application 324 is 85619520.
+The max headroom for Application 324 is 127039680.
+The area index for Application 325 is 0.6740042166353064.
+Application 325 has sent 626400 bytes.
+The deviation for Application 325 is 85625280.
+The max headroom for Application 325 is 127039680.
+The area index for Application 326 is 0.6740042166353064.
+Application 326 has sent 626400 bytes.
+The deviation for Application 326 is 85625280.
+The max headroom for Application 326 is 127039680.
+The area index for Application 327 is 0.6740042166353064.
+Application 327 has sent 626400 bytes.
+The deviation for Application 327 is 85625280.
+The max headroom for Application 327 is 127039680.
+The area index for Application 328 is 0.6740042166353064.
+Application 328 has sent 626400 bytes.
+The deviation for Application 328 is 85625280.
+The max headroom for Application 328 is 127039680.
+The area index for Application 329 is 0.6740155516764526.
+Application 329 has sent 626400 bytes.
+The deviation for Application 329 is 85626720.
+The max headroom for Application 329 is 127039680.
+The area index for Application 330 is 0.6740941392481101.
+Application 330 has sent 626400 bytes.
+The deviation for Application 330 is 85645440.
+The max headroom for Application 330 is 127052640.
+The area index for Application 331 is 0.6740367180417044.
+Application 331 has sent 626400 bytes.
+The deviation for Application 331 is 85646880.
+The max headroom for Application 331 is 127065600.
+The area index for Application 332 is 0.6739679769742434.
+Application 332 has sent 626400 bytes.
+The deviation for Application 332 is 85646880.
+The max headroom for Application 332 is 127078560.
+The area index for Application 333 is 0.6739679769742434.
+Application 333 has sent 626400 bytes.
+The deviation for Application 333 is 85646880.
+The max headroom for Application 333 is 127078560.
+The area index for Application 334 is 0.6739679769742434.
+Application 334 has sent 626400 bytes.
+The deviation for Application 334 is 85646880.
+The max headroom for Application 334 is 127078560.
+The area index for Application 335 is 0.6739793085474056.
+Application 335 has sent 626400 bytes.
+The deviation for Application 335 is 85648320.
+The max headroom for Application 335 is 127078560.
+The area index for Application 336 is 0.6740133032668926.
+Application 336 has sent 626400 bytes.
+The deviation for Application 336 is 85652640.
+The max headroom for Application 336 is 127078560.
+The area index for Application 337 is 0.2991421999116137.
+Application 337 has sent 626400 bytes.
+The deviation for Application 337 is 38014560.
+The max headroom for Application 337 is 127078560.
+The area index for Application 338 is 0.6740133032668926.
+Application 338 has sent 626400 bytes.
+The deviation for Application 338 is 85652640.
+The max headroom for Application 338 is 127078560.
+The area index for Application 339 is 0.6740586295595418.
+Application 339 has sent 626400 bytes.
+The deviation for Application 339 is 85658400.
+The max headroom for Application 339 is 127078560.
+The area index for Application 340 is 0.6740812927058664.
+Application 340 has sent 626400 bytes.
+The deviation for Application 340 is 85661280.
+The max headroom for Application 340 is 127078560.
+The area index for Application 341 is 0.6740812927058664.
+Application 341 has sent 626400 bytes.
+The deviation for Application 341 is 85661280.
+The max headroom for Application 341 is 127078560.
+The area index for Application 342 is 0.6741416430594901.
+Application 342 has sent 626400 bytes.
+The deviation for Application 342 is 85669920.
+The max headroom for Application 342 is 127080000.
+The area index for Application 343 is 0.6741379505716779.
+Application 343 has sent 626400 bytes.
+The deviation for Application 343 is 85668480.
+The max headroom for Application 343 is 127078560.
+The area index for Application 344 is 0.6741719452911648.
+Application 344 has sent 626400 bytes.
+The deviation for Application 344 is 85672800.
+The max headroom for Application 344 is 127078560.
+The area index for Application 345 is 0.7303085587372095.
+Application 345 has sent 626400 bytes.
+The deviation for Application 345 is 92806560.
+The max headroom for Application 345 is 127078560.
+The area index for Application 346 is 0.7282915387143197.
+Application 346 has sent 626400 bytes.
+The deviation for Application 346 is 92550240.
+The max headroom for Application 346 is 127078560.
+The area index for Application 347 is 0.7281739288061088.
+Application 347 has sent 626400 bytes.
+The deviation for Application 347 is 92553120.
+The max headroom for Application 347 is 127103040.
+The area index for Application 348 is 0.7280996884735202.
+Application 348 has sent 626400 bytes.
+The deviation for Application 348 is 92553120.
+The max headroom for Application 348 is 127116000.
+The area index for Application 349 is 0.7281223449447749.
+Application 349 has sent 626400 bytes.
+The deviation for Application 349 is 92556000.
+The max headroom for Application 349 is 127116000.
+WAI is 0.2687780626199504.

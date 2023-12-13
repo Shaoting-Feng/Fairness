@@ -1246,6 +1246,8 @@ main (int argc, char *argv[])
   }
 
   NS_LOG_DEBUG("================== Tracing ==================");
+  leftleaf_devices.Get(465)->TraceConnectWithoutContext("PhyTxBegin", MakeCallback (&PhyTxEndCb));
+
   /*
   // Tracing PointToPointNetDevice
   router_devices.Get(0)->TraceConnectWithoutContext("PhyTxEnd", MakeCallback (&PhyTxEndCb));
