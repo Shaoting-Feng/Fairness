@@ -97,8 +97,11 @@ MySource::ChangeDataRate (uint32_t i)
   
   // added on 09.01 to handle the delay in changing data rate
   Simulator::Cancel (m_sendEvent);
-  ++m_packetsSent;
-  ScheduleTx ();
+
+  if (m_currentDataRate != DataRate("0bps")) {
+    ++m_packetsSent;
+    ScheduleTx ();
+  }
 }
 
 void

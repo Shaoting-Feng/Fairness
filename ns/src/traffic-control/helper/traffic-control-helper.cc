@@ -27,6 +27,8 @@
 #include "ns3/traffic-control-layer.h"
 #include "traffic-control-helper.h"
 
+#include <iostream>
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TrafficControlHelper");
@@ -220,11 +222,14 @@ TrafficControlHelper::Install (Ptr<NetDevice> d)
   for (auto i = m_queueDiscFactory.size (); i-- > 0; )
     {
       m_queueDiscs[i] = m_queueDiscFactory[i].CreateQueueDisc (m_queueDiscs);
+      // std::cout << i << std::endl;
     }
 
   // Set the root queue disc (if any has been created) on the device
   if (!m_queueDiscs.empty () && m_queueDiscs[0])
     {
+      // std::cout << m_queueDiscs[0] << std::endl;
+      // std::cout << d << std::endl;
       tc->SetRootQueueDiscOnDevice (d, m_queueDiscs[0]);
       container.Add (m_queueDiscs[0]);
     }
