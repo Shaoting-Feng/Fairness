@@ -1,9 +1,0 @@
-The area index for Application 0 is 0.13038342346904425.
-Application 0 has sent 12500640 bytes.
-The deviation for Application 0 is 5496222240.
-The max headroom for Application 0 is 42154302240.
-The area index for Application 1 is 0.16979003378870383.
-Application 1 has sent 12500640 bytes.
-The deviation for Application 1 is 7177102560.
-The max headroom for Application 1 is 42270458400.
-WAI is 0.15008672862887404.
