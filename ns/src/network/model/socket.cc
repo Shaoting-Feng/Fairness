@@ -27,6 +27,10 @@
 #include "socket-factory.h"
 #include <limits>
 
+// Custom checking called
+#include <iostream>
+// Custom checking finished
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("Socket");
@@ -195,6 +199,11 @@ Ptr<Packet>
 Socket::RecvFrom (Address &fromAddress)
 {
   NS_LOG_FUNCTION (this << &fromAddress);
+
+  // // Custom checking called
+  // std::cout << "socket.cc RecvFrom called" << std::endl;
+  // // Custom checking finished
+
   return RecvFrom (std::numeric_limits<uint32_t>::max (), 0, fromAddress);
 }
 

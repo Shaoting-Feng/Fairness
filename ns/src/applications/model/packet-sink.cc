@@ -35,6 +35,11 @@
 #include "ns3/ipv4-packet-info-tag.h"
 #include "ns3/ipv6-packet-info-tag.h"
 
+// Custom checking packet size
+# include <iostream>
+# include "ns3/my-source-id-tag.h"
+// Custom checking finished 
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("PacketSink");
@@ -194,8 +199,20 @@ void PacketSink::HandleRead (Ptr<Socket> socket)
   Ptr<Packet> packet;
   Address from;
   Address localAddress;
+
   while ((packet = socket->RecvFrom (from)))
     {
+      // // Custom checking packet size
+      // MySourceIDTag tag;
+      // if (packet->FindFirstMatchingByteTag(tag)) {
+      // }
+      // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+      // std::cout << "SourceIDTag: " << tag.Get() << ","; 
+      // std::cout << "size: ";
+      // std::cout << packet->GetSize()
+      //           << std::endl;
+      // // Custom checking finished
+
       if (packet->GetSize () == 0)
         { //EOF
           break;
