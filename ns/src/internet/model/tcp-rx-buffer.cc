@@ -22,6 +22,10 @@
 #include "ns3/log.h"
 #include "tcp-rx-buffer.h"
 
+// Custom checking packet size and buffer
+#include <iostream>
+// Custom checking finished
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TcpRxBuffer");
@@ -365,8 +369,17 @@ TcpRxBuffer::Extract (uint32_t maxSize)
 {
   NS_LOG_FUNCTION (this << maxSize);
 
+  // // Custom checking maxSize
+  // std::cout << "maxSize: " << maxSize << std::endl;
+  // // Custom checking finished
+
   uint32_t extractSize = std::min (maxSize, m_availBytes);
   NS_LOG_LOGIC ("Requested to extract " << extractSize << " bytes from TcpRxBuffer of size=" << m_size);
+
+  // Custom checking why bufsize
+  std::cout << "Requested to extract " << extractSize << " bytes from TcpRxBuffer of size=" << m_size << std::endl;
+  // Custom checking finished
+
   if (extractSize == 0) return nullptr;  // No contiguous block to return
   NS_ASSERT (m_data.size ()); // At least we have something to extract
   Ptr<Packet> outPkt = Create<Packet> (); // The packet that contains all the data to return
@@ -384,6 +397,11 @@ TcpRxBuffer::Extract (uint32_t maxSize)
           m_size -= pktSize;
           m_availBytes -= pktSize;
           extractSize -= pktSize;
+
+          // Custom checking why bufsize
+          std::cout << "Whole packet is extracted" << std::endl;
+          // Custom checking finished
+
         }
       else
         { // Partial is extracted and done
@@ -393,6 +411,11 @@ TcpRxBuffer::Extract (uint32_t maxSize)
           m_size -= extractSize;
           m_availBytes -= extractSize;
           extractSize = 0;
+
+          // // Custom checking why bufsize
+          // std::cout << "Partial is extracted and done" << std::endl;
+          // // Custom checking finished
+
         }
     }
   if (outPkt->GetSize () == 0)
@@ -402,6 +425,12 @@ TcpRxBuffer::Extract (uint32_t maxSize)
     }
   NS_LOG_LOGIC ("Extracted " << outPkt->GetSize ( ) << " bytes, bufsize=" << m_size
                              << ", num pkts in buffer=" << m_data.size ());
+
+  // Custom checking packet size and buffer
+  std::cout << "Extracted " << outPkt->GetSize ( ) << " bytes, bufsize=" << m_size
+                            << ", num pkts in buffer=" << m_data.size () << std::endl;
+  // Custom checking finished
+
   return outPkt;
 }
 

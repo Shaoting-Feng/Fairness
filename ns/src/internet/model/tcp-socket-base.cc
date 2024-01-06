@@ -63,6 +63,11 @@
 #include <math.h>
 #include <algorithm>
 
+// Custom checking packet size
+# include <iostream>
+# include "ns3/my-source-id-tag.h"
+// Custom checking finished 
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TcpSocketBase");
@@ -878,6 +883,19 @@ TcpSocketBase::Recv (uint32_t maxSize, uint32_t flags)
       return Create<Packet> (); // Send EOF on connection close
     }
   Ptr<Packet> outPacket = m_tcb->m_rxBuffer->Extract (maxSize);
+
+  // ByteTagIterator bug
+  // // Custom checking packet size
+  // MySourceIDTag tag;
+  // if (outPacket->FindFirstMatchingByteTag(tag)) {
+  // }
+  // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+  // std::cout << "SourceIDTag: " << tag.Get() << ","; 
+  // std::cout << "size: ";
+  // std::cout << outPacket->GetSize()
+  //           << std::endl;
+  // // Custom checking finished
+
   return outPacket;
 }
 
@@ -886,6 +904,11 @@ Ptr<Packet>
 TcpSocketBase::RecvFrom (uint32_t maxSize, uint32_t flags, Address &fromAddress)
 {
   NS_LOG_FUNCTION (this << maxSize << flags);
+
+  // // Custom checking called
+  // std::cout << "tcp-socket-base.cc RecvFrom called" << std::endl;
+  // // Custom checking finished
+
   Ptr<Packet> packet = Recv (maxSize, flags);
   // Null packet means no data to read, and an empty packet indicates EOF
   if (packet != nullptr && packet->GetSize () != 0)
@@ -902,7 +925,19 @@ TcpSocketBase::RecvFrom (uint32_t maxSize, uint32_t flags, Address &fromAddress)
         {
           fromAddress = InetSocketAddress (Ipv4Address::GetZero (), 0);
         }
+
+      // // Custom checking packet size
+      // MySourceIDTag tag;
+      // if (packet->FindFirstMatchingByteTag(tag)) {
+      // }
+      // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+      // std::cout << "SourceIDTag: " << tag.Get() << ","; 
+      // std::cout << "size: ";
+      // std::cout << packet->GetSize()
+      //           << std::endl;
+      // // Custom checking finished
     }
+
   return packet;
 }
 
