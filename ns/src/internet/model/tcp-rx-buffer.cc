@@ -376,9 +376,9 @@ TcpRxBuffer::Extract (uint32_t maxSize)
   uint32_t extractSize = std::min (maxSize, m_availBytes);
   NS_LOG_LOGIC ("Requested to extract " << extractSize << " bytes from TcpRxBuffer of size=" << m_size);
 
-  // Custom checking why bufsize
-  std::cout << "Requested to extract " << extractSize << " bytes from TcpRxBuffer of size=" << m_size << std::endl;
-  // Custom checking finished
+  // // Custom checking why bufsize
+  // std::cout << "Requested to extract " << extractSize << " bytes from TcpRxBuffer of size=" << m_size << std::endl;
+  // // Custom checking finished
 
   if (extractSize == 0) return nullptr;  // No contiguous block to return
   NS_ASSERT (m_data.size ()); // At least we have something to extract
@@ -398,9 +398,9 @@ TcpRxBuffer::Extract (uint32_t maxSize)
           m_availBytes -= pktSize;
           extractSize -= pktSize;
 
-          // Custom checking why bufsize
-          std::cout << "Whole packet is extracted" << std::endl;
-          // Custom checking finished
+          // // Custom checking why bufsize
+          // std::cout << "Whole packet is extracted" << std::endl;
+          // // Custom checking finished
 
         }
       else
@@ -426,10 +426,10 @@ TcpRxBuffer::Extract (uint32_t maxSize)
   NS_LOG_LOGIC ("Extracted " << outPkt->GetSize ( ) << " bytes, bufsize=" << m_size
                              << ", num pkts in buffer=" << m_data.size ());
 
-  // Custom checking packet size and buffer
-  std::cout << "Extracted " << outPkt->GetSize ( ) << " bytes, bufsize=" << m_size
-                            << ", num pkts in buffer=" << m_data.size () << std::endl;
-  // Custom checking finished
+  // // Custom checking packet size and buffer
+  // std::cout << "Extracted " << outPkt->GetSize ( ) << " bytes, bufsize=" << m_size
+  //                           << ", num pkts in buffer=" << m_data.size () << std::endl;
+  // // Custom checking finished
 
   return outPkt;
 }
