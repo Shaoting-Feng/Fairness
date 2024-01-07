@@ -131,7 +131,7 @@ void PacketSink::StartApplication ()    // Called at time specified by Start
 {
   NS_LOG_FUNCTION (this);
   // Create the socket if not already
-  if (!m_socket)
+  if (!m_socket) // 这里一定会发生
     {
       m_socket = Socket::CreateSocket (GetNode (), m_tid);
       if (m_socket->Bind (m_local) == -1)
@@ -153,6 +153,10 @@ void PacketSink::StartApplication ()    // Called at time specified by Start
               NS_FATAL_ERROR ("Error: joining multicast on a non-UDP socket");
             }
         }
+
+      // // Custom checking if (!m_socket)
+      // std::cout << "if (!m_socket) HAPPENED" << std::endl;
+      // // Custom chekcing finished
     }
 
   if (InetSocketAddress::IsMatchingType (m_local))
@@ -167,6 +171,11 @@ void PacketSink::StartApplication ()    // Called at time specified by Start
     {
       m_localPort = 0;
     }
+
+  // // Custom checking when HandleRead is set
+  // std::cout << "StartApplication sets HandleRead as Callback" << std::endl;
+  // // Custom chekcing finished
+
   m_socket->SetRecvCallback (MakeCallback (&PacketSink::HandleRead, this));
   m_socket->SetRecvPktInfo (true);
   m_socket->SetAcceptCallback (
@@ -318,6 +327,11 @@ void PacketSink::HandlePeerError (Ptr<Socket> socket)
 void PacketSink::HandleAccept (Ptr<Socket> s, const Address& from)
 {
   NS_LOG_FUNCTION (this << s << from);
+
+  // // Custom checking when HandleRead is set
+  // std::cout << "HandleAccept sets HandleRead as Callback" << std::endl;
+  // // Custom chekcing finished
+
   s->SetRecvCallback (MakeCallback (&PacketSink::HandleRead, this));
   m_socketList.push_back (s);
 }
