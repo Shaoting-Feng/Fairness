@@ -1,0 +1,1475 @@
+Waf: Entering directory `/users/leoyu/Fairness/ns/build/optimized'
+[1261/2884] Compiling src/internet/model/tcp-socket-base.cc
+[2609/2884] Linking build/optimized/lib/libns3.35-internet-optimized.so
+[2610/2884] Linking build/optimized/lib/libns3.35-applications-optimized.so
+[2611/2884] Linking build/optimized/lib/libns3.35-point-to-point-layout-optimized.so
+[2612/2884] Linking build/optimized/lib/libns3.35-internet-apps-optimized.so
+[2613/2884] Linking build/optimized/lib/libns3.35-wave-optimized.so
+[2614/2884] Linking build/optimized/lib/libns3.35-wimax-optimized.so
+[2615/2884] Linking build/optimized/lib/libns3.35-flow-monitor-optimized.so
+[2616/2884] Linking build/optimized/lib/libns3.35-olsr-optimized.so
+[2617/2884] Linking build/optimized/lib/libns3.35-sixlowpan-optimized.so
+[2618/2884] Linking build/optimized/lib/libns3.35-dsr-optimized.so
+[2619/2884] Linking build/optimized/lib/libns3.35-mesh-optimized.so
+[2620/2884] Linking build/optimized/lib/libns3.35-csma-layout-optimized.so
+[2621/2884] Linking build/optimized/lib/libns3.35-nix-vector-routing-optimized.so
+[2622/2884] Linking build/optimized/lib/libns3.35-aodv-optimized.so
+[2623/2884] Linking build/optimized/lib/libns3.35-dsdv-optimized.so
+[2624/2884] Linking build/optimized/lib/libns3.35-tap-bridge-optimized.so
+[2625/2884] Linking build/optimized/lib/libns3.35-internet-test-optimized.so
+[2626/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-raw-example-optimized
+[2627/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-ipv4-example-optimized
+[2628/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-ipv6-example-optimized
+[2629/2884] Linking build/optimized/examples/stats/ns3.35-wifi-example-sim-optimized
+[2630/2884] Linking build/optimized/examples/socket/ns3.35-socket-bound-static-routing-optimized
+[2631/2884] Linking build/optimized/examples/socket/ns3.35-socket-options-ipv4-optimized
+[2632/2884] Linking build/optimized/examples/socket/ns3.35-socket-options-ipv6-optimized
+[2633/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-clear-channel-cmu-optimized
+[2634/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-simple-adhoc-optimized
+[2635/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-simple-infra-optimized
+[2636/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-simple-interference-optimized
+[2637/2884] Linking build/optimized/examples/ipv6/ns3.35-test-ipv6-optimized
+[2638/2884] Linking build/optimized/examples/energy/ns3.35-energy-model-example-optimized
+[2639/2884] Linking build/optimized/examples/energy/ns3.35-energy-model-with-harvesting-example-optimized
+[2640/2884] Linking build/optimized/lib/libns3.35-internet-apps-test-optimized.so
+[2641/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-dummy-network-optimized
+[2642/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-realtime-dummy-network-optimized
+[2643/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-emu-ping-optimized
+[2644/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-tap-ping-optimized
+[2645/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-tap-ping6-optimized
+[2646/2884] Linking build/optimized/examples/ipv6/ns3.35-icmpv6-redirect-optimized
+[2647/2884] Linking build/optimized/examples/ipv6/ns3.35-ping6-optimized
+[2648/2884] Linking build/optimized/examples/ipv6/ns3.35-radvd-optimized
+[2649/2884] Linking build/optimized/examples/ipv6/ns3.35-radvd-two-prefix-optimized
+[2650/2884] Linking build/optimized/examples/ipv6/ns3.35-fragmentation-ipv6-optimized
+[2651/2884] Linking build/optimized/examples/ipv6/ns3.35-fragmentation-ipv6-two-MTU-optimized
+[2652/2884] Linking build/optimized/examples/ipv6/ns3.35-loose-routing-ipv6-optimized
+[2653/2884] Linking build/optimized/examples/routing/ns3.35-simple-routing-ping6-optimized
+[2654/2884] Linking build/optimized/examples/routing/ns3.35-ripng-simple-network-optimized
+[2655/2884] Linking build/optimized/examples/routing/ns3.35-rip-simple-network-optimized
+[2656/2884] Linking build/optimized/lib/libns3.35-aodv-test-optimized.so
+[2657/2884] Linking build/optimized/src/aodv/examples/ns3.35-aodv-optimized
+[2658/2884] Linking build/optimized/src/internet-apps/examples/ns3.35-traceroute-example-optimized
+[2659/2884] Linking build/optimized/lib/libns3.35-nix-vector-routing-test-optimized.so
+[2660/2884] Linking build/optimized/src/tap-bridge/examples/ns3.35-tap-csma-optimized
+[2661/2884] Linking build/optimized/src/tap-bridge/examples/ns3.35-tap-csma-virtual-machine-optimized
+[2662/2884] Linking build/optimized/src/tap-bridge/examples/ns3.35-tap-wifi-virtual-machine-optimized
+[2663/2884] Linking build/optimized/lib/libns3.35-dsdv-test-optimized.so
+[2664/2884] Linking build/optimized/lib/libns3.35-sixlowpan-test-optimized.so
+[2665/2884] Linking build/optimized/src/sixlowpan/examples/ns3.35-example-sixlowpan-optimized
+[2666/2884] Linking build/optimized/src/sixlowpan/examples/ns3.35-example-ping-lr-wpan-optimized
+[2667/2884] Linking build/optimized/src/sixlowpan/examples/ns3.35-example-ping-lr-wpan-beacon-optimized
+[2668/2884] Linking build/optimized/src/sixlowpan/examples/ns3.35-example-ping-lr-wpan-mesh-under-optimized
+[2669/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-6lowpan-example-optimized
+[2670/2884] Linking build/optimized/examples/ipv6/ns3.35-wsn-ping6-optimized
+[2671/2884] Linking build/optimized/lib/libns3.35-flow-monitor-test-optimized.so
+[2672/2884] Linking build/optimized/src/core/examples/ns3.35-empirical-random-variable-example-optimized
+[2673/2884] Linking build/optimized/lib/libns3.35-olsr-test-optimized.so
+[2674/2884] Linking build/optimized/src/olsr/examples/ns3.35-olsr-hna-optimized
+[2675/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-simple-adhoc-grid-optimized
+[2676/2884] Linking build/optimized/lib/libns3.35-lte-optimized.so
+[2677/2884] Linking build/optimized/lib/libns3.35-applications-test-optimized.so
+[2678/2884] Linking build/optimized/src/applications/examples/ns3.35-three-gpp-http-example-optimized
+[2679/2884] Linking build/optimized/src/bridge/examples/ns3.35-csma-bridge-optimized
+[2680/2884] Linking build/optimized/src/bridge/examples/ns3.35-csma-bridge-one-hop-optimized
+[2681/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-one-subnet-optimized
+[2682/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-broadcast-optimized
+[2683/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-packet-socket-optimized
+[2684/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-multicast-optimized
+[2685/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-raw-ip-socket-optimized
+[2686/2884] Linking build/optimized/src/csma/examples/ns3.35-csma-ping-optimized
+[2687/2884] Linking build/optimized/src/csma-layout/examples/ns3.35-csma-star-optimized
+[2688/2884] Linking build/optimized/src/dsdv/examples/ns3.35-dsdv-manet-optimized
+[2689/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd2fd-onoff-optimized
+[2690/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-realtime-fd2fd-onoff-optimized
+[2691/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-emu-onoff-optimized
+[2692/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-emu-tc-optimized
+[2693/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-emu-send-optimized
+[2694/2884] Linking build/optimized/src/fd-net-device/examples/ns3.35-fd-emu-udp-echo-optimized
+[2695/2884] Linking build/optimized/src/internet/examples/ns3.35-main-simple-optimized
+[2696/2884] Linking build/optimized/src/internet-apps/examples/ns3.35-dhcp-example-optimized
+[2697/2884] Linking build/optimized/src/nix-vector-routing/examples/ns3.35-nix-simple-optimized
+[2698/2884] Linking build/optimized/src/nix-vector-routing/examples/ns3.35-nms-p2p-nix-optimized
+[2699/2884] Linking build/optimized/src/nix-vector-routing/examples/ns3.35-nix-simple-multi-address-optimized
+[2700/2884] Linking build/optimized/src/nix-vector-routing/examples/ns3.35-nix-double-wifi-optimized
+[2701/2884] Linking build/optimized/src/olsr/examples/ns3.35-simple-point-to-point-olsr-optimized
+[2702/2884] Linking build/optimized/src/spectrum/examples/ns3.35-adhoc-aloha-ideal-phy-optimized
+[2703/2884] Linking build/optimized/src/spectrum/examples/ns3.35-adhoc-aloha-ideal-phy-matrix-propagation-loss-model-optimized
+[2704/2884] Linking build/optimized/lib/libns3.35-wave-test-optimized.so
+[2705/2884] Linking build/optimized/src/spectrum/examples/ns3.35-adhoc-aloha-ideal-phy-with-microwave-oven-optimized
+[2706/2884] Linking build/optimized/lib/libns3.35-dsr-test-optimized.so
+[2707/2884] Linking build/optimized/src/dsr/examples/ns3.35-dsr-optimized
+[2708/2884] Linking build/optimized/src/tap-bridge/examples/ns3.35-tap-wifi-dumbbell-optimized
+[2709/2884] Linking build/optimized/src/topology-read/examples/ns3.35-topology-example-sim-optimized
+[2710/2884] Linking build/optimized/lib/libns3.35-mesh-test-optimized.so
+[2711/2884] Linking build/optimized/src/mesh/examples/ns3.35-mesh-optimized
+[2712/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-red-tests-optimized
+[2713/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-red-vs-ared-optimized
+[2714/2884] Linking build/optimized/lib/libns3.35-wimax-test-optimized.so
+[2715/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-adaptive-red-tests-optimized
+[2716/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-pfifo-vs-red-optimized
+[2717/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-codel-vs-pfifo-basic-test-optimized
+[2718/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-codel-vs-pfifo-asymmetric-optimized
+[2719/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-pie-example-optimized
+[2720/2884] Linking build/optimized/src/traffic-control/examples/ns3.35-fqcodel-l4s-example-optimized
+[2721/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-cw-example-optimized
+[2722/2884] Linking build/optimized/src/uan/examples/ns3.35-uan-rc-example-optimized
+[2723/2884] Linking build/optimized/src/virtual-net-device/examples/ns3.35-virtual-net-device-optimized
+[2724/2884] Linking build/optimized/src/wave/examples/ns3.35-wave-simple-80211p-optimized
+[2725/2884] Linking build/optimized/src/wave/examples/ns3.35-wave-simple-device-optimized
+[2726/2884] Linking build/optimized/src/wave/examples/ns3.35-vanet-routing-compare-optimized
+[2727/2884] Linking build/optimized/src/wifi/examples/ns3.35-wifi-bianchi-optimized
+[2728/2884] Linking build/optimized/src/wimax/examples/ns3.35-wimax-ipv4-optimized
+[2729/2884] Linking build/optimized/src/wimax/examples/ns3.35-wimax-multicast-optimized
+[2730/2884] Linking build/optimized/src/wimax/examples/ns3.35-wimax-simple-optimized
+[2731/2884] Linking build/optimized/examples/udp-client-server/ns3.35-udp-client-server-optimized
+[2732/2884] Linking build/optimized/examples/udp-client-server/ns3.35-udp-trace-client-server-optimized
+[2733/2884] Linking build/optimized/examples/tutorial/ns3.35-first-optimized
+[2734/2884] Linking build/optimized/examples/tutorial/ns3.35-second-optimized
+[2735/2884] Linking build/optimized/examples/tutorial/ns3.35-third-optimized
+[2736/2884] Linking build/optimized/examples/tutorial/ns3.35-fifth-optimized
+[2737/2884] Linking build/optimized/examples/tutorial/ns3.35-sixth-optimized
+[2738/2884] Linking build/optimized/examples/tutorial/ns3.35-seventh-optimized
+[2739/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-large-transfer-optimized
+[2740/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-nsc-lfn-optimized
+[2741/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-nsc-zoo-optimized
+[2742/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-star-server-optimized
+[2743/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-bulk-send-optimized
+[2744/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-pcap-nanosec-example-optimized
+[2745/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-nsc-comparison-optimized
+[2746/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-variants-comparison-optimized
+[2747/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-pacing-optimized
+[2748/2884] Linking build/optimized/examples/tcp/ns3.35-dctcp-example-optimized
+[2749/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-linux-reno-optimized
+[2750/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-validation-optimized
+[2751/2884] Linking build/optimized/examples/tcp/ns3.35-tcp-bbr-example-optimized
+[2752/2884] Linking build/optimized/examples/socket/ns3.35-socket-bound-tcp-static-routing-optimized
+[2753/2884] Linking build/optimized/examples/traffic-control/ns3.35-traffic-control-optimized
+[2754/2884] Linking build/optimized/examples/traffic-control/ns3.35-queue-discs-benchmark-optimized
+[2755/2884] Linking build/optimized/examples/traffic-control/ns3.35-red-vs-fengadaptive-optimized
+[2756/2884] Linking build/optimized/examples/traffic-control/ns3.35-red-vs-nlred-optimized
+[2757/2884] Linking build/optimized/examples/traffic-control/ns3.35-tbf-example-optimized
+[2758/2884] Linking build/optimized/examples/traffic-control/ns3.35-cobalt-vs-codel-optimized
+[2759/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-adhoc-optimized
+[2760/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-ap-optimized
+[2761/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-wired-bridging-optimized
+[2762/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-multirate-optimized
+[2763/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-blockack-optimized
+[2764/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-hidden-terminal-optimized
+[2765/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-ht-network-optimized
+[2766/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-vht-network-optimized
+[2767/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-timing-attributes-optimized
+[2768/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-sleep-optimized
+[2769/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-power-adaptation-distance-optimized
+[2770/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-power-adaptation-interference-optimized
+[2771/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-rate-adaptation-distance-optimized
+[2772/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-aggregation-optimized
+[2773/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-txop-aggregation-optimized
+[2774/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-simple-ht-hidden-stations-optimized
+[2775/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-80211n-mimo-optimized
+[2776/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-mixed-network-optimized
+[2777/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-tcp-optimized
+[2778/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-80211e-txop-optimized
+[2779/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-spectrum-per-example-optimized
+[2780/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-spectrum-per-interference-optimized
+[2781/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-spectrum-saturation-example-optimized
+[2782/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-he-network-optimized
+[2783/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-multi-tos-optimized
+[2784/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-backward-compatibility-optimized
+[2785/2884] Linking build/optimized/examples/wireless/ns3.35-wifi-spatial-reuse-optimized
+[2786/2884] Linking build/optimized/examples/realtime/ns3.35-realtime-udp-echo-optimized
+[2787/2884] Linking build/optimized/examples/udp/ns3.35-udp-echo-optimized
+[2788/2884] Linking build/optimized/examples/error-model/ns3.35-simple-error-model-optimized
+[2789/2884] Linking build/optimized/examples/routing/ns3.35-dynamic-global-routing-optimized
+[2790/2884] Linking build/optimized/examples/routing/ns3.35-static-routing-slash32-optimized
+[2791/2884] Linking build/optimized/examples/routing/ns3.35-global-routing-slash32-optimized
+[2792/2884] Linking build/optimized/examples/routing/ns3.35-global-injection-slash32-optimized
+[2793/2884] Linking build/optimized/examples/routing/ns3.35-simple-global-routing-optimized
+[2794/2884] Linking build/optimized/examples/routing/ns3.35-simple-alternate-routing-optimized
+[2795/2884] Linking build/optimized/examples/routing/ns3.35-mixed-global-routing-optimized
+[2796/2884] Linking build/optimized/examples/routing/ns3.35-manet-routing-compare-optimized
+[2797/2884] Linking build/optimized/examples/routing/ns3.35-global-routing-multi-switch-plus-router-optimized
+[2798/2884] Linking build/optimized/examples/routing/ns3.35-simple-multicast-flooding-optimized
+[2799/2884] Linking build/optimized/examples/naming/ns3.35-object-names-optimized
+[2800/2884] Linking build/optimized/lib/libns3.35-netanim-optimized.so
+[2801/2884] Linking build/optimized/lib/libns3.35-test-optimized.so
+[2802/2884] Linking build/optimized/lib/libns3.35-lte-test-optimized.so
+[2803/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-cqi-threshold-optimized
+[2804/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-dual-stripe-optimized
+[2805/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-fading-optimized
+[2806/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-intercell-interference-optimized
+[2807/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-ipv6-addr-conf-optimized
+[2808/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-ipv6-ue-rh-optimized
+[2809/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-ipv6-ue-ue-optimized
+[2810/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-pathloss-traces-optimized
+[2811/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-profiling-optimized
+[2812/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-rem-optimized
+[2813/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-rem-sector-antenna-optimized
+[2814/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-rlc-traces-optimized
+[2815/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-simple-optimized
+[2816/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-simple-epc-optimized
+[2817/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-simple-epc-backhaul-optimized
+[2818/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-deactivate-bearer-optimized
+[2819/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-x2-handover-optimized
+[2820/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-x2-handover-measures-optimized
+[2821/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-frequency-reuse-optimized
+[2822/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-distributed-ffr-optimized
+[2823/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-uplink-power-control-optimized
+[2824/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-radio-link-failure-optimized
+[2825/2884] Linking build/optimized/src/lte/examples/ns3.35-lena-simple-epc-emu-optimized
+[2826/2884] Linking build/optimized/src/spectrum/examples/ns3.35-three-gpp-channel-example-optimized
+[2827/2884] Linking build/optimized/lib/libns3.35-test-test-optimized.so
+[2828/2884] Linking build/optimized/lib/libns3.35-netanim-test-optimized.so
+[2829/2884] Linking build/optimized/src/netanim/examples/ns3.35-dumbbell-animation-optimized
+[2830/2884] Linking build/optimized/src/netanim/examples/ns3.35-grid-animation-optimized
+[2831/2884] Linking build/optimized/src/netanim/examples/ns3.35-star-animation-optimized
+[2832/2884] Linking build/optimized/src/netanim/examples/ns3.35-wireless-animation-optimized
+[2833/2884] Linking build/optimized/src/netanim/examples/ns3.35-uan-animation-optimized
+[2834/2884] Linking build/optimized/src/netanim/examples/ns3.35-colors-link-description-optimized
+[2835/2884] Linking build/optimized/src/netanim/examples/ns3.35-resources-counters-optimized
+[2836/2884] Linking build/optimized/examples/tcp/ns3.35-star-optimized
+[2837/2884] Linking build/optimized/examples/matrix-topology/ns3.35-matrix-topology-optimized
+[2838/2884] Linking build/optimized/examples/wireless/ns3.35-mixed-wired-wireless-optimized
+[2839/2884] Linking build/optimized/scratch/subdir/subdir
+[2840/2884] Linking build/optimized/scratch/scratch-simulator
+[2841/2884] Linking build/optimized/cebinae/dcn2
+[2842/2884] Linking build/optimized/cebinae/dcn1
+[2843/2884] Linking build/optimized/cebinae/dumbbell_long/dumbbell_long
+[2844/2884] Linking build/optimized/utils/ns3.35-print-introspected-doxygen-optimized
+[2845/2884] Linking build/optimized/utils/ns3.35-test-runner-optimized
+Waf: Leaving directory `/users/leoyu/Fairness/ns/build/optimized'
+Build commands will be stored in build/optimized/compile_commands.json
+'build' finished successfully (29.730s)
+tmp_index/dcn1/fifo/
+[PID:209802] Progress: 1.0[s]
+[1133] expectedSeq: 1, NextRxSequence: 1447
+[1145] expectedSeq: 1447, NextRxSequence: 2893
+[1158] expectedSeq: 2893, NextRxSequence: 4339
+[1171] expectedSeq: 4339, NextRxSequence: 5785
+[1196] expectedSeq: 5785, NextRxSequence: 7231
+[1209] expectedSeq: 1, NextRxSequence: 1447
+[1209] expectedSeq: 7231, NextRxSequence: 8677
+[1221] expectedSeq: 1, NextRxSequence: 1447
+[1221] expectedSeq: 1447, NextRxSequence: 2893
+[1234] expectedSeq: 2893, NextRxSequence: 4339
+[1246] expectedSeq: 1447, NextRxSequence: 2893
+[1247] expectedSeq: 4339, NextRxSequence: 5785
+[1259] expectedSeq: 2893, NextRxSequence: 4339
+[1278] expectedSeq: 8677, NextRxSequence: 10123
+[1283] expectedSeq: 5785, NextRxSequence: 7231
+[1296] expectedSeq: 7231, NextRxSequence: 8677
+[1315] expectedSeq: 10123, NextRxSequence: 11569
+[1328] expectedSeq: 11569, NextRxSequence: 13015
+[1409] expectedSeq: 4339, NextRxSequence: 5785
+[1414] expectedSeq: 13015, NextRxSequence: 14461
+[1422] expectedSeq: 5785, NextRxSequence: 7231
+[1435] expectedSeq: 7231, NextRxSequence: 8677
+[1470] expectedSeq: 8677, NextRxSequence: 10123
+[1483] expectedSeq: 1, NextRxSequence: 1447
+[1486] expectedSeq: 14461, NextRxSequence: 15907
+[1495] expectedSeq: 10123, NextRxSequence: 11569
+[1498] expectedSeq: 8677, NextRxSequence: 10123
+[1511] expectedSeq: 10123, NextRxSequence: 11569
+[1524] expectedSeq: 11569, NextRxSequence: 13015
+[1537] expectedSeq: 13015, NextRxSequence: 14461
+[1548] expectedSeq: 15907, NextRxSequence: 17353
+[1561] expectedSeq: 17353, NextRxSequence: 18799
+[1574] expectedSeq: 18799, NextRxSequence: 20245
+[1587] expectedSeq: 20245, NextRxSequence: 21691
+[1595] expectedSeq: 11569, NextRxSequence: 13015
+[1600] expectedSeq: 21691, NextRxSequence: 23137
+[1613] expectedSeq: 23137, NextRxSequence: 24583
+[1620] expectedSeq: 13015, NextRxSequence: 14461
+[1625] expectedSeq: 24583, NextRxSequence: 26029
+[1632] expectedSeq: 1447, NextRxSequence: 2893
+[1648] expectedSeq: 26029, NextRxSequence: 27475
+[1649] expectedSeq: 2893, NextRxSequence: 4339
+[1788] expectedSeq: 4339, NextRxSequence: 5785
+[1800] expectedSeq: 5785, NextRxSequence: 7231
+[1825] expectedSeq: 27475, NextRxSequence: 28921
+[1838] expectedSeq: 28921, NextRxSequence: 30367
+[1851] expectedSeq: 30367, NextRxSequence: 31813
+[1888] expectedSeq: 7231, NextRxSequence: 8677
+[1890] expectedSeq: 31813, NextRxSequence: 33259
+[1901] expectedSeq: 8677, NextRxSequence: 10123
+[1905] expectedSeq: 33259, NextRxSequence: 34705
+[1916] expectedSeq: 10123, NextRxSequence: 11569
+[PID:209802] Progress: 2.0[s]
+[2007] expectedSeq: 14461, NextRxSequence: 15907
+[2020] expectedSeq: 15907, NextRxSequence: 17353
+[2027] expectedSeq: 11569, NextRxSequence: 13015
+[2044] expectedSeq: 17353, NextRxSequence: 18799
+[2054] expectedSeq: 14461, NextRxSequence: 15907
+[2057] expectedSeq: 18799, NextRxSequence: 20245
+[2065] expectedSeq: 13015, NextRxSequence: 14461
+[2066] expectedSeq: 15907, NextRxSequence: 17353
+[2104] expectedSeq: 17353, NextRxSequence: 18799
+[2117] expectedSeq: 18799, NextRxSequence: 20245
+[2121] expectedSeq: 20245, NextRxSequence: 21691
+[2134] expectedSeq: 21691, NextRxSequence: 23137
+[2148] expectedSeq: 23137, NextRxSequence: 24583
+[2155] expectedSeq: 20245, NextRxSequence: 21691
+[2168] expectedSeq: 21691, NextRxSequence: 23137
+[2182] expectedSeq: 23137, NextRxSequence: 24583
+[2184] expectedSeq: 24583, NextRxSequence: 26029
+[2194] expectedSeq: 24583, NextRxSequence: 26029
+[2196] expectedSeq: 34705, NextRxSequence: 36151
+[2207] expectedSeq: 26029, NextRxSequence: 27475
+[2209] expectedSeq: 26029, NextRxSequence: 27475
+[2221] expectedSeq: 27475, NextRxSequence: 28921
+[2221] expectedSeq: 36151, NextRxSequence: 37597
+[2234] expectedSeq: 28921, NextRxSequence: 30367
+[2234] expectedSeq: 37597, NextRxSequence: 39043
+[2249] expectedSeq: 39043, NextRxSequence: 40489
+[2262] expectedSeq: 27475, NextRxSequence: 28921
+[2274] expectedSeq: 28921, NextRxSequence: 30367
+[2287] expectedSeq: 30367, NextRxSequence: 31813
+[2300] expectedSeq: 31813, NextRxSequence: 33259
+[2313] expectedSeq: 33259, NextRxSequence: 34705
+[2326] expectedSeq: 34705, NextRxSequence: 36151
+[2338] expectedSeq: 36151, NextRxSequence: 37597
+[2351] expectedSeq: 37597, NextRxSequence: 39043
+[2365] expectedSeq: 39043, NextRxSequence: 40489
+[2378] expectedSeq: 40489, NextRxSequence: 41935
+[2391] expectedSeq: 41935, NextRxSequence: 43381
+[2400] expectedSeq: 30367, NextRxSequence: 31813
+[2413] expectedSeq: 40489, NextRxSequence: 41935
+[2426] expectedSeq: 41935, NextRxSequence: 43381
+[2437] expectedSeq: 31813, NextRxSequence: 33259
+[2450] expectedSeq: 33259, NextRxSequence: 34705
+[2461] expectedSeq: 14461, NextRxSequence: 15907
+[2464] expectedSeq: 34705, NextRxSequence: 36151
+[2474] expectedSeq: 15907, NextRxSequence: 17353
+[2478] expectedSeq: 43381, NextRxSequence: 44827
+[2490] expectedSeq: 44827, NextRxSequence: 46273
+[2548] expectedSeq: 36151, NextRxSequence: 37597
+[2576] expectedSeq: 17353, NextRxSequence: 18799
+[2589] expectedSeq: 18799, NextRxSequence: 20245
+[2600] expectedSeq: 37597, NextRxSequence: 39043
+[2610] expectedSeq: 46273, NextRxSequence: 47719
+[2613] expectedSeq: 39043, NextRxSequence: 40489
+[2623] expectedSeq: 47719, NextRxSequence: 49165
+[2626] expectedSeq: 40489, NextRxSequence: 41935
+[2636] expectedSeq: 49165, NextRxSequence: 50611
+[2649] expectedSeq: 41935, NextRxSequence: 43381
+[2680] expectedSeq: 20245, NextRxSequence: 21691
+[2693] expectedSeq: 21691, NextRxSequence: 23137
+[2733] expectedSeq: 50611, NextRxSequence: 52057
+[2746] expectedSeq: 52057, NextRxSequence: 53503
+[2759] expectedSeq: 53503, NextRxSequence: 54949
+[2772] expectedSeq: 54949, NextRxSequence: 56395
+[2775] expectedSeq: 23137, NextRxSequence: 24583
+[2785] expectedSeq: 56395, NextRxSequence: 57841
+[2789] expectedSeq: 24583, NextRxSequence: 26029
+[2797] expectedSeq: 57841, NextRxSequence: 59287
+[2802] expectedSeq: 26029, NextRxSequence: 27475
+[2810] expectedSeq: 59287, NextRxSequence: 60733
+[2815] expectedSeq: 27475, NextRxSequence: 28921
+[2828] expectedSeq: 28921, NextRxSequence: 30367
+[2841] expectedSeq: 30367, NextRxSequence: 31813
+[2854] expectedSeq: 31813, NextRxSequence: 33259
+[2888] expectedSeq: 33259, NextRxSequence: 34705
+[2900] expectedSeq: 34705, NextRxSequence: 36151
+[2917] expectedSeq: 60733, NextRxSequence: 62179
+[2930] expectedSeq: 62179, NextRxSequence: 63625
+[2943] expectedSeq: 63625, NextRxSequence: 65071
+[2949] expectedSeq: 36151, NextRxSequence: 37597
+[2956] expectedSeq: 65071, NextRxSequence: 66517
+[2969] expectedSeq: 66517, NextRxSequence: 67963
+[2976] expectedSeq: 37597, NextRxSequence: 39043
+[2982] expectedSeq: 67963, NextRxSequence: 69409
+[2995] expectedSeq: 69409, NextRxSequence: 70855
+[PID:209802] Progress: 3.0[s]
+[3066] expectedSeq: 70855, NextRxSequence: 72301
+[3080] expectedSeq: 72301, NextRxSequence: 73747
+[3143] expectedSeq: 73747, NextRxSequence: 75193
+[3155] expectedSeq: 75193, NextRxSequence: 76639
+[3223] expectedSeq: 43381, NextRxSequence: 44827
+[3228] expectedSeq: 43381, NextRxSequence: 44827
+[3236] expectedSeq: 44827, NextRxSequence: 46273
+[3241] expectedSeq: 44827, NextRxSequence: 46273
+[3254] expectedSeq: 46273, NextRxSequence: 47719
+[3267] expectedSeq: 47719, NextRxSequence: 49165
+[3280] expectedSeq: 49165, NextRxSequence: 50611
+[3293] expectedSeq: 50611, NextRxSequence: 52057
+[3306] expectedSeq: 52057, NextRxSequence: 53503
+[3313] expectedSeq: 39043, NextRxSequence: 40489
+[3325] expectedSeq: 53503, NextRxSequence: 54949
+[3338] expectedSeq: 54949, NextRxSequence: 56395
+[3376] expectedSeq: 56395, NextRxSequence: 57841
+[3389] expectedSeq: 57841, NextRxSequence: 59287
+[3413] expectedSeq: 59287, NextRxSequence: 60733
+[3428] expectedSeq: 40489, NextRxSequence: 41935
+[3441] expectedSeq: 41935, NextRxSequence: 43381
+[3444] expectedSeq: 76639, NextRxSequence: 78085
+[3454] expectedSeq: 60733, NextRxSequence: 62179
+[3457] expectedSeq: 78085, NextRxSequence: 79531
+[3467] expectedSeq: 62179, NextRxSequence: 63625
+[3470] expectedSeq: 79531, NextRxSequence: 80977
+[3481] expectedSeq: 46273, NextRxSequence: 47719
+[3481] expectedSeq: 63625, NextRxSequence: 65071
+[3493] expectedSeq: 47719, NextRxSequence: 49165
+[3494] expectedSeq: 65071, NextRxSequence: 66517
+[3506] expectedSeq: 49165, NextRxSequence: 50611
+[3519] expectedSeq: 50611, NextRxSequence: 52057
+[3530] expectedSeq: 66517, NextRxSequence: 67963
+[3532] expectedSeq: 52057, NextRxSequence: 53503
+[3542] expectedSeq: 80977, NextRxSequence: 82423
+[3562] expectedSeq: 53503, NextRxSequence: 54949
+[3574] expectedSeq: 54949, NextRxSequence: 56395
+[3587] expectedSeq: 67963, NextRxSequence: 69409
+[3587] expectedSeq: 56395, NextRxSequence: 57841
+[3600] expectedSeq: 69409, NextRxSequence: 70855
+[3613] expectedSeq: 70855, NextRxSequence: 72301
+[3624] expectedSeq: 57841, NextRxSequence: 59287
+[3626] expectedSeq: 72301, NextRxSequence: 73747
+[3637] expectedSeq: 59287, NextRxSequence: 60733
+[3643] expectedSeq: 73747, NextRxSequence: 75193
+[3650] expectedSeq: 60733, NextRxSequence: 62179
+[3659] expectedSeq: 75193, NextRxSequence: 76639
+[3664] expectedSeq: 62179, NextRxSequence: 63625
+[3671] expectedSeq: 76639, NextRxSequence: 78085
+[3676] expectedSeq: 63625, NextRxSequence: 65071
+[3684] expectedSeq: 78085, NextRxSequence: 79531
+[3689] expectedSeq: 65071, NextRxSequence: 66517
+[3698] expectedSeq: 79531, NextRxSequence: 80977
+[3751] expectedSeq: 66517, NextRxSequence: 67963
+[3765] expectedSeq: 67963, NextRxSequence: 69409
+[3798] expectedSeq: 80977, NextRxSequence: 82423
+[3802] expectedSeq: 69409, NextRxSequence: 70855
+[3811] expectedSeq: 82423, NextRxSequence: 83869
+[3889] expectedSeq: 70855, NextRxSequence: 72301
+[3902] expectedSeq: 72301, NextRxSequence: 73747
+[3915] expectedSeq: 73747, NextRxSequence: 75193
+[3928] expectedSeq: 75193, NextRxSequence: 76639
+[3940] expectedSeq: 76639, NextRxSequence: 78085
+[3955] expectedSeq: 78085, NextRxSequence: 79531
+[3961] expectedSeq: 43381, NextRxSequence: 44827
+[3968] expectedSeq: 79531, NextRxSequence: 80977
+[3974] expectedSeq: 44827, NextRxSequence: 46273
+[3981] expectedSeq: 80977, NextRxSequence: 82423
+[3987] expectedSeq: 46273, NextRxSequence: 47719
+[3993] expectedSeq: 82423, NextRxSequence: 83869
+[PID:209802] Progress: 4.0[s]
+[4000] expectedSeq: 47719, NextRxSequence: 49165
+[4006] expectedSeq: 83869, NextRxSequence: 85315
+[4010] expectedSeq: 83869, NextRxSequence: 85315
+[4022] expectedSeq: 82423, NextRxSequence: 83869
+[4035] expectedSeq: 83869, NextRxSequence: 85315
+[4039] expectedSeq: 49165, NextRxSequence: 50611
+[4052] expectedSeq: 50611, NextRxSequence: 52057
+[4065] expectedSeq: 52057, NextRxSequence: 53503
+[4078] expectedSeq: 85315, NextRxSequence: 86761
+[4079] expectedSeq: 53503, NextRxSequence: 54949
+[4090] expectedSeq: 86761, NextRxSequence: 88207
+[4103] expectedSeq: 88207, NextRxSequence: 89653
+[4126] expectedSeq: 54949, NextRxSequence: 56395
+[4139] expectedSeq: 56395, NextRxSequence: 57841
+[4152] expectedSeq: 57841, NextRxSequence: 59287
+[4165] expectedSeq: 59287, NextRxSequence: 60733
+[4187] expectedSeq: 89653, NextRxSequence: 91099
+[4201] expectedSeq: 91099, NextRxSequence: 92545
+[4213] expectedSeq: 92545, NextRxSequence: 93991
+[4226] expectedSeq: 93991, NextRxSequence: 95437
+[4230] expectedSeq: 60733, NextRxSequence: 62179
+[4243] expectedSeq: 62179, NextRxSequence: 63625
+[4250] expectedSeq: 95437, NextRxSequence: 96883
+[4256] expectedSeq: 63625, NextRxSequence: 65071
+[4314] expectedSeq: 96883, NextRxSequence: 98329
+[4322] expectedSeq: 65071, NextRxSequence: 66517
+[4327] expectedSeq: 98329, NextRxSequence: 99775
+[4335] expectedSeq: 66517, NextRxSequence: 67963
+[4340] expectedSeq: 99775, NextRxSequence: 101221
+[4348] expectedSeq: 67963, NextRxSequence: 69409
+[4352] expectedSeq: 101221, NextRxSequence: 102667
+[4361] expectedSeq: 69409, NextRxSequence: 70855
+[4366] expectedSeq: 102667, NextRxSequence: 104113
+[4398] expectedSeq: 70855, NextRxSequence: 72301
+[4401] expectedSeq: 104113, NextRxSequence: 105559
+[4414] expectedSeq: 105559, NextRxSequence: 107005
+[4428] expectedSeq: 107005, NextRxSequence: 108451
+[4440] expectedSeq: 108451, NextRxSequence: 109897
+[4487] expectedSeq: 72301, NextRxSequence: 73747
+[4500] expectedSeq: 73747, NextRxSequence: 75193
+[4513] expectedSeq: 75193, NextRxSequence: 76639
+[4526] expectedSeq: 76639, NextRxSequence: 78085
+[4539] expectedSeq: 78085, NextRxSequence: 79531
+[4552] expectedSeq: 79531, NextRxSequence: 80977
+[4572] expectedSeq: 80977, NextRxSequence: 82423
+[4614] expectedSeq: 109897, NextRxSequence: 111343
+[4623] expectedSeq: 82423, NextRxSequence: 83869
+[4627] expectedSeq: 111343, NextRxSequence: 112789
+[4636] expectedSeq: 83869, NextRxSequence: 85315
+[4640] expectedSeq: 112789, NextRxSequence: 114235
+[4653] expectedSeq: 114235, NextRxSequence: 115681
+[4666] expectedSeq: 115681, NextRxSequence: 117127
+[4781] expectedSeq: 117127, NextRxSequence: 118573
+[4785] expectedSeq: 85315, NextRxSequence: 86761
+[4794] expectedSeq: 118573, NextRxSequence: 120019
+[4798] expectedSeq: 86761, NextRxSequence: 88207
+[4811] expectedSeq: 88207, NextRxSequence: 89653
+[4818] expectedSeq: 85315, NextRxSequence: 86761
+[4824] expectedSeq: 89653, NextRxSequence: 91099
+[4831] expectedSeq: 86761, NextRxSequence: 88207
+[4839] expectedSeq: 91099, NextRxSequence: 92545
+[4847] expectedSeq: 88207, NextRxSequence: 89653
+[4852] expectedSeq: 92545, NextRxSequence: 93991
+[4865] expectedSeq: 93991, NextRxSequence: 95437
+[4877] expectedSeq: 95437, NextRxSequence: 96883
+[4885] expectedSeq: 89653, NextRxSequence: 91099
+[4898] expectedSeq: 91099, NextRxSequence: 92545
+[4911] expectedSeq: 92545, NextRxSequence: 93991
+[4923] expectedSeq: 93991, NextRxSequence: 95437
+[4935] expectedSeq: 120019, NextRxSequence: 121465
+[4948] expectedSeq: 121465, NextRxSequence: 122911
+[4961] expectedSeq: 122911, NextRxSequence: 124357
+[4974] expectedSeq: 124357, NextRxSequence: 125803
+[PID:209802] Progress: 5.0[s]
+[5000] expectedSeq: 96883, NextRxSequence: 98329
+[5098] expectedSeq: 95437, NextRxSequence: 96883
+[5111] expectedSeq: 96883, NextRxSequence: 98329
+[5124] expectedSeq: 98329, NextRxSequence: 99775
+[5136] expectedSeq: 98329, NextRxSequence: 99775
+[5150] expectedSeq: 99775, NextRxSequence: 101221
+[5163] expectedSeq: 101221, NextRxSequence: 102667
+[5164] expectedSeq: 99775, NextRxSequence: 101221
+[5175] expectedSeq: 102667, NextRxSequence: 104113
+[5176] expectedSeq: 101221, NextRxSequence: 102667
+[5189] expectedSeq: 104113, NextRxSequence: 105559
+[5190] expectedSeq: 102667, NextRxSequence: 104113
+[5212] expectedSeq: 105559, NextRxSequence: 107005
+[5250] expectedSeq: 107005, NextRxSequence: 108451
+[5259] expectedSeq: 104113, NextRxSequence: 105559
+[5271] expectedSeq: 105559, NextRxSequence: 107005
+[5284] expectedSeq: 107005, NextRxSequence: 108451
+[5297] expectedSeq: 108451, NextRxSequence: 109897
+[5326] expectedSeq: 108451, NextRxSequence: 109897
+[5339] expectedSeq: 109897, NextRxSequence: 111343
+[5352] expectedSeq: 111343, NextRxSequence: 112789
+[5365] expectedSeq: 112789, NextRxSequence: 114235
+[5371] expectedSeq: 109897, NextRxSequence: 111343
+[5378] expectedSeq: 114235, NextRxSequence: 115681
+[5383] expectedSeq: 125803, NextRxSequence: 127249
+[5391] expectedSeq: 115681, NextRxSequence: 117127
+[5404] expectedSeq: 117127, NextRxSequence: 118573
+[5417] expectedSeq: 118573, NextRxSequence: 120019
+[5421] expectedSeq: 127249, NextRxSequence: 128695
+[5430] expectedSeq: 120019, NextRxSequence: 121465
+[5434] expectedSeq: 128695, NextRxSequence: 130141
+[5443] expectedSeq: 121465, NextRxSequence: 122911
+[5455] expectedSeq: 122911, NextRxSequence: 124357
+[5468] expectedSeq: 124357, NextRxSequence: 125803
+[5481] expectedSeq: 125803, NextRxSequence: 127249
+[5484] expectedSeq: 130141, NextRxSequence: 131587
+[5497] expectedSeq: 131587, NextRxSequence: 133033
+[5510] expectedSeq: 133033, NextRxSequence: 134479
+[5523] expectedSeq: 134479, NextRxSequence: 135925
+[5533] expectedSeq: 111343, NextRxSequence: 112789
+[5540] expectedSeq: 127249, NextRxSequence: 128695
+[5546] expectedSeq: 112789, NextRxSequence: 114235
+[5552] expectedSeq: 85315, NextRxSequence: 86761
+[5559] expectedSeq: 114235, NextRxSequence: 115681
+[5565] expectedSeq: 86761, NextRxSequence: 88207
+[5572] expectedSeq: 115681, NextRxSequence: 117127
+[5603] expectedSeq: 128695, NextRxSequence: 130141
+[5614] expectedSeq: 135925, NextRxSequence: 137371
+[5617] expectedSeq: 88207, NextRxSequence: 89653
+[5626] expectedSeq: 137371, NextRxSequence: 138817
+[5630] expectedSeq: 89653, NextRxSequence: 91099
+[5639] expectedSeq: 138817, NextRxSequence: 140263
+[5652] expectedSeq: 140263, NextRxSequence: 141709
+[5662] expectedSeq: 117127, NextRxSequence: 118573
+[5675] expectedSeq: 118573, NextRxSequence: 120019
+[5682] expectedSeq: 91099, NextRxSequence: 92545
+[5689] expectedSeq: 120019, NextRxSequence: 121465
+[5695] expectedSeq: 92545, NextRxSequence: 93991
+[5702] expectedSeq: 121465, NextRxSequence: 122911
+[5708] expectedSeq: 93991, NextRxSequence: 95437
+[5715] expectedSeq: 122911, NextRxSequence: 124357
+[5721] expectedSeq: 95437, NextRxSequence: 96883
+[5728] expectedSeq: 124357, NextRxSequence: 125803
+[5733] expectedSeq: 96883, NextRxSequence: 98329
+[5742] expectedSeq: 125803, NextRxSequence: 127249
+[5746] expectedSeq: 98329, NextRxSequence: 99775
+[5755] expectedSeq: 127249, NextRxSequence: 128695
+[5759] expectedSeq: 99775, NextRxSequence: 101221
+[5768] expectedSeq: 128695, NextRxSequence: 130141
+[5772] expectedSeq: 101221, NextRxSequence: 102667
+[5779] expectedSeq: 141709, NextRxSequence: 143155
+[5785] expectedSeq: 102667, NextRxSequence: 104113
+[5792] expectedSeq: 143155, NextRxSequence: 144601
+[5832] expectedSeq: 144601, NextRxSequence: 146047
+[5845] expectedSeq: 146047, NextRxSequence: 147493
+[5858] expectedSeq: 147493, NextRxSequence: 148939
+[5871] expectedSeq: 148939, NextRxSequence: 150385
+[5878] expectedSeq: 104113, NextRxSequence: 105559
+[5884] expectedSeq: 150385, NextRxSequence: 151831
+[5897] expectedSeq: 151831, NextRxSequence: 153277
+[5910] expectedSeq: 153277, NextRxSequence: 154723
+[5923] expectedSeq: 154723, NextRxSequence: 156169
+[5927] expectedSeq: 105559, NextRxSequence: 107005
+[5936] expectedSeq: 156169, NextRxSequence: 157615
+[5940] expectedSeq: 107005, NextRxSequence: 108451
+[5949] expectedSeq: 157615, NextRxSequence: 159061
+[5952] expectedSeq: 108451, NextRxSequence: 109897
+[5964] expectedSeq: 159061, NextRxSequence: 160507
+[5965] expectedSeq: 109897, NextRxSequence: 111343
+[5977] expectedSeq: 160507, NextRxSequence: 161953
+[5990] expectedSeq: 161953, NextRxSequence: 163399
+[PID:209802] Progress: 6.0[s]
+[6003] expectedSeq: 163399, NextRxSequence: 164845
+[6016] expectedSeq: 164845, NextRxSequence: 166291
+[6026] expectedSeq: 111343, NextRxSequence: 112789
+[6202] expectedSeq: 166291, NextRxSequence: 167737
+[6216] expectedSeq: 112789, NextRxSequence: 114235
+[6230] expectedSeq: 114235, NextRxSequence: 115681
+[6243] expectedSeq: 115681, NextRxSequence: 117127
+[6255] expectedSeq: 117127, NextRxSequence: 118573
+[6268] expectedSeq: 118573, NextRxSequence: 120019
+[6282] expectedSeq: 120019, NextRxSequence: 121465
+[6291] expectedSeq: 167737, NextRxSequence: 169183
+[6295] expectedSeq: 121465, NextRxSequence: 122911
+[6304] expectedSeq: 169183, NextRxSequence: 170629
+[6308] expectedSeq: 122911, NextRxSequence: 124357
+[6317] expectedSeq: 170629, NextRxSequence: 172075
+[6346] expectedSeq: 124357, NextRxSequence: 125803
+[6359] expectedSeq: 125803, NextRxSequence: 127249
+[6436] expectedSeq: 127249, NextRxSequence: 128695
+[6449] expectedSeq: 128695, NextRxSequence: 130141
+[6564] expectedSeq: 130141, NextRxSequence: 131587
+[6577] expectedSeq: 131587, NextRxSequence: 133033
+[6678] expectedSeq: 130141, NextRxSequence: 131587
+[6680] expectedSeq: 172075, NextRxSequence: 173521
+[6690] expectedSeq: 131587, NextRxSequence: 133033
+[6693] expectedSeq: 173521, NextRxSequence: 174967
+[6814] expectedSeq: 133033, NextRxSequence: 134479
+[6826] expectedSeq: 174967, NextRxSequence: 176413
+[6839] expectedSeq: 176413, NextRxSequence: 177859
+[6848] expectedSeq: 133033, NextRxSequence: 134479
+[6852] expectedSeq: 177859, NextRxSequence: 179305
+[6861] expectedSeq: 134479, NextRxSequence: 135925
+[6863] expectedSeq: 134479, NextRxSequence: 135925
+[6874] expectedSeq: 135925, NextRxSequence: 137371
+[6876] expectedSeq: 135925, NextRxSequence: 137371
+[6889] expectedSeq: 137371, NextRxSequence: 138817
+[6902] expectedSeq: 138817, NextRxSequence: 140263
+[6939] expectedSeq: 140263, NextRxSequence: 141709
+[6952] expectedSeq: 141709, NextRxSequence: 143155
+[PID:209802] Progress: 7.0[s]
+[7029] expectedSeq: 143155, NextRxSequence: 144601
+[7049] expectedSeq: 137371, NextRxSequence: 138817
+[7063] expectedSeq: 138817, NextRxSequence: 140263
+[7075] expectedSeq: 140263, NextRxSequence: 141709
+[7094] expectedSeq: 144601, NextRxSequence: 146047
+[7108] expectedSeq: 146047, NextRxSequence: 147493
+[7121] expectedSeq: 147493, NextRxSequence: 148939
+[7134] expectedSeq: 148939, NextRxSequence: 150385
+[7147] expectedSeq: 150385, NextRxSequence: 151831
+[7160] expectedSeq: 151831, NextRxSequence: 153277
+[7173] expectedSeq: 153277, NextRxSequence: 154723
+[7185] expectedSeq: 154723, NextRxSequence: 156169
+[7198] expectedSeq: 156169, NextRxSequence: 157615
+[7211] expectedSeq: 157615, NextRxSequence: 159061
+[7224] expectedSeq: 159061, NextRxSequence: 160507
+[7237] expectedSeq: 160507, NextRxSequence: 161953
+[7250] expectedSeq: 161953, NextRxSequence: 163399
+[7261] expectedSeq: 141709, NextRxSequence: 143155
+[7275] expectedSeq: 143155, NextRxSequence: 144601
+[7288] expectedSeq: 144601, NextRxSequence: 146047
+[7301] expectedSeq: 146047, NextRxSequence: 147493
+[7314] expectedSeq: 147493, NextRxSequence: 148939
+[7327] expectedSeq: 148939, NextRxSequence: 150385
+[7340] expectedSeq: 150385, NextRxSequence: 151831
+[7353] expectedSeq: 151831, NextRxSequence: 153277
+[7374] expectedSeq: 130141, NextRxSequence: 131587
+[7403] expectedSeq: 131587, NextRxSequence: 133033
+[7416] expectedSeq: 133033, NextRxSequence: 134479
+[7429] expectedSeq: 134479, NextRxSequence: 135925
+[7442] expectedSeq: 135925, NextRxSequence: 137371
+[7455] expectedSeq: 137371, NextRxSequence: 138817
+[7464] expectedSeq: 153277, NextRxSequence: 154723
+[7477] expectedSeq: 154723, NextRxSequence: 156169
+[7478] expectedSeq: 179305, NextRxSequence: 180751
+[7490] expectedSeq: 156169, NextRxSequence: 157615
+[7491] expectedSeq: 180751, NextRxSequence: 182197
+[7503] expectedSeq: 157615, NextRxSequence: 159061
+[7504] expectedSeq: 182197, NextRxSequence: 183643
+[7516] expectedSeq: 159061, NextRxSequence: 160507
+[7517] expectedSeq: 183643, NextRxSequence: 185089
+[7529] expectedSeq: 160507, NextRxSequence: 161953
+[7530] expectedSeq: 185089, NextRxSequence: 186535
+[7542] expectedSeq: 161953, NextRxSequence: 163399
+[7555] expectedSeq: 163399, NextRxSequence: 164845
+[7568] expectedSeq: 164845, NextRxSequence: 166291
+[7581] expectedSeq: 166291, NextRxSequence: 167737
+[7582] expectedSeq: 186535, NextRxSequence: 187981
+[7595] expectedSeq: 187981, NextRxSequence: 189427
+[7601] expectedSeq: 163399, NextRxSequence: 164845
+[7607] expectedSeq: 189427, NextRxSequence: 190873
+[7620] expectedSeq: 190873, NextRxSequence: 192319
+[7627] expectedSeq: 138817, NextRxSequence: 140263
+[7633] expectedSeq: 192319, NextRxSequence: 193765
+[7638] expectedSeq: 164845, NextRxSequence: 166291
+[7640] expectedSeq: 140263, NextRxSequence: 141709
+[7646] expectedSeq: 193765, NextRxSequence: 195211
+[7651] expectedSeq: 166291, NextRxSequence: 167737
+[7652] expectedSeq: 141709, NextRxSequence: 143155
+[7658] expectedSeq: 167737, NextRxSequence: 169183
+[7663] expectedSeq: 167737, NextRxSequence: 169183
+[7665] expectedSeq: 143155, NextRxSequence: 144601
+[7671] expectedSeq: 169183, NextRxSequence: 170629
+[7674] expectedSeq: 195211, NextRxSequence: 196657
+[7678] expectedSeq: 144601, NextRxSequence: 146047
+[7684] expectedSeq: 170629, NextRxSequence: 172075
+[7687] expectedSeq: 196657, NextRxSequence: 198103
+[7696] expectedSeq: 172075, NextRxSequence: 173521
+[7700] expectedSeq: 198103, NextRxSequence: 199549
+[7707] expectedSeq: 146047, NextRxSequence: 147493
+[7713] expectedSeq: 199549, NextRxSequence: 200995
+[7720] expectedSeq: 147493, NextRxSequence: 148939
+[7724] expectedSeq: 169183, NextRxSequence: 170629
+[7732] expectedSeq: 173521, NextRxSequence: 174967
+[7738] expectedSeq: 170629, NextRxSequence: 172075
+[7744] expectedSeq: 174967, NextRxSequence: 176413
+[7751] expectedSeq: 172075, NextRxSequence: 173521
+[7758] expectedSeq: 176413, NextRxSequence: 177859
+[7763] expectedSeq: 173521, NextRxSequence: 174967
+[7777] expectedSeq: 174967, NextRxSequence: 176413
+[7790] expectedSeq: 176413, NextRxSequence: 177859
+[7803] expectedSeq: 177859, NextRxSequence: 179305
+[7808] expectedSeq: 177859, NextRxSequence: 179305
+[7816] expectedSeq: 179305, NextRxSequence: 180751
+[7821] expectedSeq: 179305, NextRxSequence: 180751
+[7829] expectedSeq: 180751, NextRxSequence: 182197
+[7833] expectedSeq: 180751, NextRxSequence: 182197
+[7842] expectedSeq: 182197, NextRxSequence: 183643
+[7846] expectedSeq: 182197, NextRxSequence: 183643
+[7855] expectedSeq: 183643, NextRxSequence: 185089
+[7859] expectedSeq: 183643, NextRxSequence: 185089
+[7868] expectedSeq: 185089, NextRxSequence: 186535
+[7871] expectedSeq: 148939, NextRxSequence: 150385
+[7881] expectedSeq: 186535, NextRxSequence: 187981
+[7884] expectedSeq: 150385, NextRxSequence: 151831
+[7894] expectedSeq: 187981, NextRxSequence: 189427
+[7897] expectedSeq: 151831, NextRxSequence: 153277
+[7900] expectedSeq: 200995, NextRxSequence: 202441
+[7910] expectedSeq: 153277, NextRxSequence: 154723
+[7912] expectedSeq: 202441, NextRxSequence: 203887
+[7923] expectedSeq: 154723, NextRxSequence: 156169
+[7925] expectedSeq: 203887, NextRxSequence: 205333
+[7950] expectedSeq: 185089, NextRxSequence: 186535
+[7963] expectedSeq: 186535, NextRxSequence: 187981
+[7976] expectedSeq: 187981, NextRxSequence: 189427
+[7980] expectedSeq: 205333, NextRxSequence: 206779
+[7990] expectedSeq: 189427, NextRxSequence: 190873
+[7993] expectedSeq: 206779, NextRxSequence: 208225
+[PID:209802] Progress: 8.0[s]
+[8002] expectedSeq: 190873, NextRxSequence: 192319
+[8006] expectedSeq: 208225, NextRxSequence: 209671
+[8020] expectedSeq: 209671, NextRxSequence: 211117
+[8031] expectedSeq: 192319, NextRxSequence: 193765
+[8033] expectedSeq: 211117, NextRxSequence: 212563
+[8046] expectedSeq: 212563, NextRxSequence: 214009
+[8058] expectedSeq: 214009, NextRxSequence: 215455
+[8071] expectedSeq: 215455, NextRxSequence: 216901
+[8077] expectedSeq: 156169, NextRxSequence: 157615
+[8084] expectedSeq: 216901, NextRxSequence: 218347
+[8091] expectedSeq: 157615, NextRxSequence: 159061
+[8097] expectedSeq: 218347, NextRxSequence: 219793
+[8103] expectedSeq: 159061, NextRxSequence: 160507
+[8154] expectedSeq: 219793, NextRxSequence: 221239
+[8166] expectedSeq: 221239, NextRxSequence: 222685
+[8179] expectedSeq: 222685, NextRxSequence: 224131
+[8193] expectedSeq: 224131, NextRxSequence: 225577
+[8206] expectedSeq: 225577, NextRxSequence: 227023
+[8219] expectedSeq: 227023, NextRxSequence: 228469
+[8228] expectedSeq: 160507, NextRxSequence: 161953
+[8232] expectedSeq: 228469, NextRxSequence: 229915
+[8241] expectedSeq: 161953, NextRxSequence: 163399
+[8254] expectedSeq: 163399, NextRxSequence: 164845
+[8268] expectedSeq: 229915, NextRxSequence: 231361
+[8281] expectedSeq: 231361, NextRxSequence: 232807
+[8303] expectedSeq: 164845, NextRxSequence: 166291
+[8304] expectedSeq: 232807, NextRxSequence: 234253
+[8317] expectedSeq: 166291, NextRxSequence: 167737
+[8317] expectedSeq: 234253, NextRxSequence: 235699
+[8329] expectedSeq: 167737, NextRxSequence: 169183
+[8366] expectedSeq: 235699, NextRxSequence: 237145
+[8379] expectedSeq: 237145, NextRxSequence: 238591
+[8383] expectedSeq: 169183, NextRxSequence: 170629
+[8392] expectedSeq: 238591, NextRxSequence: 240037
+[8396] expectedSeq: 170629, NextRxSequence: 172075
+[8405] expectedSeq: 240037, NextRxSequence: 241483
+[8409] expectedSeq: 172075, NextRxSequence: 173521
+[8422] expectedSeq: 173521, NextRxSequence: 174967
+[8457] expectedSeq: 174967, NextRxSequence: 176413
+[8502] expectedSeq: 241483, NextRxSequence: 242929
+[8593] expectedSeq: 176413, NextRxSequence: 177859
+[8607] expectedSeq: 177859, NextRxSequence: 179305
+[8634] expectedSeq: 242929, NextRxSequence: 244375
+[8669] expectedSeq: 179305, NextRxSequence: 180751
+[8682] expectedSeq: 180751, NextRxSequence: 182197
+[8694] expectedSeq: 182197, NextRxSequence: 183643
+[8699] expectedSeq: 244375, NextRxSequence: 245821
+[8710] expectedSeq: 183643, NextRxSequence: 185089
+[8712] expectedSeq: 245821, NextRxSequence: 247267
+[8723] expectedSeq: 185089, NextRxSequence: 186535
+[8735] expectedSeq: 186535, NextRxSequence: 187981
+[8749] expectedSeq: 187981, NextRxSequence: 189427
+[8900] expectedSeq: 247267, NextRxSequence: 248713
+[8917] expectedSeq: 189427, NextRxSequence: 190873
+[8930] expectedSeq: 190873, NextRxSequence: 192319
+[PID:209802] Progress: 9.0[s]
+[9101] expectedSeq: 192319, NextRxSequence: 193765
+[9172] expectedSeq: 193765, NextRxSequence: 195211
+[9184] expectedSeq: 195211, NextRxSequence: 196657
+[9197] expectedSeq: 196657, NextRxSequence: 198103
+[9247] expectedSeq: 248713, NextRxSequence: 250159
+[9261] expectedSeq: 250159, NextRxSequence: 251605
+[9295] expectedSeq: 251605, NextRxSequence: 253051
+[9308] expectedSeq: 253051, NextRxSequence: 254497
+[9308] expectedSeq: 198103, NextRxSequence: 199549
+[9321] expectedSeq: 199549, NextRxSequence: 200995
+[9321] expectedSeq: 254497, NextRxSequence: 255943
+[9334] expectedSeq: 200995, NextRxSequence: 202441
+[9334] expectedSeq: 255943, NextRxSequence: 257389
+[9348] expectedSeq: 257389, NextRxSequence: 258835
+[9361] expectedSeq: 258835, NextRxSequence: 260281
+[9394] expectedSeq: 189427, NextRxSequence: 190873
+[9408] expectedSeq: 202441, NextRxSequence: 203887
+[9421] expectedSeq: 203887, NextRxSequence: 205333
+[9431] expectedSeq: 190873, NextRxSequence: 192319
+[9434] expectedSeq: 205333, NextRxSequence: 206779
+[9447] expectedSeq: 206779, NextRxSequence: 208225
+[9553] expectedSeq: 192319, NextRxSequence: 193765
+[9592] expectedSeq: 193765, NextRxSequence: 195211
+[9602] expectedSeq: 208225, NextRxSequence: 209671
+[9605] expectedSeq: 195211, NextRxSequence: 196657
+[9616] expectedSeq: 209671, NextRxSequence: 211117
+[9629] expectedSeq: 211117, NextRxSequence: 212563
+[9642] expectedSeq: 212563, NextRxSequence: 214009
+[9655] expectedSeq: 196657, NextRxSequence: 198103
+[9668] expectedSeq: 198103, NextRxSequence: 199549
+[9681] expectedSeq: 199549, NextRxSequence: 200995
+[9688] expectedSeq: 214009, NextRxSequence: 215455
+[9694] expectedSeq: 200995, NextRxSequence: 202441
+[9701] expectedSeq: 215455, NextRxSequence: 216901
+[9773] expectedSeq: 202441, NextRxSequence: 203887
+[9786] expectedSeq: 203887, NextRxSequence: 205333
+[9799] expectedSeq: 205333, NextRxSequence: 206779
+[9840] expectedSeq: 216901, NextRxSequence: 218347
+[9856] expectedSeq: 218347, NextRxSequence: 219793
+[9971] expectedSeq: 219793, NextRxSequence: 221239
+[9984] expectedSeq: 221239, NextRxSequence: 222685
+[9997] expectedSeq: 222685, NextRxSequence: 224131
+[PID:209802] Progress: 10.0[s]
+[10010] expectedSeq: 224131, NextRxSequence: 225577
+[10023] expectedSeq: 225577, NextRxSequence: 227023
+[10036] expectedSeq: 227023, NextRxSequence: 228469
+[10036] expectedSeq: 206779, NextRxSequence: 208225
+[10049] expectedSeq: 228469, NextRxSequence: 229915
+[10049] expectedSeq: 208225, NextRxSequence: 209671
+[10062] expectedSeq: 229915, NextRxSequence: 231361
+[10063] expectedSeq: 209671, NextRxSequence: 211117
+[10075] expectedSeq: 231361, NextRxSequence: 232807
+[10075] expectedSeq: 211117, NextRxSequence: 212563
+[10088] expectedSeq: 232807, NextRxSequence: 234253
+[10088] expectedSeq: 212563, NextRxSequence: 214009
+[10101] expectedSeq: 214009, NextRxSequence: 215455
+[10114] expectedSeq: 215455, NextRxSequence: 216901
+[10135] expectedSeq: 216901, NextRxSequence: 218347
+[10148] expectedSeq: 218347, NextRxSequence: 219793
+[10165] expectedSeq: 219793, NextRxSequence: 221239
+[10178] expectedSeq: 221239, NextRxSequence: 222685
+[10191] expectedSeq: 222685, NextRxSequence: 224131
+[10200] expectedSeq: 234253, NextRxSequence: 235699
+[10205] expectedSeq: 224131, NextRxSequence: 225577
+[10213] expectedSeq: 235699, NextRxSequence: 237145
+[10217] expectedSeq: 225577, NextRxSequence: 227023
+[10222] expectedSeq: 193765, NextRxSequence: 195211
+[10234] expectedSeq: 227023, NextRxSequence: 228469
+[10235] expectedSeq: 195211, NextRxSequence: 196657
+[10247] expectedSeq: 228469, NextRxSequence: 229915
+[10261] expectedSeq: 229915, NextRxSequence: 231361
+[10273] expectedSeq: 231361, NextRxSequence: 232807
+[10286] expectedSeq: 232807, NextRxSequence: 234253
+[10300] expectedSeq: 234253, NextRxSequence: 235699
+[10381] expectedSeq: 260281, NextRxSequence: 261727
+[10394] expectedSeq: 261727, NextRxSequence: 263173
+[10407] expectedSeq: 263173, NextRxSequence: 264619
+[10420] expectedSeq: 264619, NextRxSequence: 266065
+[10421] expectedSeq: 196657, NextRxSequence: 198103
+[10432] expectedSeq: 235699, NextRxSequence: 237145
+[10433] expectedSeq: 266065, NextRxSequence: 267511
+[10436] expectedSeq: 237145, NextRxSequence: 238591
+[10445] expectedSeq: 237145, NextRxSequence: 238591
+[10446] expectedSeq: 267511, NextRxSequence: 268957
+[10449] expectedSeq: 238591, NextRxSequence: 240037
+[10458] expectedSeq: 238591, NextRxSequence: 240037
+[10462] expectedSeq: 240037, NextRxSequence: 241483
+[10473] expectedSeq: 198103, NextRxSequence: 199549
+[10486] expectedSeq: 199549, NextRxSequence: 200995
+[10499] expectedSeq: 200995, NextRxSequence: 202441
+[10512] expectedSeq: 202441, NextRxSequence: 203887
+[10522] expectedSeq: 241483, NextRxSequence: 242929
+[10535] expectedSeq: 242929, NextRxSequence: 244375
+[10547] expectedSeq: 240037, NextRxSequence: 241483
+[10549] expectedSeq: 244375, NextRxSequence: 245821
+[10560] expectedSeq: 241483, NextRxSequence: 242929
+[10562] expectedSeq: 245821, NextRxSequence: 247267
+[10572] expectedSeq: 268957, NextRxSequence: 270403
+[10575] expectedSeq: 247267, NextRxSequence: 248713
+[10585] expectedSeq: 242929, NextRxSequence: 244375
+[10587] expectedSeq: 248713, NextRxSequence: 250159
+[10598] expectedSeq: 244375, NextRxSequence: 245821
+[10600] expectedSeq: 250159, NextRxSequence: 251605
+[10611] expectedSeq: 245821, NextRxSequence: 247267
+[10613] expectedSeq: 251605, NextRxSequence: 253051
+[10624] expectedSeq: 247267, NextRxSequence: 248713
+[10626] expectedSeq: 253051, NextRxSequence: 254497
+[10632] expectedSeq: 203887, NextRxSequence: 205333
+[10645] expectedSeq: 205333, NextRxSequence: 206779
+[10662] expectedSeq: 248713, NextRxSequence: 250159
+[10675] expectedSeq: 250159, NextRxSequence: 251605
+[10688] expectedSeq: 251605, NextRxSequence: 253051
+[10749] expectedSeq: 270403, NextRxSequence: 271849
+[10757] expectedSeq: 254497, NextRxSequence: 255943
+[10762] expectedSeq: 271849, NextRxSequence: 273295
+[10770] expectedSeq: 255943, NextRxSequence: 257389
+[10775] expectedSeq: 273295, NextRxSequence: 274741
+[10778] expectedSeq: 253051, NextRxSequence: 254497
+[10783] expectedSeq: 257389, NextRxSequence: 258835
+[10791] expectedSeq: 254497, NextRxSequence: 255943
+[10796] expectedSeq: 258835, NextRxSequence: 260281
+[10809] expectedSeq: 260281, NextRxSequence: 261727
+[10817] expectedSeq: 255943, NextRxSequence: 257389
+[10821] expectedSeq: 261727, NextRxSequence: 263173
+[10830] expectedSeq: 257389, NextRxSequence: 258835
+[10834] expectedSeq: 263173, NextRxSequence: 264619
+[10843] expectedSeq: 258835, NextRxSequence: 260281
+[10847] expectedSeq: 264619, NextRxSequence: 266065
+[10854] expectedSeq: 274741, NextRxSequence: 276187
+[10867] expectedSeq: 276187, NextRxSequence: 277633
+[10879] expectedSeq: 277633, NextRxSequence: 279079
+[10895] expectedSeq: 266065, NextRxSequence: 267511
+[10908] expectedSeq: 267511, NextRxSequence: 268957
+[10918] expectedSeq: 260281, NextRxSequence: 261727
+[10919] expectedSeq: 206779, NextRxSequence: 208225
+[10931] expectedSeq: 261727, NextRxSequence: 263173
+[10944] expectedSeq: 263173, NextRxSequence: 264619
+[10957] expectedSeq: 208225, NextRxSequence: 209671
+[10957] expectedSeq: 264619, NextRxSequence: 266065
+[10969] expectedSeq: 268957, NextRxSequence: 270403
+[10970] expectedSeq: 266065, NextRxSequence: 267511
+[10978] expectedSeq: 279079, NextRxSequence: 280525
+[10981] expectedSeq: 209671, NextRxSequence: 211117
+[10991] expectedSeq: 280525, NextRxSequence: 281971
+[10994] expectedSeq: 270403, NextRxSequence: 271849
+[PID:209802] Progress: 11.0[s]
+[11005] expectedSeq: 281971, NextRxSequence: 283417
+[11006] expectedSeq: 271849, NextRxSequence: 273295
+[11019] expectedSeq: 273295, NextRxSequence: 274741
+[11032] expectedSeq: 274741, NextRxSequence: 276187
+[11046] expectedSeq: 276187, NextRxSequence: 277633
+[11059] expectedSeq: 277633, NextRxSequence: 279079
+[11067] expectedSeq: 267511, NextRxSequence: 268957
+[11071] expectedSeq: 211117, NextRxSequence: 212563
+[11080] expectedSeq: 268957, NextRxSequence: 270403
+[11085] expectedSeq: 212563, NextRxSequence: 214009
+[11093] expectedSeq: 270403, NextRxSequence: 271849
+[11098] expectedSeq: 214009, NextRxSequence: 215455
+[11108] expectedSeq: 279079, NextRxSequence: 280525
+[11124] expectedSeq: 280525, NextRxSequence: 281971
+[11138] expectedSeq: 281971, NextRxSequence: 283417
+[11151] expectedSeq: 283417, NextRxSequence: 284863
+[11164] expectedSeq: 284863, NextRxSequence: 286309
+[11175] expectedSeq: 215455, NextRxSequence: 216901
+[11183] expectedSeq: 283417, NextRxSequence: 284863
+[11184] expectedSeq: 271849, NextRxSequence: 273295
+[11188] expectedSeq: 216901, NextRxSequence: 218347
+[11196] expectedSeq: 284863, NextRxSequence: 286309
+[11197] expectedSeq: 273295, NextRxSequence: 274741
+[11201] expectedSeq: 218347, NextRxSequence: 219793
+[11209] expectedSeq: 286309, NextRxSequence: 287755
+[11210] expectedSeq: 274741, NextRxSequence: 276187
+[11214] expectedSeq: 219793, NextRxSequence: 221239
+[11222] expectedSeq: 287755, NextRxSequence: 289201
+[11223] expectedSeq: 276187, NextRxSequence: 277633
+[11226] expectedSeq: 286309, NextRxSequence: 287755
+[11235] expectedSeq: 289201, NextRxSequence: 290647
+[11239] expectedSeq: 287755, NextRxSequence: 289201
+[11248] expectedSeq: 290647, NextRxSequence: 292093
+[11253] expectedSeq: 221239, NextRxSequence: 222685
+[11261] expectedSeq: 292093, NextRxSequence: 293539
+[11267] expectedSeq: 222685, NextRxSequence: 224131
+[11274] expectedSeq: 293539, NextRxSequence: 294985
+[11280] expectedSeq: 224131, NextRxSequence: 225577
+[11286] expectedSeq: 294985, NextRxSequence: 296431
+[11295] expectedSeq: 277633, NextRxSequence: 279079
+[11313] expectedSeq: 296431, NextRxSequence: 297877
+[11326] expectedSeq: 297877, NextRxSequence: 299323
+[11340] expectedSeq: 299323, NextRxSequence: 300769
+[11353] expectedSeq: 300769, NextRxSequence: 302215
+[11371] expectedSeq: 225577, NextRxSequence: 227023
+[11480] expectedSeq: 302215, NextRxSequence: 303661
+[11537] expectedSeq: 227023, NextRxSequence: 228469
+[11550] expectedSeq: 228469, NextRxSequence: 229915
+[11554] expectedSeq: 303661, NextRxSequence: 305107
+[11563] expectedSeq: 229915, NextRxSequence: 231361
+[11567] expectedSeq: 305107, NextRxSequence: 306553
+[11576] expectedSeq: 231361, NextRxSequence: 232807
+[11579] expectedSeq: 306553, NextRxSequence: 307999
+[11589] expectedSeq: 232807, NextRxSequence: 234253
+[11593] expectedSeq: 307999, NextRxSequence: 309445
+[11602] expectedSeq: 234253, NextRxSequence: 235699
+[11606] expectedSeq: 309445, NextRxSequence: 310891
+[11615] expectedSeq: 235699, NextRxSequence: 237145
+[11619] expectedSeq: 310891, NextRxSequence: 312337
+[11628] expectedSeq: 237145, NextRxSequence: 238591
+[11632] expectedSeq: 312337, NextRxSequence: 313783
+[11641] expectedSeq: 238591, NextRxSequence: 240037
+[11645] expectedSeq: 313783, NextRxSequence: 315229
+[11654] expectedSeq: 240037, NextRxSequence: 241483
+[11658] expectedSeq: 315229, NextRxSequence: 316675
+[11670] expectedSeq: 316675, NextRxSequence: 318121
+[11684] expectedSeq: 318121, NextRxSequence: 319567
+[11687] expectedSeq: 241483, NextRxSequence: 242929
+[11696] expectedSeq: 319567, NextRxSequence: 321013
+[11709] expectedSeq: 321013, NextRxSequence: 322459
+[11722] expectedSeq: 322459, NextRxSequence: 323905
+[PID:209802] Progress: 12.0[s]
+[12209] expectedSeq: 289201, NextRxSequence: 290647
+[12381] expectedSeq: 290647, NextRxSequence: 292093
+[12553] expectedSeq: 292093, NextRxSequence: 293539
+[12566] expectedSeq: 293539, NextRxSequence: 294985
+[12731] expectedSeq: 294985, NextRxSequence: 296431
+[12803] expectedSeq: 279079, NextRxSequence: 280525
+[12816] expectedSeq: 280525, NextRxSequence: 281971
+[12895] expectedSeq: 281971, NextRxSequence: 283417
+[12908] expectedSeq: 283417, NextRxSequence: 284863
+[12921] expectedSeq: 284863, NextRxSequence: 286309
+[PID:209802] Progress: 13.0[s]
+[13021] expectedSeq: 286309, NextRxSequence: 287755
+[13058] expectedSeq: 296431, NextRxSequence: 297877
+[13071] expectedSeq: 297877, NextRxSequence: 299323
+[13083] expectedSeq: 299323, NextRxSequence: 300769
+[13096] expectedSeq: 300769, NextRxSequence: 302215
+[13145] expectedSeq: 287755, NextRxSequence: 289201
+[13185] expectedSeq: 302215, NextRxSequence: 303661
+[13198] expectedSeq: 303661, NextRxSequence: 305107
+[13211] expectedSeq: 305107, NextRxSequence: 306553
+[13232] expectedSeq: 289201, NextRxSequence: 290647
+[13256] expectedSeq: 290647, NextRxSequence: 292093
+[13341] expectedSeq: 292093, NextRxSequence: 293539
+[13429] expectedSeq: 293539, NextRxSequence: 294985
+[13515] expectedSeq: 294985, NextRxSequence: 296431
+[13528] expectedSeq: 296431, NextRxSequence: 297877
+[PID:209802] Progress: 14.0[s]
+[PID:209802] Progress: 15.0[s]
+[15618] expectedSeq: 242929, NextRxSequence: 251605
+[15650] expectedSeq: 323905, NextRxSequence: 331135
+[PID:209802] Progress: 16.0[s]
+[16057] expectedSeq: 251605, NextRxSequence: 253051
+[16081] expectedSeq: 253051, NextRxSequence: 254497
+[16784] expectedSeq: 306553, NextRxSequence: 380299
+[PID:209802] Progress: 17.0[s]
+[17262] expectedSeq: 254497, NextRxSequence: 255943
+[17290] expectedSeq: 255943, NextRxSequence: 257389
+[17303] expectedSeq: 257389, NextRxSequence: 258835
+[17343] expectedSeq: 258835, NextRxSequence: 260281
+[17392] expectedSeq: 260281, NextRxSequence: 261727
+[17405] expectedSeq: 261727, NextRxSequence: 263173
+[17435] expectedSeq: 263173, NextRxSequence: 264619
+[17450] expectedSeq: 264619, NextRxSequence: 266065
+[17463] expectedSeq: 266065, NextRxSequence: 267511
+[17476] expectedSeq: 267511, NextRxSequence: 268957
+[17490] expectedSeq: 268957, NextRxSequence: 270403
+[17502] expectedSeq: 270403, NextRxSequence: 271849
+[17516] expectedSeq: 271849, NextRxSequence: 273295
+[17529] expectedSeq: 273295, NextRxSequence: 274741
+[17543] expectedSeq: 274741, NextRxSequence: 276187
+[17556] expectedSeq: 276187, NextRxSequence: 277633
+[17569] expectedSeq: 277633, NextRxSequence: 279079
+[17582] expectedSeq: 279079, NextRxSequence: 280525
+[17596] expectedSeq: 280525, NextRxSequence: 281971
+[17609] expectedSeq: 380299, NextRxSequence: 393313
+[17610] expectedSeq: 281971, NextRxSequence: 313783
+[17649] expectedSeq: 313783, NextRxSequence: 328243
+[17744] expectedSeq: 393313, NextRxSequence: 397651
+[17868] expectedSeq: 328243, NextRxSequence: 332581
+[PID:209802] Progress: 18.0[s]
+[18201] expectedSeq: 397651, NextRxSequence: 401989
+[18244] expectedSeq: 332581, NextRxSequence: 335473
+[18467] expectedSeq: 401989, NextRxSequence: 403435
+[18481] expectedSeq: 403435, NextRxSequence: 404881
+[18494] expectedSeq: 404881, NextRxSequence: 406327
+[18579] expectedSeq: 406327, NextRxSequence: 407773
+[18984] expectedSeq: 407773, NextRxSequence: 409219
+[18997] expectedSeq: 409219, NextRxSequence: 410665
+[PID:209802] Progress: 19.0[s]
+[19120] expectedSeq: 410665, NextRxSequence: 412111
+[19133] expectedSeq: 412111, NextRxSequence: 413557
+[19156] expectedSeq: 413557, NextRxSequence: 415003
+[19171] expectedSeq: 415003, NextRxSequence: 416449
+[19282] expectedSeq: 416449, NextRxSequence: 417895
+[19295] expectedSeq: 417895, NextRxSequence: 419341
+[19308] expectedSeq: 419341, NextRxSequence: 420787
+[19343] expectedSeq: 420787, NextRxSequence: 422233
+[19356] expectedSeq: 422233, NextRxSequence: 423679
+[19410] expectedSeq: 423679, NextRxSequence: 425125
+[19436] expectedSeq: 425125, NextRxSequence: 426571
+[19449] expectedSeq: 426571, NextRxSequence: 428017
+[19462] expectedSeq: 428017, NextRxSequence: 432355
+[19478] expectedSeq: 432355, NextRxSequence: 435247
+[19491] expectedSeq: 435247, NextRxSequence: 443923
+[19503] expectedSeq: 443923, NextRxSequence: 500317
+[19516] expectedSeq: 500317, NextRxSequence: 501763
+[19529] expectedSeq: 501763, NextRxSequence: 503209
+[19542] expectedSeq: 503209, NextRxSequence: 504655
+[19555] expectedSeq: 504655, NextRxSequence: 506101
+[19568] expectedSeq: 506101, NextRxSequence: 507547
+[19581] expectedSeq: 507547, NextRxSequence: 508993
+[19594] expectedSeq: 508993, NextRxSequence: 510439
+[19606] expectedSeq: 510439, NextRxSequence: 511885
+[19620] expectedSeq: 511885, NextRxSequence: 513331
+[19633] expectedSeq: 513331, NextRxSequence: 514777
+[19645] expectedSeq: 514777, NextRxSequence: 516223
+[19658] expectedSeq: 516223, NextRxSequence: 517669
+[19700] expectedSeq: 517669, NextRxSequence: 519115
+[19721] expectedSeq: 519115, NextRxSequence: 520561
+[19745] expectedSeq: 520561, NextRxSequence: 522007
+[19773] expectedSeq: 522007, NextRxSequence: 523453
+[19786] expectedSeq: 523453, NextRxSequence: 524899
+[19835] expectedSeq: 524899, NextRxSequence: 526345
+[19848] expectedSeq: 526345, NextRxSequence: 527791
+[19862] expectedSeq: 527791, NextRxSequence: 529237
+[19928] expectedSeq: 529237, NextRxSequence: 530683
+[19942] expectedSeq: 530683, NextRxSequence: 532129
+[19955] expectedSeq: 532129, NextRxSequence: 533575
+[19968] expectedSeq: 533575, NextRxSequence: 535021
+[19981] expectedSeq: 535021, NextRxSequence: 536467
+[19993] expectedSeq: 536467, NextRxSequence: 537913
+[PID:209802] Progress: 20.0[s]
+[20006] expectedSeq: 537913, NextRxSequence: 539359
+[20020] expectedSeq: 539359, NextRxSequence: 540805
+[20033] expectedSeq: 540805, NextRxSequence: 542251
+[20046] expectedSeq: 542251, NextRxSequence: 543697
+[20059] expectedSeq: 543697, NextRxSequence: 545143
+[20072] expectedSeq: 545143, NextRxSequence: 546589
+[20085] expectedSeq: 546589, NextRxSequence: 548035
+[20107] expectedSeq: 548035, NextRxSequence: 549481
+[20120] expectedSeq: 549481, NextRxSequence: 550927
+[20135] expectedSeq: 550927, NextRxSequence: 552373
+[20148] expectedSeq: 552373, NextRxSequence: 553819
+[20161] expectedSeq: 553819, NextRxSequence: 555265
+[20184] expectedSeq: 555265, NextRxSequence: 556711
+[20197] expectedSeq: 556711, NextRxSequence: 558157
+[20210] expectedSeq: 558157, NextRxSequence: 559603
+[20315] expectedSeq: 559603, NextRxSequence: 561049
+[20328] expectedSeq: 561049, NextRxSequence: 562495
+[20341] expectedSeq: 562495, NextRxSequence: 563941
+[20420] expectedSeq: 335473, NextRxSequence: 336919
+[20434] expectedSeq: 336919, NextRxSequence: 338365
+[20447] expectedSeq: 338365, NextRxSequence: 339811
+[20460] expectedSeq: 339811, NextRxSequence: 341257
+[20473] expectedSeq: 341257, NextRxSequence: 342703
+[20486] expectedSeq: 342703, NextRxSequence: 344149
+[20499] expectedSeq: 344149, NextRxSequence: 345595
+[20505] expectedSeq: 563941, NextRxSequence: 565387
+[20518] expectedSeq: 565387, NextRxSequence: 566833
+[20532] expectedSeq: 566833, NextRxSequence: 568279
+[20543] expectedSeq: 345595, NextRxSequence: 347041
+[20556] expectedSeq: 347041, NextRxSequence: 348487
+[20572] expectedSeq: 568279, NextRxSequence: 569725
+[20589] expectedSeq: 569725, NextRxSequence: 571171
+[20623] expectedSeq: 348487, NextRxSequence: 349933
+[20636] expectedSeq: 349933, NextRxSequence: 351379
+[20650] expectedSeq: 351379, NextRxSequence: 352825
+[20683] expectedSeq: 352825, NextRxSequence: 354271
+[20701] expectedSeq: 571171, NextRxSequence: 572617
+[20729] expectedSeq: 354271, NextRxSequence: 355717
+[20743] expectedSeq: 355717, NextRxSequence: 357163
+[20757] expectedSeq: 357163, NextRxSequence: 358609
+[20774] expectedSeq: 572617, NextRxSequence: 574063
+[20787] expectedSeq: 574063, NextRxSequence: 575509
+[20800] expectedSeq: 575509, NextRxSequence: 576955
+[20814] expectedSeq: 576955, NextRxSequence: 578401
+[20827] expectedSeq: 578401, NextRxSequence: 579847
+[20844] expectedSeq: 579847, NextRxSequence: 581293
+[20857] expectedSeq: 581293, NextRxSequence: 582739
+[20891] expectedSeq: 582739, NextRxSequence: 584185
+[20904] expectedSeq: 584185, NextRxSequence: 585631
+[20917] expectedSeq: 585631, NextRxSequence: 587077
+[20930] expectedSeq: 587077, NextRxSequence: 588523
+[20943] expectedSeq: 588523, NextRxSequence: 589969
+[20961] expectedSeq: 589969, NextRxSequence: 591415
+[20973] expectedSeq: 591415, NextRxSequence: 592861
+[20986] expectedSeq: 592861, NextRxSequence: 594307
+[20999] expectedSeq: 594307, NextRxSequence: 595753
+[PID:209802] Progress: 21.0[s]
+[21012] expectedSeq: 595753, NextRxSequence: 597199
+[21025] expectedSeq: 597199, NextRxSequence: 598645
+[21050] expectedSeq: 598645, NextRxSequence: 600091
+[21064] expectedSeq: 600091, NextRxSequence: 601537
+[21077] expectedSeq: 601537, NextRxSequence: 602983
+[21099] expectedSeq: 602983, NextRxSequence: 604429
+[21112] expectedSeq: 604429, NextRxSequence: 605875
+[21138] expectedSeq: 358609, NextRxSequence: 360055
+[21151] expectedSeq: 360055, NextRxSequence: 361501
+[21164] expectedSeq: 361501, NextRxSequence: 362947
+[21176] expectedSeq: 362947, NextRxSequence: 364393
+[21187] expectedSeq: 605875, NextRxSequence: 607321
+[21200] expectedSeq: 607321, NextRxSequence: 608767
+[21212] expectedSeq: 608767, NextRxSequence: 610213
+[21225] expectedSeq: 610213, NextRxSequence: 611659
+[21225] expectedSeq: 297877, NextRxSequence: 514777
+[21239] expectedSeq: 611659, NextRxSequence: 613105
+[21252] expectedSeq: 613105, NextRxSequence: 614551
+[21266] expectedSeq: 614551, NextRxSequence: 615997
+[21278] expectedSeq: 364393, NextRxSequence: 419341
+[21291] expectedSeq: 419341, NextRxSequence: 420787
+[21304] expectedSeq: 420787, NextRxSequence: 422233
+[21315] expectedSeq: 615997, NextRxSequence: 617443
+[21327] expectedSeq: 422233, NextRxSequence: 423679
+[21342] expectedSeq: 617443, NextRxSequence: 618889
+[21355] expectedSeq: 618889, NextRxSequence: 620335
+[21367] expectedSeq: 620335, NextRxSequence: 621781
+[21380] expectedSeq: 621781, NextRxSequence: 623227
+[21492] expectedSeq: 423679, NextRxSequence: 425125
+[21566] expectedSeq: 425125, NextRxSequence: 426571
+[21579] expectedSeq: 426571, NextRxSequence: 428017
+[21593] expectedSeq: 428017, NextRxSequence: 429463
+[21627] expectedSeq: 429463, NextRxSequence: 430909
+[21640] expectedSeq: 430909, NextRxSequence: 432355
+[21712] expectedSeq: 432355, NextRxSequence: 433801
+[21824] expectedSeq: 514777, NextRxSequence: 535021
+[21848] expectedSeq: 535021, NextRxSequence: 536467
+[21861] expectedSeq: 536467, NextRxSequence: 537913
+[21869] expectedSeq: 331135, NextRxSequence: 584185
+[21937] expectedSeq: 537913, NextRxSequence: 539359
+[21950] expectedSeq: 539359, NextRxSequence: 540805
+[21963] expectedSeq: 540805, NextRxSequence: 542251
+[21975] expectedSeq: 542251, NextRxSequence: 543697
+[21988] expectedSeq: 543697, NextRxSequence: 545143
+[PID:209802] Progress: 22.0[s]
+[22002] expectedSeq: 545143, NextRxSequence: 546589
+[22015] expectedSeq: 546589, NextRxSequence: 548035
+[22028] expectedSeq: 548035, NextRxSequence: 549481
+[22086] expectedSeq: 549481, NextRxSequence: 550927
+[22099] expectedSeq: 550927, NextRxSequence: 552373
+[22112] expectedSeq: 552373, NextRxSequence: 553819
+[22125] expectedSeq: 553819, NextRxSequence: 555265
+[22138] expectedSeq: 555265, NextRxSequence: 556711
+[22151] expectedSeq: 556711, NextRxSequence: 558157
+[22164] expectedSeq: 558157, NextRxSequence: 559603
+[22452] expectedSeq: 559603, NextRxSequence: 561049
+[22465] expectedSeq: 561049, NextRxSequence: 562495
+[22495] expectedSeq: 433801, NextRxSequence: 435247
+[22528] expectedSeq: 562495, NextRxSequence: 563941
+[22541] expectedSeq: 563941, NextRxSequence: 565387
+[22555] expectedSeq: 565387, NextRxSequence: 566833
+[22568] expectedSeq: 566833, NextRxSequence: 568279
+[22569] expectedSeq: 435247, NextRxSequence: 436693
+[22581] expectedSeq: 568279, NextRxSequence: 569725
+[22607] expectedSeq: 569725, NextRxSequence: 571171
+[22619] expectedSeq: 436693, NextRxSequence: 438139
+[22619] expectedSeq: 571171, NextRxSequence: 572617
+[22709] expectedSeq: 572617, NextRxSequence: 574063
+[22722] expectedSeq: 574063, NextRxSequence: 575509
+[22734] expectedSeq: 575509, NextRxSequence: 576955
+[22748] expectedSeq: 576955, NextRxSequence: 578401
+[22761] expectedSeq: 578401, NextRxSequence: 579847
+[22761] expectedSeq: 438139, NextRxSequence: 439585
+[22774] expectedSeq: 579847, NextRxSequence: 581293
+[22774] expectedSeq: 439585, NextRxSequence: 441031
+[22787] expectedSeq: 441031, NextRxSequence: 442477
+[22787] expectedSeq: 581293, NextRxSequence: 582739
+[22800] expectedSeq: 442477, NextRxSequence: 443923
+[22835] expectedSeq: 582739, NextRxSequence: 584185
+[22848] expectedSeq: 584185, NextRxSequence: 585631
+[22885] expectedSeq: 443923, NextRxSequence: 445369
+[22898] expectedSeq: 445369, NextRxSequence: 446815
+[22911] expectedSeq: 446815, NextRxSequence: 448261
+[22924] expectedSeq: 448261, NextRxSequence: 449707
+[22925] expectedSeq: 585631, NextRxSequence: 587077
+[22937] expectedSeq: 449707, NextRxSequence: 451153
+[22938] expectedSeq: 587077, NextRxSequence: 588523
+[22985] expectedSeq: 451153, NextRxSequence: 452599
+[22988] expectedSeq: 588523, NextRxSequence: 589969
+[22999] expectedSeq: 452599, NextRxSequence: 454045
+[PID:209802] Progress: 23.0[s]
+[23012] expectedSeq: 454045, NextRxSequence: 455491
+[23025] expectedSeq: 455491, NextRxSequence: 456937
+[23090] expectedSeq: 589969, NextRxSequence: 591415
+[23103] expectedSeq: 591415, NextRxSequence: 592861
+[23104] expectedSeq: 456937, NextRxSequence: 458383
+[23116] expectedSeq: 592861, NextRxSequence: 594307
+[23117] expectedSeq: 458383, NextRxSequence: 459829
+[23130] expectedSeq: 459829, NextRxSequence: 461275
+[23142] expectedSeq: 461275, NextRxSequence: 462721
+[23155] expectedSeq: 462721, NextRxSequence: 464167
+[23168] expectedSeq: 464167, NextRxSequence: 465613
+[23181] expectedSeq: 465613, NextRxSequence: 467059
+[23190] expectedSeq: 594307, NextRxSequence: 595753
+[23194] expectedSeq: 467059, NextRxSequence: 468505
+[23207] expectedSeq: 468505, NextRxSequence: 469951
+[23217] expectedSeq: 595753, NextRxSequence: 597199
+[23220] expectedSeq: 469951, NextRxSequence: 471397
+[23230] expectedSeq: 597199, NextRxSequence: 598645
+[23233] expectedSeq: 471397, NextRxSequence: 472843
+[23242] expectedSeq: 598645, NextRxSequence: 600091
+[23246] expectedSeq: 472843, NextRxSequence: 474289
+[23255] expectedSeq: 600091, NextRxSequence: 601537
+[23259] expectedSeq: 474289, NextRxSequence: 475735
+[23268] expectedSeq: 601537, NextRxSequence: 602983
+[23276] expectedSeq: 475735, NextRxSequence: 477181
+[23281] expectedSeq: 602983, NextRxSequence: 604429
+[23289] expectedSeq: 477181, NextRxSequence: 478627
+[23303] expectedSeq: 478627, NextRxSequence: 480073
+[23315] expectedSeq: 480073, NextRxSequence: 481519
+[23319] expectedSeq: 604429, NextRxSequence: 605875
+[23328] expectedSeq: 481519, NextRxSequence: 482965
+[23332] expectedSeq: 605875, NextRxSequence: 607321
+[23341] expectedSeq: 482965, NextRxSequence: 484411
+[23346] expectedSeq: 607321, NextRxSequence: 608767
+[23355] expectedSeq: 484411, NextRxSequence: 485857
+[23359] expectedSeq: 608767, NextRxSequence: 610213
+[23368] expectedSeq: 485857, NextRxSequence: 487303
+[23381] expectedSeq: 487303, NextRxSequence: 488749
+[23394] expectedSeq: 488749, NextRxSequence: 490195
+[23397] expectedSeq: 610213, NextRxSequence: 611659
+[23407] expectedSeq: 490195, NextRxSequence: 491641
+[23410] expectedSeq: 611659, NextRxSequence: 613105
+[23420] expectedSeq: 491641, NextRxSequence: 493087
+[23423] expectedSeq: 613105, NextRxSequence: 614551
+[23433] expectedSeq: 493087, NextRxSequence: 494533
+[23436] expectedSeq: 614551, NextRxSequence: 615997
+[23446] expectedSeq: 494533, NextRxSequence: 495979
+[23449] expectedSeq: 615997, NextRxSequence: 617443
+[23459] expectedSeq: 495979, NextRxSequence: 497425
+[23462] expectedSeq: 617443, NextRxSequence: 618889
+[23472] expectedSeq: 497425, NextRxSequence: 498871
+[23475] expectedSeq: 618889, NextRxSequence: 620335
+[23485] expectedSeq: 498871, NextRxSequence: 500317
+[23489] expectedSeq: 620335, NextRxSequence: 621781
+[23497] expectedSeq: 500317, NextRxSequence: 501763
+[23502] expectedSeq: 621781, NextRxSequence: 623227
+[23508] expectedSeq: 584185, NextRxSequence: 598645
+[23515] expectedSeq: 501763, NextRxSequence: 503209
+[23521] expectedSeq: 598645, NextRxSequence: 600091
+[23528] expectedSeq: 503209, NextRxSequence: 504655
+[23534] expectedSeq: 600091, NextRxSequence: 601537
+[23541] expectedSeq: 504655, NextRxSequence: 506101
+[23547] expectedSeq: 601537, NextRxSequence: 602983
+[23554] expectedSeq: 506101, NextRxSequence: 507547
+[23560] expectedSeq: 602983, NextRxSequence: 604429
+[23567] expectedSeq: 507547, NextRxSequence: 508993
+[23579] expectedSeq: 508993, NextRxSequence: 510439
+[23592] expectedSeq: 510439, NextRxSequence: 511885
+[23598] expectedSeq: 604429, NextRxSequence: 605875
+[23606] expectedSeq: 511885, NextRxSequence: 513331
+[23611] expectedSeq: 605875, NextRxSequence: 607321
+[23619] expectedSeq: 513331, NextRxSequence: 514777
+[23623] expectedSeq: 607321, NextRxSequence: 608767
+[23633] expectedSeq: 514777, NextRxSequence: 516223
+[23636] expectedSeq: 608767, NextRxSequence: 610213
+[23646] expectedSeq: 516223, NextRxSequence: 517669
+[23649] expectedSeq: 610213, NextRxSequence: 611659
+[23659] expectedSeq: 517669, NextRxSequence: 519115
+[23673] expectedSeq: 519115, NextRxSequence: 520561
+[23675] expectedSeq: 611659, NextRxSequence: 613105
+[23686] expectedSeq: 520561, NextRxSequence: 522007
+[23688] expectedSeq: 613105, NextRxSequence: 614551
+[23699] expectedSeq: 522007, NextRxSequence: 523453
+[23701] expectedSeq: 614551, NextRxSequence: 615997
+[23712] expectedSeq: 523453, NextRxSequence: 524899
+[23739] expectedSeq: 615997, NextRxSequence: 617443
+[23745] expectedSeq: 524899, NextRxSequence: 526345
+[23752] expectedSeq: 617443, NextRxSequence: 618889
+[23758] expectedSeq: 526345, NextRxSequence: 527791
+[23765] expectedSeq: 618889, NextRxSequence: 620335
+[23778] expectedSeq: 620335, NextRxSequence: 621781
+[23791] expectedSeq: 621781, NextRxSequence: 623227
+[23798] expectedSeq: 527791, NextRxSequence: 529237
+[23819] expectedSeq: 529237, NextRxSequence: 530683
+[23833] expectedSeq: 530683, NextRxSequence: 532129
+[23858] expectedSeq: 532129, NextRxSequence: 533575
+[23872] expectedSeq: 533575, NextRxSequence: 535021
+[23885] expectedSeq: 535021, NextRxSequence: 536467
+[23898] expectedSeq: 536467, NextRxSequence: 537913
+[23911] expectedSeq: 537913, NextRxSequence: 539359
+[23924] expectedSeq: 539359, NextRxSequence: 540805
+[23937] expectedSeq: 540805, NextRxSequence: 542251
+[23950] expectedSeq: 542251, NextRxSequence: 543697
+[23964] expectedSeq: 543697, NextRxSequence: 545143
+[23976] expectedSeq: 545143, NextRxSequence: 546589
+[23990] expectedSeq: 546589, NextRxSequence: 548035
+[PID:209802] Progress: 24.0[s]
+[24003] expectedSeq: 548035, NextRxSequence: 549481
+[24020] expectedSeq: 549481, NextRxSequence: 550927
+[24034] expectedSeq: 550927, NextRxSequence: 552373
+[24046] expectedSeq: 552373, NextRxSequence: 553819
+[24059] expectedSeq: 553819, NextRxSequence: 555265
+[24072] expectedSeq: 555265, NextRxSequence: 556711
+[24085] expectedSeq: 556711, NextRxSequence: 558157
+[24098] expectedSeq: 558157, NextRxSequence: 559603
+[24112] expectedSeq: 559603, NextRxSequence: 561049
+[24124] expectedSeq: 561049, NextRxSequence: 562495
+[24137] expectedSeq: 562495, NextRxSequence: 563941
+[24150] expectedSeq: 563941, NextRxSequence: 565387
+[24163] expectedSeq: 565387, NextRxSequence: 566833
+[24176] expectedSeq: 566833, NextRxSequence: 568279
+[24189] expectedSeq: 568279, NextRxSequence: 569725
+[24202] expectedSeq: 569725, NextRxSequence: 571171
+[24218] expectedSeq: 571171, NextRxSequence: 572617
+[24231] expectedSeq: 572617, NextRxSequence: 574063
+[24244] expectedSeq: 574063, NextRxSequence: 575509
+[24257] expectedSeq: 575509, NextRxSequence: 576955
+[24270] expectedSeq: 576955, NextRxSequence: 578401
+[24283] expectedSeq: 578401, NextRxSequence: 579847
+[24297] expectedSeq: 579847, NextRxSequence: 581293
+[24310] expectedSeq: 581293, NextRxSequence: 582739
+[24323] expectedSeq: 582739, NextRxSequence: 584185
+[24335] expectedSeq: 584185, NextRxSequence: 585631
+[24350] expectedSeq: 585631, NextRxSequence: 587077
+[24363] expectedSeq: 587077, NextRxSequence: 588523
+[24376] expectedSeq: 588523, NextRxSequence: 589969
+[24389] expectedSeq: 589969, NextRxSequence: 591415
+[24402] expectedSeq: 591415, NextRxSequence: 592861
+[24415] expectedSeq: 592861, NextRxSequence: 594307
+[24428] expectedSeq: 594307, NextRxSequence: 595753
+[24441] expectedSeq: 595753, NextRxSequence: 597199
+[24454] expectedSeq: 597199, NextRxSequence: 598645
+[24467] expectedSeq: 598645, NextRxSequence: 600091
+[24481] expectedSeq: 600091, NextRxSequence: 601537
+[24494] expectedSeq: 601537, NextRxSequence: 602983
+[24507] expectedSeq: 602983, NextRxSequence: 604429
+[24520] expectedSeq: 604429, NextRxSequence: 605875
+[24533] expectedSeq: 605875, NextRxSequence: 607321
+[24546] expectedSeq: 607321, NextRxSequence: 608767
+[24559] expectedSeq: 608767, NextRxSequence: 610213
+[24572] expectedSeq: 610213, NextRxSequence: 611659
+[24585] expectedSeq: 611659, NextRxSequence: 613105
+[24598] expectedSeq: 613105, NextRxSequence: 614551
+[24611] expectedSeq: 614551, NextRxSequence: 615997
+[24624] expectedSeq: 615997, NextRxSequence: 617443
+[24636] expectedSeq: 617443, NextRxSequence: 618889
+[24649] expectedSeq: 618889, NextRxSequence: 620335
+[24662] expectedSeq: 620335, NextRxSequence: 621781
+[24675] expectedSeq: 621781, NextRxSequence: 623227
+[PID:209802] Progress: 25.0[s]
+[PID:209802] Progress: 26.0[s]
+[PID:209802] Progress: 27.0[s]
+[PID:209802] Progress: 28.0[s]
+[PID:209802] Progress: 29.0[s]
+[PID:209802] Progress: 30.0[s]
+[PID:209802] Progress: 31.0[s]
+[PID:209802] Progress: 32.0[s]
+[PID:209802] Progress: 33.0[s]
+[PID:209802] Progress: 34.0[s]
+[PID:209802] Progress: 35.0[s]
+[PID:209802] Progress: 36.0[s]
+[PID:209802] Progress: 37.0[s]
+[PID:209802] Progress: 38.0[s]
+[PID:209802] Progress: 39.0[s]
+[PID:209802] Progress: 40.0[s]

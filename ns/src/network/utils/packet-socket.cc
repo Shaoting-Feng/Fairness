@@ -29,6 +29,10 @@
 
 #include <algorithm>
 
+// Custom checking where NotifyDataRecv
+#include <iostream>
+// Custom checking finished
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("PacketSocket");
@@ -414,6 +418,11 @@ PacketSocket::ForwardUp (Ptr<NetDevice> device, Ptr<const Packet> packet,
       m_deliveryQueue.push (std::make_pair (copy, address));
       m_rxAvailable += packet->GetSize ();
       NS_LOG_LOGIC ("UID is " << packet->GetUid () << " PacketSocket " << this);
+
+      // // Custom checking where NotifyDataRecv
+      // std::cout << "packet-socket.cc calls NotifyDataRecv" << std::endl;
+      // // Custom checking finished
+
       NotifyDataRecv ();
     }
   else

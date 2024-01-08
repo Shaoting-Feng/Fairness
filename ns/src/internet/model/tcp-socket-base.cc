@@ -2514,6 +2514,11 @@ TcpSocketBase::ProcessWait (Ptr<Packet> packet, const TcpHeader& tcpHeader)
       SendEmptyPacket (TcpHeader::ACK);
       if (!m_shutdownRecv)
         {
+
+          // // Custom checking where NotifyDataRecv
+          // std::cout << "tcp-socket-base.cc calls NotifyDataRecv 1" << std::endl;
+          // // Custom checking finished
+
           NotifyDataRecv ();
         }
     }
@@ -3473,7 +3478,21 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
 
   // Put into Rx buffer
   SequenceNumber32 expectedSeq = m_tcb->m_rxBuffer->NextRxSequence ();
-  if (!m_tcb->m_rxBuffer->Add (p, tcpHeader))
+
+  // All 1446 bytes packets
+  // // Custom checking packet size
+  // MySourceIDTag tag;
+  // if (p->FindFirstMatchingByteTag(tag)) {
+  // }
+  // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+  // std::cout << "SourceIDTag: " << tag.Get() << ","; 
+  // std::cout << "size: ";
+  // std::cout << p->GetSize()
+  //           << std::endl;
+  // // Custom checking finished
+
+  if (!m_tcb->m_rxBuffer->Add (p, tcpHeader)) 
+  // 几乎无影响（22421ms发生了一次，那时候App Layer收到的都是1446的正确大小的packet）
     { // Insert failed: No data or RX buffer full
       if (m_tcb->m_ecnState == TcpSocketState::ECN_CE_RCVD || m_tcb->m_ecnState == TcpSocketState::ECN_SENDING_ECE)
         {
@@ -3485,6 +3504,12 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
         {
           SendEmptyPacket (TcpHeader::ACK);
         }
+
+      // // Custom checking when insert failed
+      // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+      // std::cout << "Insert failed, RETURN" << std::endl;
+      // // Custom checking finished
+
       return;
     }
   // Notify app to receive if necessary
@@ -3492,6 +3517,18 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
     { // NextRxSeq advanced, we have something to send to the app
       if (!m_shutdownRecv)
         {
+
+          // // Custom checking when NotifyDataRecv
+          // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+          // std::cout << "ReceivedData calls NotifyDataRecv (expectedSeq < ))" << std::endl;
+          // // Custom checking finished
+
+          // // Custom checking when SeqNum
+          // std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+          // std::cout << "expectedSeq: " << expectedSeq;
+          // std::cout << ", NextRxSequence: " << m_tcb->m_rxBuffer->NextRxSequence () << std::endl;
+          // // Custom checking finished
+
           NotifyDataRecv ();
         }
       // Handle exceptions
@@ -3507,6 +3544,19 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
           return;
         }
     }
+
+  /* 
+  This is the reason why packets merged at application layer:
+  Some packets lost, therefore some subsequent packets received and stored inside buffer.
+  */
+  // // Custom checking when NotifyDataRecv
+  // else
+  //   {
+  //     std::cout << "[" << Simulator::Now ().GetMilliSeconds() << "] ";
+  //     std::cout << "expectedSeq >= m_tcb->m_rxBuffer->NextRxSequence ()" << std::endl;
+  //   }
+  // // Custom checking finished
+  
   // Now send a new ACK packet acknowledging all received and delivered data
   if (m_tcb->m_rxBuffer->Size () > m_tcb->m_rxBuffer->Available () || m_tcb->m_rxBuffer->NextRxSequence () > expectedSeq + p->GetSize ())
     { // A gap exists in the buffer, or we filled a gap: Always ACK

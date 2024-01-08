@@ -294,8 +294,6 @@ int main(int argc, char *argv[])
     protor = csmaNode3.Get(1)->GetObject<TcpL4Protocol> ();
     protol->SetAttribute ("SocketType", TypeIdValue (TypeId::LookupByName(transport_prot0)));
     protor->SetAttribute ("SocketType", TypeIdValue (TypeId::LookupByName(transport_prot0))); 
-    
-    /*
     protol = csmaNode3.Get(2)->GetObject<TcpL4Protocol> (); 
     protor = csmaNode1.Get(2)->GetObject<TcpL4Protocol> ();
     protol->SetAttribute ("SocketType", TypeIdValue (TypeId::LookupByName(transport_prot0)));
@@ -308,7 +306,7 @@ int main(int argc, char *argv[])
     protor = csmaNode2.Get(2)->GetObject<TcpL4Protocol> ();
     protol->SetAttribute ("SocketType", TypeIdValue (TypeId::LookupByName(transport_prot0)));
     protor->SetAttribute ("SocketType", TypeIdValue (TypeId::LookupByName(transport_prot0)));
-    */
+    // with or without TCP, the performance is the same
 
     TrafficControlHelper tch_switch;
     if (result_dir == "tmp_index/dcn1/fifo/") {
@@ -317,6 +315,25 @@ int main(int argc, char *argv[])
       tch_switch.Install(p2pDevices1.Get(1));
       tch_switch.Install(p2pDevices2.Get(0));
       tch_switch.Install(p2pDevices2.Get(1));
+
+      tch_switch.Install(toR1Devices1.Get(0));
+      tch_switch.Install(toR1Devices1.Get(1));
+      tch_switch.Install(toR1Devices1.Get(2));
+      tch_switch.Install(toR2Devices2.Get(0));
+      tch_switch.Install(toR2Devices2.Get(1));
+      tch_switch.Install(toR2Devices2.Get(2));
+      tch_switch.Install(csmaNode1Devices1.Get(0));
+      tch_switch.Install(csmaNode1Devices1.Get(1));
+      tch_switch.Install(csmaNode1Devices1.Get(2));
+      tch_switch.Install(csmaNode1Devices2.Get(0));
+      tch_switch.Install(csmaNode1Devices2.Get(1));
+      tch_switch.Install(csmaNode1Devices2.Get(2));
+      tch_switch.Install(csmaNode1Devices3.Get(0));
+      tch_switch.Install(csmaNode1Devices3.Get(1));
+      tch_switch.Install(csmaNode1Devices3.Get(2));
+      tch_switch.Install(csmaNode1Devices4.Get(0));
+      tch_switch.Install(csmaNode1Devices4.Get(1));
+      tch_switch.Install(csmaNode1Devices4.Get(2));
     } 
     else if (result_dir == "tmp_index/dcn1/fq/") {
       tch_switch.SetRootQueueDisc ("ns3::FqCoDelQueueDisc", "MaxSize", StringValue (max_switch_total_bufsize),
@@ -325,6 +342,25 @@ int main(int argc, char *argv[])
       tch_switch.Install(p2pDevices1.Get(1));
       tch_switch.Install(p2pDevices2.Get(0));
       tch_switch.Install(p2pDevices2.Get(1));
+
+      tch_switch.Install(toR1Devices1.Get(0));
+      tch_switch.Install(toR1Devices1.Get(1));
+      tch_switch.Install(toR1Devices1.Get(2));
+      tch_switch.Install(toR2Devices2.Get(0));
+      tch_switch.Install(toR2Devices2.Get(1));
+      tch_switch.Install(toR2Devices2.Get(2));
+      tch_switch.Install(csmaNode1Devices1.Get(0));
+      tch_switch.Install(csmaNode1Devices1.Get(1));
+      tch_switch.Install(csmaNode1Devices1.Get(2));
+      tch_switch.Install(csmaNode1Devices2.Get(0));
+      tch_switch.Install(csmaNode1Devices2.Get(1));
+      tch_switch.Install(csmaNode1Devices2.Get(2));
+      tch_switch.Install(csmaNode1Devices3.Get(0));
+      tch_switch.Install(csmaNode1Devices3.Get(1));
+      tch_switch.Install(csmaNode1Devices3.Get(2));
+      tch_switch.Install(csmaNode1Devices4.Get(0));
+      tch_switch.Install(csmaNode1Devices4.Get(1));
+      tch_switch.Install(csmaNode1Devices4.Get(2));
     } 
 
     //两个网段的IP地址类对象
