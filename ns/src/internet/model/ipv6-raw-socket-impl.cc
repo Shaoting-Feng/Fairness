@@ -35,6 +35,10 @@
 #include "icmpv6-header.h"
 #include "icmpv6-l4-protocol.h"
 
+// Custom checking where NotifyDataRecv
+#include <iostream>
+// Custom checking finished
+
 namespace ns3
 {
 
@@ -465,6 +469,11 @@ bool Ipv6RawSocketImpl::ForwardUp (Ptr<const Packet> p, Ipv6Header hdr, Ptr<NetD
       data.fromIp = hdr.GetSource ();
       data.fromProtocol = hdr.GetNextHeader ();
       m_data.push_back (data);
+
+      // // Custom checking where NotifyDataRecv
+      // std::cout << "ipv6-raw-socket-impl.cc calls NotifyDataRecv" << std::endl;
+      // // Custom checking finished
+
       NotifyDataRecv ();
       return true;
     }

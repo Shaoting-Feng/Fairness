@@ -13,6 +13,10 @@
 #include "ns3/boolean.h"
 #include "ns3/log.h"
 
+// Custom checking where NotifyDataRecv
+#include <iostream>
+// Custom checking finished
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("Ipv4RawSocketImpl");
@@ -479,6 +483,11 @@ Ipv4RawSocketImpl::ForwardUp (Ptr<const Packet> p, Ipv4Header ipHeader, Ptr<Ipv4
       data.fromIp = ipHeader.GetSource ();
       data.fromProtocol = ipHeader.GetProtocol ();
       m_recv.push_back (data);
+
+      // // Custom checking where NotifyDataRecv
+      // std::cout << "ipv4-raw-socket-impl.cc calls NotifyDataRecv" << std::endl;
+      // // Custom checking finished
+
       NotifyDataRecv ();
       return true;
     }

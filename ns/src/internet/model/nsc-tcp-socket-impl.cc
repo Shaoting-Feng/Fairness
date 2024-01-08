@@ -42,6 +42,10 @@
 
 #include "sim_errno.h"
 
+// Custom checking where NotifyDataRecv
+#include <iostream>
+// Custom checking finished
+
 
 namespace ns3 {
 
@@ -648,6 +652,10 @@ bool NscTcpSocketImpl::ReadPendingData (void)
 
   m_deliveryQueue.push (p);
   m_rxAvailable += p->GetSize ();
+
+  // // Custom checking where NotifyDataRecv
+  // std::cout << "nsc-tcp-socket-impl.cc calls NotifyDataRecv" << std::endl;
+  // // Custom checking finished
 
   NotifyDataRecv ();
   return true;
